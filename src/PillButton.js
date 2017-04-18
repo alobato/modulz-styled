@@ -1,17 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+import Button from './Button.js';
 
-const Section = styled.section`
-  padding:
-    ${(props) =>
-      props.small ? '16px 0' :
-      props.large ? '96px 0' :
-      '40px 0'
-    };
-  height: ${(props) => props.h90 ? '90%' : 'auto'};
+const PillButton = styled(Button)`
+  padding: ${(props) => props.large ? '0 24px' : '0 16px'};
+  border-radius: 9999px;
   background-color:
     ${(props) =>
-      props.snow ? 'hsl(204, 26%, 96%)' :
       props.red ? 'hsl(0, 92%, 61%)' :
       props.pink ? 'hsl(332, 94%, 55%)' :
       props.purple ? 'hsl(288, 64%, 42%)' :
@@ -28,6 +23,22 @@ const Section = styled.section`
       props.violet ? 'hsl(264, 52%, 45%)' :
       ''
     };
+    font-size: ${(props) => props.large ? '14px' : ''};
+  height: ${(props) => props.large ? '40px' : ''};
+  min-width: ${(props) => props.large ? '40px' : ''};
+  line-height: ${(props) => props.large ? '40px' : ''};
+  color: white;
+  box-shadow: 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px 0 hsla(200, 30%, 10%, .05), 0 3px 6px 0 hsla(200, 30%, 10%, .1);
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: none;
+  }
 `;
 
-export default Section;
+export default PillButton;
