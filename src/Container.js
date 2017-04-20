@@ -1,18 +1,33 @@
 import React from 'react';
 import styled from 'styled-components';
 import { css } from 'styled-components'
+import * as palette from './Palette.js';
 
 const Container = styled.div`
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 90vw;
 
   ${props => props.small && css`
-    width: 60%;
+    @media screen and (min-width: 68em) {
+      width: 33.3333333333vw;
+    }
+  `}
+
+  ${props => props.medium && css`
+    @media screen and (min-width: 38em) {
+      width: 75vw;
+    }
+
+    @media screen and (min-width: 68em) {
+      width: 50vw;
+    }
   `}
 
   ${props => props.large && css`
-    width: 90%;
+    @media screen and (min-width: 38em) {
+      width: 75vw;
+    }
   `}
 `;
 

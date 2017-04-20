@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { css } from 'styled-components'
+import * as palette from './Palette.js';
 
 const Button = styled.button`
   display: inline-flex;
@@ -11,22 +12,23 @@ const Button = styled.button`
   text-decoration: none;
   cursor: pointer;
   white-space: nowrap;
-  transition: all .15s ease;
   text-transform: uppercase;
   border: none;
-  border-radius: 3px;
   font-weight: 600;
   outline: none;
   letter-spacing: .15px;
+  transition-property: all;
+  transition-duration: .15s
+  transition-timing-function: ease;
 
-  font-size: 12px;
-  height: 32px;
-  min-width: 32px;
-  line-height: 32px;
-  padding: 0 8px;
-
-  background-color: hsl(200, 50%, 99%);
-  color: hsl(200, 30%, 10%);
+  border-radius: ${palette.BORDERRADIUS_S};
+  font-size: ${palette.FONTSIZE_2};
+  height: ${palette.SPACING_500};
+  min-width: ${palette.SPACING_500};
+  line-height: ${palette.SPACING_500};
+  padding: 0 ${palette.SPACING_200};
+  background-color: ${palette.COLOR_PEARL};
+  color: ${palette.COLOR_LEAD};
   box-shadow: 0 0 0 1px hsl(200, 20%, 80%), 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
 
   &:hover {
@@ -40,16 +42,15 @@ const Button = styled.button`
   }
 
   ${p => p.small && css`
-    font-size: 10px;
-    height: 24px;
-    min-width: 24px;
-    line-height: 24px;
-    padding: 0 8px;
+    font-size: ${palette.FONTSIZE_100};
+    height: ${palette.SPACING_400};
+    min-width: ${palette.SPACING_400};
+    line-height: ${palette.SPACING_400};
   `}
 
   ${p => p.primary && css`
-    background-color: hsl(200, 100%, 97%);
-    color: hsl(200, 70%, 50%);
+    background-color: ${palette.BLUE_100};
+    color: ${palette.BLUE_700};
     box-shadow: 0 0 0 1px hsl(200, 80%, 80%), 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
 
     &:hover {
@@ -62,8 +63,8 @@ const Button = styled.button`
   `}
 
   ${p => p.positive && css`
-    background-color: hsl(138, 100%, 97%);
-    color: hsl(138, 60%, 40%);
+    background-color: ${palette.GREEN_100};
+    color: ${palette.GREEN_700};
     box-shadow: 0 0 0 1px hsl(138, 50%, 70%), 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
 
     &:hover {
@@ -76,8 +77,8 @@ const Button = styled.button`
   `}
 
   ${p => p.negative && css`
-    background-color: hsl(348, 100%, 97%);
-    color: hsl(348, 70%, 60%);
+    background-color: ${palette.RED_100};
+    color: ${palette.RED_700};
     box-shadow: 0 0 0 1px hsl(348, 70%, 80%), 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
 
     &:hover {

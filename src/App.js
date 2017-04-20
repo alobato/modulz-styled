@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <div>
         <Section small>
-          <Container large>
+          <Container>
             <Grid>
               <div className="grid-column">
                 <Text>Logo</Text>
@@ -43,7 +43,7 @@ class App extends Component {
           </Container>
         </Section>
         <Section large>
-          <Container small>
+          <Container medium>
             <Alignment center>
               <Spacing mb4>
                 <Heading>This is a main heading</Heading>
@@ -55,13 +55,13 @@ class App extends Component {
             </Alignment>
           </Container>
         </Section>
-        <Section large snow>
-          <Container>
+        <Section large gray_200>
+          <Container large>
             <Alignment center>
               <Spacing mb5>
                 <Heading>This is a main heading</Heading>
                 <Spacing mt1>
-                  <Heading thin steel>This is a small heading</Heading>
+                  <Heading thin gray_500>This is a small heading</Heading>
                 </Spacing>
               </Spacing>
             </Alignment>
@@ -75,10 +75,10 @@ class App extends Component {
               <div className="grid-column">
                 <Grid>
                   <div className="grid-column">
-                    <Text steel>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
+                    <Text gray_500>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
                   </div>
                   <div className="grid-column">
-                    <Text steel>We are having a problem billing your account. Please enter a new payment method or check with your payment provider.</Text>
+                    <Text gray_500>We are having a problem billing your account. Please enter a new payment method or check with your payment provider.</Text>
                   </div>
                 </Grid>
               </div>

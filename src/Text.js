@@ -1,37 +1,38 @@
 import React from 'react';
 import styled from 'styled-components';
 import { css } from 'styled-components'
+import * as palette from './Palette.js';
 
 const Text = styled.p`
-  font-size: 16px;
-  color: hsl(200, 30%, 10%);
+  font-size: ${palette.FONTSIZE_400};
+  color: ${palette.GRAY_800};
   letter-spacing: .14px;
   line-height: 1.6;
 
   ${props => props.small && css`
-    font-size: 12px;
+    font-size: ${palette.FONTSIZE_200};
   `}
 
   ${props => props.large && css`
-    font-size: 20px;
+    font-size: ${palette.FONTSIZE_500};
   `}
 
-  ${props => props.steel && css` color: hsl(204, 18%, 51%); `}
+  ${props => props.gray_500 && css` color: ${palette.GRAY_500}; `}
 
-  ${props => props.red && css` color: hsl(0, 92%, 61%); `}
-  ${props => props.pink && css` color: hsl(332, 94%, 55%); `}
-  ${props => props.purple && css` color: hsl(288, 64%, 42%); `}
-  ${props => props.indigo && css` color: hsl(226, 56%, 48%); `}
-  ${props => props.blue && css` color: hsl(204, 95%, 50%); `}
-  ${props => props.teal && css` color: hsl(172, 100%, 35%); `}
-  ${props => props.green && css` color: hsl(132, 52%, 53%); `}
-  ${props => props.lime && css` color: hsl(68, 74%, 50%); `}
-  ${props => props.yellow && css` color: hsl(54, 98%, 50%); `}
-  ${props => props.amber && css` color: hsl(46, 100%, 57%); `}
-  ${props => props.orange && css` color: hsl(36, 100%, 50%); `}
-  ${props => props.crimson && css` color: hsl(18, 100%, 60%); `}
-  ${props => props.lavender && css` color: hsl(255, 74%, 60%); `}
-  ${props => props.violet && css` color: hsl(264, 52%, 45%); `}
+  ${props => props.red && css` color: ${palette.RED_500}; `}
+  ${props => props.pink && css` color: ${palette.PINK_500}; `}
+  ${props => props.purple && css` color: ${palette.PURPLE_500}; `}
+  ${props => props.indigo && css` color: ${palette.INDIGO_500}; `}
+  ${props => props.blue && css` color: ${palette.BLUE_500}; `}
+  ${props => props.teal && css` color: ${palette.TEAL_500}; `}
+  ${props => props.green && css` color: ${palette.GREEN_500}; `}
+  ${props => props.lime && css` color: ${palette.LIME_500}; `}
+  ${props => props.yellow && css` color: ${palette.YELLOW_500}; `}
+  ${props => props.amber && css` color: ${palette.AMBER_500}; `}
+  ${props => props.orange && css` color: ${palette.ORANGE_500}; `}
+  ${props => props.crimson && css` color: ${palette.CRIMSON_500}; `}
+  ${props => props.lavender && css` color: ${palette.LAVENDER_500}; `}
+  ${props => props.violet && css` color: ${palette.VIOLET_500}; `}
 `;
 
 export default Text;

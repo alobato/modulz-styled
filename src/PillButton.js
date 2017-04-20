@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Button from './Button.js';
+import * as palette from './Palette.js';
 
 const PillButton = styled(Button)`
   padding: ${(props) => props.large ? '0 24px' : '0 16px'};
