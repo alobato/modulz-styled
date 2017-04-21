@@ -7,7 +7,10 @@ const Grid = styled.div`
   flex-wrap: wrap;
   margin-top: -${palette.SPACING_600};
   margin-left: -${palette.SPACING_600};
-  align-items: center;
+
+  ${props => props.center && css`
+    align-items: center;
+  `}
 
   & > .grid-column {
     flex-basis: 0;

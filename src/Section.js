@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components';
 import * as palette from './Palette.js';
 
 const Section = styled.section`
+  display: flex;
   background-color: ${palette.WHITE};
 
   ${props => props.small && css`
@@ -19,6 +20,7 @@ const Section = styled.section`
 
   ${props => props.h90 && css`
       height: 90vh;
+      align-items: center;
   `}
 
   ${props => props.gray_100 && css` background-color: ${palette.GRAY_100}; `}

@@ -46,35 +46,33 @@ class App extends Component {
           </Grid>
         </Header>
 
-        <Section large>
+        <Section h90>
           <Container medium>
-            <Spacing pt5 pb5>
-              <Alignment center>
-                <Spacing mb4>
-                  <Heading large>Big ass heading</Heading>
+            <Alignment center>
+              <Spacing mb4>
+                <Heading large>Big ass heading</Heading>
+              </Spacing>
+              <Heading thin gray>A little ass sub heading to support the big ass heading above. Try not to exceed three lines of text.</Heading>
+              <Spacing mt5>
+                <Spacing inline mr3>
+                  <Link teal>See how it works</Link>
                 </Spacing>
-                <Heading thin gray>A little ass sub heading to support the big ass heading above. Try not to exceed three lines of text.</Heading>
-                <Spacing mt5>
-                  <Spacing inline mr3>
-                    <Link teal>See how it works</Link>
-                  </Spacing>
-                  <Spacing inline ml3>
-                    <Link teal>Explore the features</Link>
-                  </Spacing>
+                <Spacing inline ml3>
+                  <Link teal>Explore the features</Link>
                 </Spacing>
-                <Spacing mt6>
-                  <Spacing inline mr4>
-                    <PillButton large white>Get started</PillButton>
-                  </Spacing>
-                  <Spacing inline mr4>
-                    <PillButton large crimson>Learn more</PillButton>
-                  </Spacing>
+              </Spacing>
+              <Spacing mt6>
+                <Spacing inline mr4>
+                  <PillButton large white>Get started</PillButton>
                 </Spacing>
-                <Spacing mt3>
-                  <Text small gray_500>* Make sure you read this before signing up.</Text>
+                <Spacing inline mr4>
+                  <PillButton large crimson>Learn more</PillButton>
                 </Spacing>
-              </Alignment>
-            </Spacing>
+              </Spacing>
+              <Spacing mt3>
+                <Text small gray_500>* Make sure you read this before signing up.</Text>
+              </Spacing>
+            </Alignment>
           </Container>
         </Section>
 
@@ -118,18 +116,27 @@ class App extends Component {
                   <Heading small>Heading</Heading>
                 </Spacing>
                 <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
+                <Spacing mt4>
+                  <Link>Link to something</Link>
+                </Spacing>
               </div>
               <div className="grid-column">
                 <Spacing mb3>
                   <Heading small>Heading</Heading>
                 </Spacing>
                 <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
+                <Spacing mt4>
+                  <Link>Link to something</Link>
+                </Spacing>
               </div>
               <div className="grid-column">
                 <Spacing mb3>
                   <Heading small>Heading</Heading>
                 </Spacing>
                 <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
+                <Spacing mt4>
+                  <Link>Link to something</Link>
+                </Spacing>
               </div>
             </Grid>
           </Container>
@@ -140,7 +147,7 @@ class App extends Component {
             <Alignment center>
               <Spacing mb6>
                 <Heading white>This is a main heading</Heading>
-                <Spacing mt1>
+                <Spacing mt3>
                   <Heading thin gray_500>This is a small heading</Heading>
                 </Spacing>
               </Spacing>
@@ -169,6 +176,48 @@ class App extends Component {
                   <Heading small amberTint>Heading</Heading>
                 </Spacing>
                 <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
+              </div>
+            </Grid>
+          </Container>
+        </Section>
+
+        <Section large gray_800>
+          <Container medium>
+            <Alignment center>
+              <Spacing mb7>
+                <Heading white>This is a main heading</Heading>
+                <Spacing mt3>
+                  <Heading thin gray_500>Enforcing your security policies doesn’t have to complicate the way you work.</Heading>
+                </Spacing>
+              </Spacing>
+            </Alignment>
+          </Container>
+          <Container large>
+            <Grid>
+              <div className="grid-column">
+                <Spacing>
+                  fwfewfwefewfwe
+                </Spacing>
+              </div>
+              <div className="grid-column">
+                <Spacing mb4>
+                  <Spacing mb1>
+                    <Heading small lavenderTint>Heading</Heading>
+                  </Spacing>
+                  <Text gray_500>Know who authored code or pushed a commit, automate compliance workflows, and protect branches from accidental changes.</Text>
+                </Spacing>
+                <Spacing mb4>
+                  <Spacing mb1>
+                    <Heading small greenTint>Heading</Heading>
+                  </Spacing>
+                  <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
+                </Spacing>
+                <Spacing>
+                  <Spacing mb1>
+                    <Heading small orangeTint>Heading</Heading>
+                  </Spacing>
+                  <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
+                </Spacing>
               </div>
             </Grid>
           </Container>

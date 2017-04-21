@@ -95,23 +95,23 @@ const Spacing = styled.div`
   ${p => p.pb6 && css` padding-bottom: ${palette.SPACING_600}; `}
   ${p => p.pl6 && css` padding-left: ${palette.SPACING_600}; `}
 
-  ${p => p.m7 && css` padding: ${palette.SPACING_700}; `}
-  ${p => p.mt7 && css` padding-top: ${palette.SPACING_700}; `}
-  ${p => p.mr7 && css` padding-right: ${palette.SPACING_700}; `}
-  ${p => p.mb7 && css` padding-bottom: ${palette.SPACING_700}; `}
-  ${p => p.ml7 && css` padding-left: ${palette.SPACING_700}; `}
+  ${p => p.p7 && css` padding: ${palette.SPACING_700}; `}
+  ${p => p.pt7 && css` padding-top: ${palette.SPACING_700}; `}
+  ${p => p.pr7 && css` padding-right: ${palette.SPACING_700}; `}
+  ${p => p.pb7 && css` padding-bottom: ${palette.SPACING_700}; `}
+  ${p => p.pl7 && css` padding-left: ${palette.SPACING_700}; `}
 
-  ${p => p.m8 && css` padding: ${palette.SPACING_800}; `}
-  ${p => p.mt8 && css` padding-top: ${palette.SPACING_800}; `}
-  ${p => p.mr8 && css` padding-right: ${palette.SPACING_800}; `}
-  ${p => p.mb8 && css` padding-bottom: ${palette.SPACING_800}; `}
-  ${p => p.ml8 && css` padding-left: ${palette.SPACING_800}; `}
+  ${p => p.p8 && css` padding: ${palette.SPACING_800}; `}
+  ${p => p.pt8 && css` padding-top: ${palette.SPACING_800}; `}
+  ${p => p.pr8 && css` padding-right: ${palette.SPACING_800}; `}
+  ${p => p.pb8 && css` padding-bottom: ${palette.SPACING_800}; `}
+  ${p => p.pl8 && css` padding-left: ${palette.SPACING_800}; `}
 
-  ${p => p.m9 && css` padding: ${palette.SPACING_900}; `}
-  ${p => p.mt9 && css` padding-top: ${palette.SPACING_900}; `}
-  ${p => p.mr9 && css` padding-right: ${palette.SPACING_900}; `}
-  ${p => p.mb9 && css` padding-bottom: ${palette.SPACING_900}; `}
-  ${p => p.ml9 && css` padding-left: ${palette.SPACING_900}; `}
+  ${p => p.p9 && css` padding: ${palette.SPACING_900}; `}
+  ${p => p.pt9 && css` padding-top: ${palette.SPACING_900}; `}
+  ${p => p.pr9 && css` padding-right: ${palette.SPACING_900}; `}
+  ${p => p.pb9 && css` padding-bottom: ${palette.SPACING_900}; `}
+  ${p => p.pl9 && css` padding-left: ${palette.SPACING_900}; `}
 `;
 
 export default Spacing;
