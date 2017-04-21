@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-import * as palette from './Palette.js';
+import * as palette from './../Palette.js';
 
 const Text = styled.p`
   font-size: ${palette.FONTSIZE_400};

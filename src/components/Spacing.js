@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-import * as palette from './Palette.js';
+import * as palette from './../Palette.js';
 
 const Spacing = styled.div`
   ${p => p.inline && css` display: inline-block; `}

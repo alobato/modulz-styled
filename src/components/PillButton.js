@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 import Button from './Button.js';
-import * as palette from './Palette.js';
+import * as palette from './../Palette.js';
 
 const PillButton = styled(Button)`
   border-radius: 9999px;

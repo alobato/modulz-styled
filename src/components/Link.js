@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-import * as palette from './Palette.js';
+import * as palette from './../Palette.js';
 
 const Link = styled.a`
   font-size: ${palette.FONTSIZE_400};

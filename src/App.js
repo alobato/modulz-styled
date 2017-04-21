@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 
-import Header from './Header.js';
-import Section from './Section.js';
-import Container from './Container.js';
-import Grid from './Grid.js';
-import Spacing from './Spacing.js';
-import Alignment from './Alignment.js';
-import Button from './Button.js';
-import Text from './Text.js';
-import Link from './Link.js';
-import Heading from './Heading.js';
-import PillButton from './PillButton.js';
+import Header from './components/Header.js';
+import Section from './components/Section.js';
+import Container from './components/Container.js';
+import Grid from './components/Grid.js';
+import Spacing from './components/Spacing.js';
+import Alignment from './components/Alignment.js';
+import Button from './components/Button.js';
+import Text from './components/Text.js';
+import Link from './components/Link.js';
+import Heading from './components/Heading.js';
+import PillButton from './components/PillButton.js';
+import Divider from './components/Divider.js';
 
 class App extends Component {
   render() {
@@ -107,6 +108,8 @@ class App extends Component {
             </Alignment>
           </Container>
         </Section>
+
+        <Divider></Divider>
 
         <Section large>
           <Container large>
