@@ -145,9 +145,6 @@ class App extends Component {
             <Grid>
               <div className="grid-column">
                 <Text large>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
-                <Spacing mt6>
-                  <PillButton large white>Get started</PillButton>
-                </Spacing>
               </div>
               <div className="grid-column">
                 <Grid>
@@ -163,7 +160,7 @@ class App extends Component {
           </Container>
         </Section>
 
-        <Section large gray_800>
+        <Section large gray_700>
           <Container large>
             <Alignment center>
               <Spacing mb6>
@@ -199,6 +196,12 @@ class App extends Component {
                 <Text gray_500>Text Styles let you set a font, size and style once, and have it change across multiple text layers.</Text>
               </div>
             </Grid>
+          </Container>
+        </Section>
+
+        <Section medium gray_800>
+          <Container large>
+              <Text white>This is a main heading</Text>
           </Container>
         </Section>
 

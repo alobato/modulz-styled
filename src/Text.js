@@ -18,6 +18,7 @@ const Text = styled.p`
 
   ${props => props.gray_500 && css` color: ${palette.GRAY_500}; `}
 
+  ${props => props.white && css` color: ${palette.WHITE}; `}
   ${props => props.red && css` color: ${palette.RED_500}; `}
   ${props => props.pink && css` color: ${palette.PINK_500}; `}
   ${props => props.purple && css` color: ${palette.PURPLE_500}; `}
