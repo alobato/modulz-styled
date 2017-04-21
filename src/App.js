@@ -77,7 +77,7 @@ class App extends Component {
           </Container>
         </Section>
 
-        <Section large tealTint>
+        <Section large teal>
           <Container large>
             <Alignment center>
               <Grid>
