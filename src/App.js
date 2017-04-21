@@ -101,7 +101,7 @@ class App extends Component {
             <Alignment center>
               <Text large>We’re looking for talented creatives from all disciplines.</Text>
               <Spacing mt5>
-                <PillButton large crimson>Learn more</PillButton>
+                <PillButton crimson>Learn more</PillButton>
               </Spacing>
             </Alignment>
           </Container>

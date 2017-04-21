@@ -21,7 +21,7 @@ const Button = styled.button`
   transition-timing-function: ease;
 
   border-radius: ${palette.BORDERRADIUS_S};
-  font-size: ${palette.FONTSIZE_2};
+  font-size: ${palette.FONTSIZE_300};
   height: ${palette.SPACING_500};
   min-width: ${palette.SPACING_500};
   line-height: ${palette.SPACING_500};

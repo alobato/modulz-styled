@@ -5,17 +5,18 @@ import * as palette from './Palette.js';
 
 const PillButton = styled(Button)`
   border-radius: 9999px;
-  color: white;
+  color: ${palette.WHITE};
+  height: ${palette.SPACING_600};
+  min-width: ${palette.SPACING_600};
+  line-height: ${palette.SPACING_600};
   padding: 0 ${palette.SPACING_300};
   box-shadow: 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
 
   &:hover {
-    transform: translateY(-1px);
     box-shadow: 0 7px 14px 0 hsla(200, 30%, 10%, .05), 0 3px 6px 0 hsla(200, 30%, 10%, .1);
   }
 
   &:active {
-    transform: translateY(0);
     box-shadow: none;
   }
 
@@ -27,7 +28,7 @@ const PillButton = styled(Button)`
     padding: 0 ${palette.SPACING_400};
   `}
 
-  ${props => props.white && css` background-color: ${palette.WHITE}; `}
+  ${props => props.white && css` background-color: ${palette.WHITE}; color: ${palette.GRAY_800}; `}
   ${props => props.red && css` background-color: ${palette.RED_500}; `}
   ${props => props.pink && css` background-color: ${palette.PINK_500}; `}
   ${props => props.purple && css` background-color: ${palette.PURPLE_500}; `}
