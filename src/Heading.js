@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 import * as palette from './Palette.js';
 
 const Heading = styled.h3`
-  font-size: ${palette.FONTSIZE_700};
+  font-size: ${palette.FONTSIZE_800};
   color: ${palette.GRAY_800};
   letter-spacing: -1px;
   line-height: 1.1;
@@ -23,7 +23,7 @@ const Heading = styled.h3`
   `}
 
   ${p => p.large && css`
-    font-size: ${palette.FONTSIZE_800};
+    font-size: ${palette.FONTSIZE_900};
     letter-spacing: -3px;
     line-height: 1;
     font-weight: 600;

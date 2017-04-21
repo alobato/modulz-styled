@@ -19,7 +19,7 @@ class App extends Component {
           <Container>
             <Grid>
               <div className="grid-column">
-                <Text>Logo</Text>
+                <Heading small>Logo</Heading>
               </div>
               <div className="grid-column">
                 <Alignment right>
@@ -132,11 +132,11 @@ class App extends Component {
           </Container>
         </Section>
 
-        <Section large red>
+        <Section large amberTint>
           <Container large>
             <Alignment center>
               <Spacing mb5>
-                <Heading white>This is a main heading</Heading>
+                <Heading red>This is a main heading</Heading>
                 <Spacing mt1>
                   <Heading thin gray_500>This is a small heading</Heading>
                 </Spacing>
