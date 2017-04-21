@@ -3,6 +3,8 @@ import styled, { css } from 'styled-components';
 import * as palette from './Palette.js';
 
 const Spacing = styled.div`
+  ${p => p.inline && css` display: inline-block; `}
+
   ${p => p.m1 && css` margin: ${palette.SPACING_100}; `}
   ${p => p.mt1 && css` margin-top: ${palette.SPACING_100}; `}
   ${p => p.mr1 && css` margin-right: ${palette.SPACING_100}; `}

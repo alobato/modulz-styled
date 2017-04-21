@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Header from './Header.js';
 import Section from './Section.js';
 import Container from './Container.js';
 import Grid from './Grid.js';
@@ -15,63 +16,65 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Section small>
-          <Container>
-            <Grid>
-              <div className="grid-column">
-                <Heading small>Logo</Heading>
-              </div>
-              <div className="grid-column">
-                <Alignment right>
-                  <Grid>
-                    <div className="grid-column">
-                      <Link>Features</Link>
-                    </div>
-                    <div className="grid-column">
-                      <Link>About</Link>
-                    </div>
-                    <div className="grid-column">
-                      <Link>Pricing</Link>
-                    </div>
-                    <div className="grid-column">
-                      <Link>Blog</Link>
-                    </div>
-                  </Grid>
-                </Alignment>
-              </div>
-            </Grid>
-          </Container>
-        </Section>
+
+        <Header absolute>
+          <Grid>
+            <div className="grid-column">
+              <Heading small>Logo</Heading>
+            </div>
+            <div className="grid-column">
+              <Alignment right>
+                <Grid>
+                  <div className="grid-column">
+                    <Link light>Features</Link>
+                  </div>
+                  <div className="grid-column">
+                    <Link light>About</Link>
+                  </div>
+                  <div className="grid-column">
+                    <Link light>Support</Link>
+                  </div>
+                  <div className="grid-column">
+                    <Link light>Pricing</Link>
+                  </div>
+                  <div className="grid-column">
+                    <Link light>Blog</Link>
+                  </div>
+                </Grid>
+              </Alignment>
+            </div>
+          </Grid>
+        </Header>
+
         <Section large>
           <Container medium>
-            <Alignment center>
-              <Spacing mb4>
-                <Heading large>Write better code</Heading>
-              </Spacing>
-              <Heading thin gray>On GitHub, lightweight code review tools are built into every pull request. Your team can create review processes that improve the quality of your code and fit neatly into your workflow.</Heading>
-              <Spacing mt5>
-                <Link teal>See how it works</Link>
-                <Link teal>Explore the features</Link>
-              </Spacing>
-              <Spacing mt6>
-                <PillButton large white>Get started</PillButton>
-                <PillButton large crimson>Learn more</PillButton>
-              </Spacing>
-              <Spacing mt3>
-                <Text small gray_500>* Make sure you read this before signing up.</Text>
-              </Spacing>
-            </Alignment>
-          </Container>
-        </Section>
-
-        <Section large tealTint>
-          <Container medium>
-            <Alignment center>
-                  <Spacing mb3>
-                    <Heading thin>This is a big ass quote from a glowing testimonial from a loyal customer.</Heading>
+            <Spacing pt5 pb5>
+              <Alignment center>
+                <Spacing mb4>
+                  <Heading large>Big ass heading</Heading>
+                </Spacing>
+                <Heading thin gray>A little ass sub heading to support the big ass heading above. Try not to exceed three lines of text.</Heading>
+                <Spacing mt5>
+                  <Spacing inline mr3>
+                    <Link teal>See how it works</Link>
                   </Spacing>
-                  <Text small gray_500>Colm Tuite</Text>
-            </Alignment>
+                  <Spacing inline ml3>
+                    <Link teal>Explore the features</Link>
+                  </Spacing>
+                </Spacing>
+                <Spacing mt6>
+                  <Spacing inline mr4>
+                    <PillButton large white>Get started</PillButton>
+                  </Spacing>
+                  <Spacing inline mr4>
+                    <PillButton large crimson>Learn more</PillButton>
+                  </Spacing>
+                </Spacing>
+                <Spacing mt3>
+                  <Text small gray_500>* Make sure you read this before signing up.</Text>
+                </Spacing>
+              </Alignment>
+            </Spacing>
           </Container>
         </Section>
 
@@ -83,7 +86,7 @@ class App extends Component {
                   <Spacing mb3>
                     <Heading thin gray_500>This is a small heading</Heading>
                   </Spacing>
-                  <Text large teal>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
+                  <Text large>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
                 </div>
                 <div className="grid-column">
                   <Spacing mb3>
@@ -112,49 +115,21 @@ class App extends Component {
             <Grid>
               <div className="grid-column">
                 <Spacing mb3>
-                  <Heading small>Symbols</Heading>
+                  <Heading small>Heading</Heading>
                 </Spacing>
-                <Text gray_500>Symbols are groups of elements you can copy and paste throughout your documents. Change one, and all of them will change automatically.</Text>
+                <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
               </div>
               <div className="grid-column">
                 <Spacing mb3>
-                  <Heading small>Layer Styles</Heading>
+                  <Heading small>Heading</Heading>
                 </Spacing>
-                <Text gray_500>Layer styles let you automatically sync borders, fills, shadows and other style elements across multiple layers.</Text>
+                <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
               </div>
               <div className="grid-column">
                 <Spacing mb3>
-                  <Heading small>Text Styles</Heading>
+                  <Heading small>Heading</Heading>
                 </Spacing>
-                <Text gray_500>Text Styles let you set a font, size and style once, and have it change across multiple text layers.</Text>
-              </div>
-            </Grid>
-          </Container>
-        </Section>
-
-        <Section large amberTint>
-          <Container large>
-            <Alignment center>
-              <Spacing mb5>
-                <Heading red>This is a main heading</Heading>
-                <Spacing mt1>
-                  <Heading thin gray_500>This is a small heading</Heading>
-                </Spacing>
-              </Spacing>
-            </Alignment>
-            <Grid>
-              <div className="grid-column">
-                <Text large>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
-              </div>
-              <div className="grid-column">
-                <Grid>
-                  <div className="grid-column">
-                    <Text>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
-                  </div>
-                  <div className="grid-column">
-                    <Text>We are having a problem billing your account. Please enter a new payment method or check with your payment provider.</Text>
-                  </div>
-                </Grid>
+                <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
               </div>
             </Grid>
           </Container>
@@ -173,27 +148,27 @@ class App extends Component {
             <Grid>
               <div className="grid-column">
                 <Spacing mb3>
-                  <Heading small greenTint>Symbols</Heading>
+                  <Heading small greenTint>Heading</Heading>
                 </Spacing>
-                <Text gray_500>Symbols are groups of elements you can copy and paste throughout your documents. Change one, and all of them will change automatically.</Text>
+                <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
               </div>
               <div className="grid-column">
                 <Spacing mb3>
-                  <Heading small lavenderTint>Layer Styles</Heading>
+                  <Heading small lavenderTint>Heading</Heading>
                 </Spacing>
-                <Text gray_500>Layer styles let you automatically sync borders, fills, shadows and other style elements across multiple layers.</Text>
+                <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
               </div>
               <div className="grid-column">
                 <Spacing mb3>
-                  <Heading small blueTint>Layer Styles</Heading>
+                  <Heading small blueTint>Heading</Heading>
                 </Spacing>
-                <Text gray_500>Layer styles let you automatically sync borders, fills, shadows and other style elements across multiple layers.</Text>
+                <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
               </div>
               <div className="grid-column">
                 <Spacing mb3>
-                  <Heading small amberTint>Text Styles</Heading>
+                  <Heading small amberTint>Heading</Heading>
                 </Spacing>
-                <Text gray_500>Text Styles let you set a font, size and style once, and have it change across multiple text layers.</Text>
+                <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
               </div>
             </Grid>
           </Container>
@@ -201,7 +176,7 @@ class App extends Component {
 
         <Section medium gray_800>
           <Container large>
-              <Text white>This is a main heading</Text>
+              <Text gray_500>Copyright &copy; 1864</Text>
           </Container>
         </Section>
 

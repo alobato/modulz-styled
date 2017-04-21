@@ -15,6 +15,10 @@ const Link = styled.a`
   ${props => props.large && css`
     font-size: ${palette.FONTSIZE_500};
   `}
+  
+  ${props => props.light && css`
+    color: ${palette.GRAY_500};
+  `}
 `;
 
 export default Link;
