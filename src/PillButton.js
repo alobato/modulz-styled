@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import Button from './Button.js';
 import * as palette from './Palette.js';
 
