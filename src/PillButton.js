@@ -4,32 +4,9 @@ import Button from './Button.js';
 import * as palette from './Palette.js';
 
 const PillButton = styled(Button)`
-  padding: ${(props) => props.large ? '0 24px' : '0 16px'};
   border-radius: 9999px;
-  background-color:
-    ${(props) =>
-      props.white ? 'hsl(0, 0%, 100%)' :
-      props.red ? 'hsl(0, 92%, 61%)' :
-      props.pink ? 'hsl(332, 94%, 55%)' :
-      props.purple ? 'hsl(288, 64%, 42%)' :
-      props.indigo ? 'hsl(226, 56%, 48%)' :
-      props.blue ? 'hsl(204, 95%, 50%)' :
-      props.teal ? 'hsl(172, 100%, 35%)' :
-      props.green ? 'hsl(132, 52%, 53%)' :
-      props.lime ? 'hsl(68, 74%, 50%)' :
-      props.yellow ? 'hsl(54, 98%, 50%)' :
-      props.amber ? 'hsl(46, 100%, 57%)' :
-      props.orange ? 'hsl(36, 100%, 50%)' :
-      props.crimson ? 'hsl(18, 100%, 60%)' :
-      props.lavender ? 'hsl(255, 74%, 60%)' :
-      props.violet ? 'hsl(264, 52%, 45%)' :
-      ''
-    };
-    font-size: ${(props) => props.large ? '14px' : '12px'};
-  height: ${(props) => props.large ? '40px' : ''};
-  min-width: ${(props) => props.large ? '40px' : ''};
-  line-height: ${(props) => props.large ? '40px' : ''};
   color: white;
+  padding: 0 ${palette.SPACING_300};
   box-shadow: 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
 
   &:hover {
@@ -41,6 +18,30 @@ const PillButton = styled(Button)`
     transform: translateY(0);
     box-shadow: none;
   }
+
+  ${props => props.large && css`
+    font-size: ${palette.FONTSIZE_400};
+    height: ${palette.SPACING_700};
+    min-width: ${palette.SPACING_700};
+    line-height: ${palette.SPACING_700};
+    padding: 0 ${palette.SPACING_400};
+  `}
+
+  ${props => props.white && css` background-color: ${palette.WHITE}; `}
+  ${props => props.red && css` background-color: ${palette.RED_500}; `}
+  ${props => props.pink && css` background-color: ${palette.PINK_500}; `}
+  ${props => props.purple && css` background-color: ${palette.PURPLE_500}; `}
+  ${props => props.indigo && css` background-color: ${palette.INDIGO_500}; `}
+  ${props => props.blue && css` background-color: ${palette.BLUE_500}; `}
+  ${props => props.teal && css` background-color: ${palette.TEAL_500}; `}
+  ${props => props.green && css` background-color: ${palette.GREEN_500}; `}
+  ${props => props.lime && css` background-color:${palette.LIME_500}; `}
+  ${props => props.yellow && css` background-color:${palette.YELLOW_500}; `}
+  ${props => props.amber && css` background-color: ${palette.AMBER_500}; `}
+  ${props => props.orange && css` background-color: ${palette.ORANGE_500}; `}
+  ${props => props.crimson && css` background-color: ${palette.CRIMSON_500}; `}
+  ${props => props.lavender && css` background-color: ${palette.LAVENDER_500}; `}
+  ${props => props.violet && css` background-color: ${palette.VIOLET_500}; `}
 `;
 
 export default PillButton;
