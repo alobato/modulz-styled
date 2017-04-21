@@ -4,7 +4,7 @@ import { css } from 'styled-components'
 import * as palette from './Palette.js';
 
 const Section = styled.section`
-  background-color: ${palette.COLOR_WHITE};
+  background-color: ${palette.WHITE};
 
   ${props => props.small && css`
       padding: ${palette.SPACING_300} 0;
@@ -27,7 +27,7 @@ const Section = styled.section`
   ${props => props.gray_700 && css` background-color: ${palette.GRAY_700}; `}
   ${props => props.gray_800 && css` background-color: ${palette.GRAY_800}; `}
 
-  ${props => props.red && css` background-color ${palette.RED_500}; `}
+  ${props => props.red && css` background-color: ${palette.RED_500}; `}
   ${props => props.pink && css` background-color: ${palette.PINK_500}; `}
   ${props => props.purple && css` background-color: ${palette.PURPLE_500}; `}
   ${props => props.indigo && css` background-color: ${palette.INDIGO_500}; `}
@@ -41,6 +41,21 @@ const Section = styled.section`
   ${props => props.crimson && css` background-color: ${palette.CRIMSON_500}; `}
   ${props => props.lavender && css` background-color: ${palette.LAVENDER_500}; `}
   ${props => props.violet && css` background-color: ${palette.VIOLET_500}; `}
+
+  ${props => props.redTint && css` background-color: ${palette.RED_100}; `}
+  ${props => props.pinkTint && css` background-color: ${palette.PINK_100}; `}
+  ${props => props.purpleTint && css` background-color: ${palette.PURPLE_100}; `}
+  ${props => props.indigoTint && css` background-color: ${palette.INDIGO_100}; `}
+  ${props => props.blueTint && css` background-color: ${palette.BLUE_100}; `}
+  ${props => props.tealTint && css` background-color: ${palette.TEAL_100}; `}
+  ${props => props.greenTint && css` background-color: ${palette.GREEN_100}; `}
+  ${props => props.limeTint && css` background-color:${palette.LIME_100}; `}
+  ${props => props.yellowTint && css` background-color:${palette.YELLOW_100}; `}
+  ${props => props.amberTint && css` background-color: ${palette.AMBER_100}; `}
+  ${props => props.orangeTint && css` background-color: ${palette.ORANGE_100}; `}
+  ${props => props.crimsonTint && css` background-color: ${palette.CRIMSON_100}; `}
+  ${props => props.lavenderTint && css` background-color: ${palette.LAVENDER_100}; `}
+  ${props => props.violetTint && css` background-color: ${palette.VIOLET_100}; `}
 `;
 
 export default Section;

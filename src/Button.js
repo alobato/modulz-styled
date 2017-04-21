@@ -27,18 +27,18 @@ const Button = styled.button`
   min-width: ${palette.SPACING_500};
   line-height: ${palette.SPACING_500};
   padding: 0 ${palette.SPACING_200};
-  background-color: ${palette.COLOR_PEARL};
-  color: ${palette.COLOR_LEAD};
-  box-shadow: 0 0 0 1px hsl(200, 20%, 80%), 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
+  background-color: ${palette.GRAY_100};
+  color: ${palette.GRAY_800};
+  box-shadow: 0 0 0 1px ${palette.GRAY_400}, 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
 
   &:hover {
     transform: translateY(-1px);
-    box-shadow: 0 0 0 1px hsl(200, 30%, 70%), 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
+    box-shadow: 0 0 0 1px ${palette.GRAY_500}, 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
   }
 
   &:active {
     transform: translateY(0);
-    box-shadow: 0 0 0 1px hsl(200, 30%, 70%);
+    box-shadow: 0 0 0 1px ${palette.GRAY_500};
   }
 
   ${p => p.small && css`
@@ -51,14 +51,14 @@ const Button = styled.button`
   ${p => p.primary && css`
     background-color: ${palette.BLUE_100};
     color: ${palette.BLUE_700};
-    box-shadow: 0 0 0 1px hsl(200, 80%, 80%), 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
+    box-shadow: 0 0 0 1px ${palette.BLUE_300}, 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
 
     &:hover {
-      box-shadow: 0 0 0 1px hsl(200, 80%, 60%), 0 7px 14px 0 hsla(200, 30%, 10%, .05), 0 3px 6px 0 hsla(200, 30%, 10%, .1);
+      box-shadow: 0 0 0 1px ${palette.BLUE_500}, 0 7px 14px 0 hsla(200, 30%, 10%, .05), 0 3px 6px 0 hsla(200, 30%, 10%, .1);
     }
 
     &:active {
-      box-shadow: 0 0 0 1px hsl(200, 80%, 60%);
+      box-shadow: 0 0 0 1px ${palette.BLUE_500};
     }
   `}
 

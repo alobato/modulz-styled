@@ -8,6 +8,7 @@ const PillButton = styled(Button)`
   border-radius: 9999px;
   background-color:
     ${(props) =>
+      props.white ? 'hsl(0, 0%, 100%)' :
       props.red ? 'hsl(0, 92%, 61%)' :
       props.pink ? 'hsl(332, 94%, 55%)' :
       props.purple ? 'hsl(288, 64%, 42%)' :
@@ -24,7 +25,7 @@ const PillButton = styled(Button)`
       props.violet ? 'hsl(264, 52%, 45%)' :
       ''
     };
-    font-size: ${(props) => props.large ? '14px' : ''};
+    font-size: ${(props) => props.large ? '14px' : '12px'};
   height: ${(props) => props.large ? '40px' : ''};
   min-width: ${(props) => props.large ? '40px' : ''};
   line-height: ${(props) => props.large ? '40px' : ''};

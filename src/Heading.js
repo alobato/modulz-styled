@@ -8,24 +8,30 @@ const Heading = styled.h3`
   color: ${palette.GRAY_800};
   letter-spacing: -1px;
   line-height: 1.1;
-  font-weight: 700;
+  font-weight: 500;
 
   ${p => p.small && css`
     font-size: ${palette.FONTSIZE_600};
     letter-spacing: -.2px;
+    line-height: 1.25;
   `}
 
   ${p => p.thin && css`
     font-size: ${palette.FONTSIZE_600};
     font-weight: 300;
     letter-spacing: .2px;
-    line-height: 1.5;
+    line-height: 1.6;
   `}
 
   ${p => p.large && css`
     font-size: ${palette.FONTSIZE_800};
-    letter-spacing: -4px;
+    letter-spacing: -3px;
+    line-height: 1;
+    font-weight: 600;
   `}
+
+  ${props => props.white && css` color: ${palette.WHITE}; `}
+  ${props => props.black && css` color: ${palette.BLACK}; `}
 
   ${props => props.gray_500 && css` color: ${palette.GRAY_500}; `}
 
@@ -43,6 +49,21 @@ const Heading = styled.h3`
   ${props => props.crimson && css` color: ${palette.CRIMSON_500}; `}
   ${props => props.lavender && css` color: ${palette.LAVENDER_500}; `}
   ${props => props.violet && css` color: ${palette.VIOLET_500}; `}
+
+  ${props => props.redTint && css` color: ${palette.RED_300}; `}
+  ${props => props.pinkTint && css` color: ${palette.PINK_300}; `}
+  ${props => props.purpleTint && css` color: ${palette.PURPLE_300}; `}
+  ${props => props.indigoTint && css` color: ${palette.INDIGO_300}; `}
+  ${props => props.blueTint && css` color: ${palette.BLUE_300}; `}
+  ${props => props.tealTint && css` color: ${palette.TEAL_300}; `}
+  ${props => props.greenTint && css` color: ${palette.GREEN_300}; `}
+  ${props => props.limeTint && css` color: ${palette.LIME_300}; `}
+  ${props => props.yellowTint && css` color: ${palette.YELLOW_300}; `}
+  ${props => props.amberTint && css` color: ${palette.AMBER_300}; `}
+  ${props => props.orangeTint && css` color: ${palette.ORANGE_300}; `}
+  ${props => props.crimsonTint && css` color: ${palette.CRIMSON_300}; `}
+  ${props => props.lavenderTint && css` color: ${palette.LAVENDER_300}; `}
+  ${props => props.violetTint && css` color: ${palette.VIOLET_300}; `}
 `;
 
 export default Heading;

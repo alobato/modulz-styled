@@ -12,6 +12,10 @@ const Link = styled.a`
   &:hover {
     text-decoration: underline;
   }
+
+  ${props => props.large && css`
+    font-size: ${palette.FONTSIZE_500};
+  `}
 `;
 
 export default Link;

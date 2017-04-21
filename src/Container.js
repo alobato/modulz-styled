@@ -20,7 +20,7 @@ const Container = styled.div`
     }
 
     @media screen and (min-width: 68em) {
-      width: 50vw;
+      width: 58.3333333333vw;
     }
   `}
 
