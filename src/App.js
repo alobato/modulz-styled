@@ -98,6 +98,47 @@ class App extends Component {
           </Container>
         </Section>
 
+        <Section large gray_100>
+          <Container large>
+            <Grid>
+              <div className="grid-column--12 bps-grid-column--8">
+                <Grid>
+                  <div className="grid-column--12 bps-grid-column--6">
+                    <Spacing mb3>
+                      <Heading thin gray_500>This is a small heading</Heading>
+                    </Spacing>
+                    <Text>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
+                  </div>
+                  <div className="grid-column--12 bps-grid-column--6">
+                    <Spacing mb3>
+                      <Heading thin gray_500>This is a small heading</Heading>
+                    </Spacing>
+                    <Text>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
+                  </div>
+                  <div className="grid-column--12 bps-grid-column--6">
+                    <Spacing mb3>
+                      <Heading thin gray_500>This is a small heading</Heading>
+                    </Spacing>
+                    <Text>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
+                  </div>
+                  <div className="grid-column--12 bps-grid-column--6">
+                    <Spacing mb3>
+                      <Heading thin gray_500>This is a small heading</Heading>
+                    </Spacing>
+                    <Text>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
+                  </div>
+                </Grid>
+              </div>
+              <div className="grid-column--12 bps-grid-column--4">
+                <Spacing mb3>
+                  <Heading thin gray_500>This is a small heading</Heading>
+                </Spacing>
+                <Text>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
+              </div>
+            </Grid>
+          </Container>
+        </Section>
+
         <Section large>
           <Container medium>
             <Alignment center>
