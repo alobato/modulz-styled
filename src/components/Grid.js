@@ -18,9 +18,72 @@ const Grid = styled.div`
   ${props => props.between && css` justify-content: space-between; `}
 
   & > .grid-column {
-    flex-basis: 0;
-    flex-grow: 1;
-    max-width: 100%;
+      flex-basis: 0;
+      flex-grow: 1;
+      max-width: 100%;
+  }
+
+  & > .grid-column,
+  & > .grid-column--1,
+  & > .grid-column--2,
+  & > .grid-column--3,
+  & > .grid-column--4,
+  & > .grid-column--5,
+  & > .grid-column--6,
+  & > .grid-column--7,
+  & > .grid-column--8,
+  & > .grid-column--9,
+  & > .grid-column--10,
+  & > .grid-column--11,
+  & > .grid-column--12,
+  & > .bps-grid-column--1,
+  & > .bps-grid-column--2,
+  & > .bps-grid-column--3,
+  & > .bps-grid-column--4,
+  & > .bps-grid-column--5,
+  & > .bps-grid-column--6,
+  & > .bps-grid-column--7,
+  & > .bps-grid-column--8,
+  & > .bps-grid-column--9,
+  & > .bps-grid-column--10,
+  & > .bps-grid-column--11,
+  & > .bps-grid-column--12,
+  & > .bpm-grid-column--1,
+  & > .bpm-grid-column--2,
+  & > .bpm-grid-column--3,
+  & > .bpm-grid-column--4,
+  & > .bpm-grid-column--5,
+  & > .bpm-grid-column--6,
+  & > .bpm-grid-column--7,
+  & > .bpm-grid-column--8,
+  & > .bpm-grid-column--9,
+  & > .bpm-grid-column--10,
+  & > .bpm-grid-column--11,
+  & > .bpm-grid-column--12,
+  & > .bpl-grid-column--1,
+  & > .bpl-grid-column--2,
+  & > .bpl-grid-column--3,
+  & > .bpl-grid-column--4,
+  & > .bpl-grid-column--5,
+  & > .bpl-grid-column--6,
+  & > .bpl-grid-column--7,
+  & > .bpl-grid-column--8,
+  & > .bpl-grid-column--9,
+  & > .bpl-grid-column--10,
+  & > .bpl-grid-column--11,
+  & > .bpl-grid-column--12,
+  & > .bpxl-grid-column--1,
+  & > .bpxl-grid-column--2,
+  & > .bpxl-grid-column--3,
+  & > .bpxl-grid-column--4,
+  & > .bpxl-grid-column--5,
+  & > .bpxl-grid-column--6,
+  & > .bpxl-grid-column--7,
+  & > .bpxl-grid-column--8,
+  & > .bpxl-grid-column--9,
+  & > .bpxl-grid-column--10,
+  & > .bpxl-grid-column--11,
+  & > .bpxl-grid-column--12 {
     padding-top: ${palette.SPACING_600};
     padding-left: ${palette.SPACING_600};
     width: 100%;
