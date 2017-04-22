@@ -26,7 +26,7 @@ const Heading = styled.h3`
     font-size: ${palette.FONTSIZE_900};
     letter-spacing: -3px;
     line-height: 1;
-    font-weight: 600;
+    font-weight: 700;
   `}
 
   ${props => props.white && css` color: ${palette.WHITE}; `}

@@ -4,6 +4,7 @@ import Header from './components/Header.js';
 import Section from './components/Section.js';
 import Container from './components/Container.js';
 import Grid from './components/Grid.js';
+import GridColumn from './components/GridColumn.js';
 import Spacing from './components/Spacing.js';
 import Alignment from './components/Alignment.js';
 import Button from './components/Button.js';
@@ -51,7 +52,7 @@ class App extends Component {
           <Container medium>
             <Alignment center>
               <Spacing mb4>
-                <Heading large>Big ass heading</Heading>
+                <Heading large>A big ass heading to introduce stuff</Heading>
               </Spacing>
               <Heading thin gray>A little ass sub heading to support the big ass heading above. Try not to exceed three lines of text.</Heading>
               <Spacing mt5>
@@ -81,18 +82,18 @@ class App extends Component {
           <Container large>
             <Alignment center>
               <Grid>
-                <div className="grid-column--12 bps-grid-column--6">
+                <GridColumn column_12 bps_column_6>
                   <Spacing mb3>
                     <Heading thin gray_500>This is a small heading</Heading>
                   </Spacing>
                   <Text large>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
-                </div>
-                <div className="grid-column--12 bps-grid-column--6">
+                </GridColumn>
+                <GridColumn column_12 bps_column_6>
                   <Spacing mb3>
                     <Heading thin gray_500>This is a small heading</Heading>
                   </Spacing>
                   <Text large>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
-                </div>
+                </GridColumn>
               </Grid>
             </Alignment>
           </Container>
@@ -101,40 +102,40 @@ class App extends Component {
         <Section large gray_100>
           <Container large>
             <Grid>
-              <div className="grid-column--12 bps-grid-column--8">
+              <GridColumn column_12 bps_column_8>
                 <Grid>
-                  <div className="grid-column--12 bps-grid-column--6">
+                  <GridColumn column_12 bps_column_6>
                     <Spacing mb3>
                       <Heading thin gray_500>This is a small heading</Heading>
                     </Spacing>
                     <Text>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
-                  </div>
-                  <div className="grid-column--12 bps-grid-column--6">
+                  </GridColumn>
+                  <GridColumn column_12 bps_column_6>
                     <Spacing mb3>
                       <Heading thin gray_500>This is a small heading</Heading>
                     </Spacing>
                     <Text>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
-                  </div>
-                  <div className="grid-column--12 bps-grid-column--6">
+                  </GridColumn>
+                  <GridColumn column_12 bps_column_6>
                     <Spacing mb3>
                       <Heading thin gray_500>This is a small heading</Heading>
                     </Spacing>
                     <Text>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
-                  </div>
-                  <div className="grid-column--12 bps-grid-column--6">
+                  </GridColumn>
+                  <GridColumn column_12 bps_column_6>
                     <Spacing mb3>
                       <Heading thin gray_500>This is a small heading</Heading>
                     </Spacing>
                     <Text>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
-                  </div>
+                  </GridColumn>
                 </Grid>
-              </div>
-              <div className="grid-column--12 bps-grid-column--4">
+              </GridColumn>
+              <GridColumn column_12 bps_column_4>
                 <Spacing mb3>
                   <Heading thin gray_500>This is a small heading</Heading>
                 </Spacing>
                 <Text>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
-              </div>
+              </GridColumn>
             </Grid>
           </Container>
         </Section>
@@ -155,7 +156,7 @@ class App extends Component {
         <Section large>
           <Container large>
             <Grid>
-              <div className="grid-column--12 bpm-grid-column--4">
+              <GridColumn column_12 bps_column_4>
                 <Spacing mb3>
                   <Heading small>Heading</Heading>
                 </Spacing>
@@ -163,8 +164,8 @@ class App extends Component {
                 <Spacing mt4>
                   <Link>Link to something</Link>
                 </Spacing>
-              </div>
-              <div className="grid-column--12 bpm-grid-column--4">
+              </GridColumn>
+              <GridColumn column_12 bps_column_4>
                 <Spacing mb3>
                   <Heading small>Heading</Heading>
                 </Spacing>
@@ -172,8 +173,8 @@ class App extends Component {
                 <Spacing mt4>
                   <Link>Link to something</Link>
                 </Spacing>
-              </div>
-              <div className="grid-column--12 bpm-grid-column--4">
+              </GridColumn>
+              <GridColumn column_12 bps_column_4>
                 <Spacing mb3>
                   <Heading small>Heading</Heading>
                 </Spacing>
@@ -181,7 +182,7 @@ class App extends Component {
                 <Spacing mt4>
                   <Link>Link to something</Link>
                 </Spacing>
-              </div>
+              </GridColumn>
             </Grid>
           </Container>
         </Section>
@@ -197,54 +198,54 @@ class App extends Component {
               </Spacing>
             </Alignment>
             <Grid>
-              <div className="grid-column--12 bpm-grid-column--3">
+              <GridColumn column_12 bps_column_3>
                 <Spacing mb3>
                   <Heading small greenTint>Heading</Heading>
                 </Spacing>
                 <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
-              </div>
-              <div className="grid-column--12 bpm-grid-column--3">
+              </GridColumn>
+              <GridColumn column_12 bps_column_3>
                 <Spacing mb3>
                   <Heading small lavenderTint>Heading</Heading>
                 </Spacing>
                 <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
-              </div>
-              <div className="grid-column--12 bpm-grid-column--3">
+              </GridColumn>
+              <GridColumn column_12 bps_column_3>
                 <Spacing mb3>
                   <Heading small blueTint>Heading</Heading>
                 </Spacing>
                 <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
-              </div>
-              <div className="grid-column--12 bpm-grid-column--3">
+              </GridColumn>
+              <GridColumn column_12 bps_column_3>
                 <Spacing mb3>
                   <Heading small amberTint>Heading</Heading>
                 </Spacing>
                 <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
-              </div>
-              <div className="grid-column--12 bpm-grid-column--3">
+              </GridColumn>
+              <GridColumn column_12 bps_column_3>
                 <Spacing mb3>
                   <Heading small greenTint>Heading</Heading>
                 </Spacing>
                 <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
-              </div>
-              <div className="grid-column--12 bpm-grid-column--3">
+              </GridColumn>
+              <GridColumn column_12 bps_column_3>
                 <Spacing mb3>
                   <Heading small lavenderTint>Heading</Heading>
                 </Spacing>
                 <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
-              </div>
-              <div className="grid-column--12 bpm-grid-column--3">
+              </GridColumn>
+              <GridColumn column_12 bps_column_3>
                 <Spacing mb3>
                   <Heading small blueTint>Heading</Heading>
                 </Spacing>
                 <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
-              </div>
-              <div className="grid-column--12 bpm-grid-column--3">
+              </GridColumn>
+              <GridColumn column_12 bps_column_3>
                 <Spacing mb3>
                   <Heading small amberTint>Heading</Heading>
                 </Spacing>
                 <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
-              </div>
+              </GridColumn>
             </Grid>
           </Container>
         </Section>
