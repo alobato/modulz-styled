@@ -8,23 +8,23 @@ const Container = styled.div`
   width: 90vw;
 
   ${props => props.small && css`
-    @media screen and (min-width: 68em) {
+    @media screen and (min-width: ${palette.BREAKPOINT_M}) {
       width: 33.3333333333vw;
     }
   `}
 
   ${props => props.medium && css`
-    @media screen and (min-width: 38em) {
+    @media screen and (min-width: ${palette.BREAKPOINT_S}) {
       width: 75vw;
     }
 
-    @media screen and (min-width: 68em) {
+    @media screen and (min-width: ${palette.BREAKPOINT_M}) {
       width: 58.3333333333vw;
     }
   `}
 
   ${props => props.large && css`
-    @media screen and (min-width: 38em) {
+    @media screen and (min-width: ${palette.BREAKPOINT_S}) {
       width: 75vw;
     }
   `}

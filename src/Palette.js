@@ -1,3 +1,10 @@
+// Breakpoints
+
+export const BREAKPOINT_S = '38em'
+export const BREAKPOINT_M = '68em'
+export const BREAKPOINT_L = '96em'
+export const BREAKPOINT_XL = '120em'
+
 // Type scale
 
 export const FONTSIZE_900 = '7.2rem';
@@ -93,5 +100,3 @@ export const BORDERRADIUS_S = '.3rem';
 // Box shadow
 
 // Transition duration
-
-// Breakpoints

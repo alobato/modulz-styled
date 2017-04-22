@@ -39,7 +39,7 @@ const Grid = styled.div`
   & > .grid-column--11            { max-width: 91.6666666666%; flex-basis: 91.6666666666%; }
   & > .grid-column--12            { max-width: 100%; flex-basis: 100%; }
 
-  @media screen and (min-width: 38em) {
+  @media screen and (min-width: ${palette.BREAKPOINT_S}) {
     .bps-grid-column--1      { max-width: 8.3333333333%; flex-basis: 8.3333333333%; }
     .bps-grid-column--2      { max-width: 16.6666666666%; flex-basis: 16.6666666666%; }
     .bps-grid-column--3      { max-width: 25%; flex-basis: 25%; }
@@ -54,7 +54,7 @@ const Grid = styled.div`
     .bps-grid-column--12     { max-width: 100%; flex-basis: 100%; }
   }
 
-  @media screen and (min-width: 68em) {
+  @media screen and (min-width: ${palette.BREAKPOINT_M}) {
     .bpm-grid-column--1      { max-width: 8.3333333333%; flex-basis: 8.3333333333%; }
     .bpm-grid-column--2      { max-width: 16.6666666666%; flex-basis: 16.6666666666%; }
     .bpm-grid-column--3      { max-width: 25%; flex-basis: 25%; }
@@ -69,7 +69,7 @@ const Grid = styled.div`
     .bpm-grid-column--12     { max-width: 100%; flex-basis: 100%; }
   }
 
-  @media screen and (min-width: 96em) {
+  @media screen and (min-width: ${palette.BREAKPOINT_L}) {
     .bpl-grid-column--1      { max-width: 8.3333333333%; flex-basis: 8.3333333333%; }
     .bpl-grid-column--2      { max-width: 16.6666666666%; flex-basis: 16.6666666666%; }
     .bpl-grid-column--3      { max-width: 25%; flex-basis: 25%; }
@@ -84,7 +84,7 @@ const Grid = styled.div`
     .bpl-grid-column--12     { max-width: 100%; flex-basis: 100%; }
   }
 
-  @media screen and (min-width: 120em) {
+  @media screen and (min-width: ${palette.BREAKPOINT_XL}) {
     .bpxl-grid-column--1     { max-width: 8.3333333333%; flex-basis: 8.3333333333%; }
     .bpxl-grid-column--2     { max-width: 16.6666666666%; flex-basis: 16.6666666666%; }
     .bpxl-grid-column--3     { max-width: 25%; flex-basis: 25%; }
