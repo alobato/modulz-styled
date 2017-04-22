@@ -180,6 +180,30 @@ class App extends Component {
                 </Spacing>
                 <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
               </div>
+              <div className="grid-column--12 bpm-grid-column--3">
+                <Spacing mb3>
+                  <Heading small greenTint>Heading</Heading>
+                </Spacing>
+                <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
+              </div>
+              <div className="grid-column--12 bpm-grid-column--3">
+                <Spacing mb3>
+                  <Heading small lavenderTint>Heading</Heading>
+                </Spacing>
+                <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
+              </div>
+              <div className="grid-column--12 bpm-grid-column--3">
+                <Spacing mb3>
+                  <Heading small blueTint>Heading</Heading>
+                </Spacing>
+                <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
+              </div>
+              <div className="grid-column--12 bpm-grid-column--3">
+                <Spacing mb3>
+                  <Heading small amberTint>Heading</Heading>
+                </Spacing>
+                <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
+              </div>
             </Grid>
           </Container>
         </Section>
