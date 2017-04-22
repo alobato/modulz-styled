@@ -10,6 +10,12 @@ const GridColumn = styled.div`
   padding-left: ${palette.SPACING_600};
   width: 100%;
 
+  ${props => props.stretch && css` align-self: stretch; `}
+  ${props => props.center && css` align-self: center; `}
+  ${props => props.start && css` align-self: flex-start; `}
+  ${props => props.end && css` align-self: flex-end; `}
+  ${props => props.baseline && css` align-self: baseline; `}
+
   ${props => props.column_1 && css` max-width: 8.3333333333%; flex-basis: 8.3333333333%; `}
   ${props => props.column_2 && css` max-width: 16.6666666666%; flex-basis: 16.6666666666%; `}
   ${props => props.column_3 && css` max-width: 25%; flex-basis: 25%; `}
