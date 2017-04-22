@@ -80,7 +80,7 @@ class App extends Component {
 
         <Section large teal>
           <Container large>
-            <Alignment center>
+            <Alignment bps_center>
               <Grid>
                 <GridColumn column_12 bps_column_6>
                   <Spacing mb3>
@@ -99,7 +99,7 @@ class App extends Component {
           </Container>
         </Section>
 
-        <Section large gray_100>
+        <Section large gray_200>
           <Container large>
             <Grid>
               <GridColumn column_12 bps_column_8>
