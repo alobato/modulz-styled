@@ -21,30 +21,30 @@ class App extends Component {
 
         <Header absolute>
           <Grid>
-            <div className="grid-column">
+            <GridColumn column_12 bpm_column_6>
               <Heading small>Logo</Heading>
-            </div>
-            <div className="grid-column">
+            </GridColumn>
+            <GridColumn column_12 bpm_column_6>
               <Alignment right>
                 <Grid>
-                  <div className="grid-column">
+                  <GridColumn>
                     <Link light>Features</Link>
-                  </div>
-                  <div className="grid-column">
+                  </GridColumn>
+                  <GridColumn>
                     <Link light>About</Link>
-                  </div>
-                  <div className="grid-column">
+                  </GridColumn>
+                  <GridColumn>
                     <Link light>Support</Link>
-                  </div>
-                  <div className="grid-column">
+                  </GridColumn>
+                  <GridColumn>
                     <Link light>Pricing</Link>
-                  </div>
-                  <div className="grid-column">
+                  </GridColumn>
+                  <GridColumn>
                     <Link light>Blog</Link>
-                  </div>
+                  </GridColumn>
                 </Grid>
               </Alignment>
-            </div>
+            </GridColumn>
           </Grid>
         </Header>
 
@@ -84,13 +84,13 @@ class App extends Component {
               <Grid>
                 <GridColumn column_12 bps_column_6>
                   <Spacing mb3>
-                    <Heading thin gray_500>This is a small heading</Heading>
+                    <Heading thin white>This is a small heading</Heading>
                   </Spacing>
                   <Text large>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
                 </GridColumn>
                 <GridColumn column_12 bps_column_6>
                   <Spacing mb3>
-                    <Heading thin gray_500>This is a small heading</Heading>
+                    <Heading thin white>This is a small heading</Heading>
                   </Spacing>
                   <Text large>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
                 </GridColumn>
@@ -156,7 +156,7 @@ class App extends Component {
         <Section large>
           <Container large>
             <Grid>
-              <GridColumn column_12 bps_column_4>
+              <GridColumn column_12 bpm_column_4>
                 <Spacing mb3>
                   <Heading small>Heading</Heading>
                 </Spacing>
@@ -165,7 +165,7 @@ class App extends Component {
                   <Link>Link to something</Link>
                 </Spacing>
               </GridColumn>
-              <GridColumn column_12 bps_column_4>
+              <GridColumn column_12 bpm_column_4>
                 <Spacing mb3>
                   <Heading small>Heading</Heading>
                 </Spacing>
@@ -174,7 +174,7 @@ class App extends Component {
                   <Link>Link to something</Link>
                 </Spacing>
               </GridColumn>
-              <GridColumn column_12 bps_column_4>
+              <GridColumn column_12 bpm_column_4>
                 <Spacing mb3>
                   <Heading small>Heading</Heading>
                 </Spacing>
@@ -263,12 +263,12 @@ class App extends Component {
           </Container>
           <Container large>
             <Grid>
-              <div className="grid-column">
+              <GridColumn>
                 <Spacing>
                   fwfewfwefewfwe
                 </Spacing>
-              </div>
-              <div className="grid-column">
+              </GridColumn>
+              <GridColumn>
                 <Spacing mb4>
                   <Spacing mb1>
                     <Heading small lavenderTint>Heading</Heading>
@@ -287,7 +287,7 @@ class App extends Component {
                   </Spacing>
                   <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
                 </Spacing>
-              </div>
+              </GridColumn>
             </Grid>
           </Container>
         </Section>
