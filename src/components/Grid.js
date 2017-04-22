@@ -8,9 +8,14 @@ const Grid = styled.div`
   margin-top: -${palette.SPACING_600};
   margin-left: -${palette.SPACING_600};
 
-  ${props => props.center && css`
-    align-items: center;
-  `}
+  ${props => props.stretch && css` align-items: stretch; `}
+  ${props => props.vcenter && css` align-items: center; `}
+  ${props => props.vflexEnd && css` align-items: flex-end; `}
+
+  ${props => props.hcenter && css` justify-content: center; `}
+  ${props => props.hflexEnd && css` justify-content: flexEnd; `}
+  ${props => props.around && css` justify-content: space-around; `}
+  ${props => props.between && css` justify-content: space-between; `}
 
   & > .grid-column {
     flex-basis: 0;
