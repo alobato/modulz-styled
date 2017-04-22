@@ -57,6 +57,8 @@ const Section = styled.section`
   ${props => props.crimsonTint && css` background-color: ${palette.CRIMSON_100}; `}
   ${props => props.lavenderTint && css` background-color: ${palette.LAVENDER_100}; `}
   ${props => props.violetTint && css` background-color: ${palette.VIOLET_100}; `}
+
+  ${props => props.purpleShade && css` background-color: ${palette.PURPLE_900}; `}
 `;
 
 export default Section;

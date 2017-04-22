@@ -39,7 +39,9 @@ export const PINK_300 = 'hsl(332, 80%, 80%)';
 export const PINK_500 = 'hsl(332, 94%, 55%)';
 
 export const PURPLE_100 = 'hsl(288, 64%, 96%)';
+export const PURPLE_300 = 'hsl(288, 80%, 80%)';
 export const PURPLE_500 = 'hsl(288, 64%, 42%)';
+export const PURPLE_900 = 'hsl(288, 30%, 10%)';
 
 export const INDIGO_500 = 'hsl(226, 56%, 48%)';
 

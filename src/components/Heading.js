@@ -5,9 +5,9 @@ import * as palette from './../Palette.js';
 const Heading = styled.h3`
   font-size: ${palette.FONTSIZE_800};
   color: ${palette.GRAY_800};
-  letter-spacing: -1px;
+  letter-spacing: -.5px;
   line-height: 1.1;
-  font-weight: 500;
+  font-weight: 700;
 
   ${p => p.small && css`
     font-size: ${palette.FONTSIZE_600};
@@ -24,9 +24,9 @@ const Heading = styled.h3`
 
   ${p => p.large && css`
     font-size: ${palette.FONTSIZE_900};
-    letter-spacing: -3px;
+    letter-spacing: -1.8px;
     line-height: 1;
-    font-weight: 700;
+    font-weight: 900;
   `}
 
   ${props => props.white && css` color: ${palette.WHITE}; `}

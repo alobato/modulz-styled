@@ -78,27 +78,62 @@ class App extends Component {
           </Container>
         </Section>
 
-        <Section large teal>
+        <Section large purpleShade>
+          <Container large>
+            <Spacing mb8>
+              <Heading large white>Love life.<br></br> Love yourself.</Heading>
+            </Spacing>
+            <Grid>
+              <GridColumn column_12 bps_column_6>
+                <Spacing mb5>
+                  <Spacing mb2>
+                    <Heading tealTint>Search.</Heading>
+                  </Spacing>
+                  <Text purpleTint>Know what you want to listen to! Just search and hit play.</Text>
+                </Spacing>
+                <Spacing mb5>
+                  <Spacing mb2>
+                    <Heading tealTint>Browse.</Heading>
+                  </Spacing>
+                  <Text purpleTint>Check out the latest charts, brand new releases and great playlists for right now.</Text>
+                </Spacing>
+                <Spacing>
+                  <Spacing mb2>
+                    <Heading tealTint>Discover.</Heading>
+                  </Spacing>
+                  <Text purpleTint>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</Text>
+                </Spacing>
+              </GridColumn>
+              <GridColumn column_12 bps_column_6>
+
+              </GridColumn>
+            </Grid>
+          </Container>
+        </Section>
+
+        <Section large gray_200>
           <Container large>
             <Alignment bps_center>
               <Grid>
                 <GridColumn column_12 bps_column_6>
                   <Spacing mb3>
-                    <Heading thin white>This is a small heading</Heading>
+                    <Heading thin>This is a small heading</Heading>
                   </Spacing>
-                  <Text large>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
+                  <Text large gray_500>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
                 </GridColumn>
                 <GridColumn column_12 bps_column_6>
                   <Spacing mb3>
-                    <Heading thin white>This is a small heading</Heading>
+                    <Heading thin>This is a small heading</Heading>
                   </Spacing>
-                  <Text large>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
+                  <Text large gray_500>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
                 </GridColumn>
               </Grid>
             </Alignment>
           </Container>
         </Section>
 
+        <Divider></Divider>
+        
         <Section large gray_200>
           <Container large>
             <Grid>
