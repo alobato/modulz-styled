@@ -27,6 +27,7 @@ const Section = styled.section`
   ${props => props.gray_200 && css` background-color: ${palette.GRAY_200}; `}
   ${props => props.gray_700 && css` background-color: ${palette.GRAY_700}; `}
   ${props => props.gray_800 && css` background-color: ${palette.GRAY_800}; `}
+  ${props => props.gray_900 && css` background-color: ${palette.GRAY_900}; `}
 
   ${props => props.red && css` background-color: ${palette.RED_500}; `}
   ${props => props.pink && css` background-color: ${palette.PINK_500}; `}

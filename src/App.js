@@ -144,30 +144,30 @@ class App extends Component {
           </Container>
         </Section>
 
-        <Section large cyan>
+        <Section large gray_900>
           <Container large>
             <Spacing mb8>
-              <Heading large red>Love life.<br></br> Love yourself.</Heading>
+              <Heading large amberTint>Love life.<br></br> Love yourself.</Heading>
             </Spacing>
             <Grid>
               <GridColumn column_12 bps_column_6>
                 <Spacing mb5>
                   <Spacing mb2>
-                    <Heading violet>Search.</Heading>
+                    <Heading red>Search.</Heading>
                   </Spacing>
-                  <Text violet>Know what you want to listen to! Just search and hit play.</Text>
+                  <Text gray_500>Know what you want to listen to! Just search and hit play.</Text>
                 </Spacing>
                 <Spacing mb5>
                   <Spacing mb2>
-                    <Heading violet>Browse.</Heading>
+                    <Heading red>Browse.</Heading>
                   </Spacing>
-                  <Text violet>Check out the latest charts, brand new releases and great playlists for right now.</Text>
+                  <Text gray_500>Check out the latest charts, brand new releases and great playlists for right now.</Text>
                 </Spacing>
                 <Spacing>
                   <Spacing mb2>
-                    <Heading violet>Discover.</Heading>
+                    <Heading red>Discover.</Heading>
                   </Spacing>
-                  <Text violet>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</Text>
+                  <Text gray_500>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</Text>
                 </Spacing>
               </GridColumn>
               <GridColumn column_12 bps_column_6>
@@ -177,7 +177,40 @@ class App extends Component {
           </Container>
         </Section>
 
-        <Section large gray_200>
+        <Section large amberTint>
+          <Container large>
+            <Spacing mb8>
+              <Heading large crimson>Love life.<br></br> Love yourself.</Heading>
+            </Spacing>
+            <Grid>
+              <GridColumn column_12 bps_column_6>
+                <Spacing mb5>
+                  <Spacing mb2>
+                    <Heading redShade>Search.</Heading>
+                  </Spacing>
+                  <Text>Know what you want to listen to! Just search and hit play.</Text>
+                </Spacing>
+                <Spacing mb5>
+                  <Spacing mb2>
+                    <Heading redShade>Browse.</Heading>
+                  </Spacing>
+                  <Text>Check out the latest charts, brand new releases and great playlists for right now.</Text>
+                </Spacing>
+                <Spacing>
+                  <Spacing mb2>
+                    <Heading redShade>Discover.</Heading>
+                  </Spacing>
+                  <Text>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</Text>
+                </Spacing>
+              </GridColumn>
+              <GridColumn column_12 bps_column_6>
+
+              </GridColumn>
+            </Grid>
+          </Container>
+        </Section>
+
+        <Section large>
           <Container large>
             <Alignment bps_center>
               <Grid>
@@ -197,8 +230,6 @@ class App extends Component {
             </Alignment>
           </Container>
         </Section>
-
-        <Divider></Divider>
 
         <Section large gray_200>
           <Container large>

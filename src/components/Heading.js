@@ -64,6 +64,7 @@ const Heading = styled.h3`
   ${props => props.lavenderTint && css` color: ${palette.LAVENDER_300}; `}
   ${props => props.violetTint && css` color: ${palette.VIOLET_300}; `}
 
+  ${props => props.redShade && css` color: ${palette.RED_700}; `}
   ${props => props.indigoShade && css` color: ${palette.INDIGO_700}; `}
 `;
 
