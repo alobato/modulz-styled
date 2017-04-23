@@ -78,10 +78,10 @@ class App extends Component {
           </Container>
         </Section>
 
-        <Section large purpleShade>
+        <Section large violetShade>
           <Container large>
             <Spacing mb8>
-              <Heading large white>Love life.<br></br> Love yourself.</Heading>
+              <Heading large red>Love life.<br></br> Love yourself.</Heading>
             </Spacing>
             <Grid>
               <GridColumn column_12 bps_column_6>
@@ -89,19 +89,19 @@ class App extends Component {
                   <Spacing mb2>
                     <Heading tealTint>Search.</Heading>
                   </Spacing>
-                  <Text purpleTint>Know what you want to listen to! Just search and hit play.</Text>
+                  <Text violetTint>Know what you want to listen to! Just search and hit play.</Text>
                 </Spacing>
                 <Spacing mb5>
                   <Spacing mb2>
                     <Heading tealTint>Browse.</Heading>
                   </Spacing>
-                  <Text purpleTint>Check out the latest charts, brand new releases and great playlists for right now.</Text>
+                  <Text violetTint>Check out the latest charts, brand new releases and great playlists for right now.</Text>
                 </Spacing>
                 <Spacing>
                   <Spacing mb2>
                     <Heading tealTint>Discover.</Heading>
                   </Spacing>
-                  <Text purpleTint>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</Text>
+                  <Text violetTint>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</Text>
                 </Spacing>
               </GridColumn>
               <GridColumn column_12 bps_column_6>
@@ -133,7 +133,7 @@ class App extends Component {
         </Section>
 
         <Divider></Divider>
-        
+
         <Section large gray_200>
           <Container large>
             <Grid>
