@@ -48,6 +48,21 @@ const Text = styled.p`
   ${props => props.crimsonTint && css` color: ${palette.CRIMSON_300}; `}
   ${props => props.lavenderTint && css` color: ${palette.LAVENDER_300}; `}
   ${props => props.violetTint && css` color: ${palette.VIOLET_300}; `}
+
+  ${props => props.redShade && css` color: ${palette.RED_700}; `}
+  ${props => props.pinkShade && css` color: ${palette.PINK_700}; `}
+  ${props => props.purpleShade && css` color: ${palette.PURPLE_700}; `}
+  ${props => props.indigoShade && css` color: ${palette.INDIGO_700}; `}
+  ${props => props.blueShade && css` color: ${palette.BLUE_700}; `}
+  ${props => props.tealShade && css` color: ${palette.TEAL_700}; `}
+  ${props => props.greenShade && css` color: ${palette.GREEN_700}; `}
+  ${props => props.limeShade && css` color: ${palette.LIME_700}; `}
+  ${props => props.yellowShade && css` color: ${palette.YELLOW_700}; `}
+  ${props => props.amberShade && css` color: ${palette.AMBER_700}; `}
+  ${props => props.orangeShade && css` color: ${palette.ORANGE_700}; `}
+  ${props => props.crimsonShade && css` color: ${palette.CRIMSON_700}; `}
+  ${props => props.lavenderShade && css` color: ${palette.LAVENDER_700}; `}
+  ${props => props.violetShade && css` color: ${palette.VIOLET_700}; `}
 `;
 
 export default Text;

@@ -63,6 +63,8 @@ const Heading = styled.h3`
   ${props => props.crimsonTint && css` color: ${palette.CRIMSON_300}; `}
   ${props => props.lavenderTint && css` color: ${palette.LAVENDER_300}; `}
   ${props => props.violetTint && css` color: ${palette.VIOLET_300}; `}
+
+  ${props => props.indigoShade && css` color: ${palette.INDIGO_700}; `}
 `;
 
 export default Heading;

@@ -45,6 +45,7 @@ export const PURPLE_500 = 'hsl(288, 64%, 42%)';
 export const PURPLE_900 = 'hsl(288, 30%, 10%)';
 
 export const INDIGO_500 = 'hsl(226, 56%, 48%)';
+export const INDIGO_700 = 'hsl(226, 52%, 38%)';
 
 export const BLUE_100 = 'hsl(200, 100%, 97%)';
 export const BLUE_300 = 'hsl(200, 80%, 80%)';
@@ -54,6 +55,8 @@ export const BLUE_700 = 'hsl(200, 95%, 35%)';
 export const TEAL_100 = 'hsl(172, 100%, 97%)';
 export const TEAL_300 = 'hsl(172, 80%, 80%)';
 export const TEAL_500 = 'hsl(172, 100%, 35%)'
+
+export const CYAN_500 = 'hsl(180, 100%, 50%)';
 
 export const GREEN_100 = 'hsl(132, 80%, 97%)'
 export const GREEN_300 = 'hsl(132, 80%, 80%)';

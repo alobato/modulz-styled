@@ -111,6 +111,72 @@ class App extends Component {
           </Container>
         </Section>
 
+        <Section large amberTint>
+          <Container large>
+            <Spacing mb8>
+              <Heading large indigoShade>Love life.<br></br> Love yourself.</Heading>
+            </Spacing>
+            <Grid>
+              <GridColumn column_12 bps_column_6>
+                <Spacing mb5>
+                  <Spacing mb2>
+                    <Heading pink>Search.</Heading>
+                  </Spacing>
+                  <Text gray_500>Know what you want to listen to! Just search and hit play.</Text>
+                </Spacing>
+                <Spacing mb5>
+                  <Spacing mb2>
+                    <Heading pink>Browse.</Heading>
+                  </Spacing>
+                  <Text gray_500>Check out the latest charts, brand new releases and great playlists for right now.</Text>
+                </Spacing>
+                <Spacing>
+                  <Spacing mb2>
+                    <Heading pink>Discover.</Heading>
+                  </Spacing>
+                  <Text gray_500>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</Text>
+                </Spacing>
+              </GridColumn>
+              <GridColumn column_12 bps_column_6>
+
+              </GridColumn>
+            </Grid>
+          </Container>
+        </Section>
+
+        <Section large cyan>
+          <Container large>
+            <Spacing mb8>
+              <Heading large red>Love life.<br></br> Love yourself.</Heading>
+            </Spacing>
+            <Grid>
+              <GridColumn column_12 bps_column_6>
+                <Spacing mb5>
+                  <Spacing mb2>
+                    <Heading violet>Search.</Heading>
+                  </Spacing>
+                  <Text violet>Know what you want to listen to! Just search and hit play.</Text>
+                </Spacing>
+                <Spacing mb5>
+                  <Spacing mb2>
+                    <Heading violet>Browse.</Heading>
+                  </Spacing>
+                  <Text violet>Check out the latest charts, brand new releases and great playlists for right now.</Text>
+                </Spacing>
+                <Spacing>
+                  <Spacing mb2>
+                    <Heading violet>Discover.</Heading>
+                  </Spacing>
+                  <Text violet>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</Text>
+                </Spacing>
+              </GridColumn>
+              <GridColumn column_12 bps_column_6>
+
+              </GridColumn>
+            </Grid>
+          </Container>
+        </Section>
+
         <Section large gray_200>
           <Container large>
             <Alignment bps_center>

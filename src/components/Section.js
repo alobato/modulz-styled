@@ -34,6 +34,7 @@ const Section = styled.section`
   ${props => props.indigo && css` background-color: ${palette.INDIGO_500}; `}
   ${props => props.blue && css` background-color: ${palette.BLUE_500}; `}
   ${props => props.teal && css` background-color: ${palette.TEAL_500}; `}
+  ${props => props.cyan && css` background-color: ${palette.CYAN_500}; `}
   ${props => props.green && css` background-color: ${palette.GREEN_500}; `}
   ${props => props.lime && css` background-color:${palette.LIME_500}; `}
   ${props => props.yellow && css` background-color:${palette.YELLOW_500}; `}
