@@ -49,7 +49,7 @@ class App extends Component {
         </Header>
 
         <Section h90>
-          <Container medium>
+          <Container>
             <Alignment center>
               <Spacing mb4>
                 <Heading large>A big ass heading to introduce stuff</Heading>
@@ -273,7 +273,7 @@ class App extends Component {
         </Section>
 
         <Section large>
-          <Container medium>
+          <Container>
             <Alignment center>
               <Text large>We’re looking for talented creatives from all disciplines.</Text>
               <Spacing mt5>
@@ -383,7 +383,7 @@ class App extends Component {
         </Section>
 
         <Section large gray_800>
-          <Container medium>
+          <Container>
             <Alignment center>
               <Spacing mb7>
                 <Heading white>This is a main heading</Heading>
