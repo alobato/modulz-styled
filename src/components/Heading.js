@@ -24,7 +24,7 @@ const Heading = styled.h3`
 
   ${p => p.large && css`
     font-size: ${palette.FONTSIZE_900};
-    letter-spacing: -1.8px;
+    letter-spacing: -.025em;
     line-height: 1;
     font-weight: 900;
   `}

@@ -288,29 +288,38 @@ class App extends Component {
         <Section large>
           <Container large>
             <Grid>
-              <GridColumn column_12 bpm_column_4>
+              <GridColumn column_12 bps_column_6 bpm_column_3>
                 <Spacing mb3>
                   <Heading small>Heading</Heading>
                 </Spacing>
-                <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
+                <Text large gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
                 <Spacing mt4>
                   <Link>Link to something</Link>
                 </Spacing>
               </GridColumn>
-              <GridColumn column_12 bpm_column_4>
+              <GridColumn column_12 bps_column_6 bpm_column_3>
                 <Spacing mb3>
                   <Heading small>Heading</Heading>
                 </Spacing>
-                <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
+                <Text large gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
                 <Spacing mt4>
                   <Link>Link to something</Link>
                 </Spacing>
               </GridColumn>
-              <GridColumn column_12 bpm_column_4>
+              <GridColumn column_12 bps_column_6 bpm_column_3>
                 <Spacing mb3>
                   <Heading small>Heading</Heading>
                 </Spacing>
-                <Text gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
+                <Text large gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
+                <Spacing mt4>
+                  <Link>Link to something</Link>
+                </Spacing>
+              </GridColumn>
+              <GridColumn column_12 bps_column_6 bpm_column_3>
+                <Spacing mb3>
+                  <Heading small>Heading</Heading>
+                </Spacing>
+                <Text large gray_500>Luther sang so beautifully, he's one of those people that I can listen to over and over. Mariahs voice is beautiful as well.</Text>
                 <Spacing mt4>
                   <Link>Link to something</Link>
                 </Spacing>
