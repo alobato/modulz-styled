@@ -2,7 +2,7 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 import * as palette from './../Palette.js';
 
-const PillButton = styled.button`
+const RectangleButton = styled.button`
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -20,9 +20,8 @@ const PillButton = styled.button`
   transition-property: all;
   transition-duration: .15s
   transition-timing-function: ease;
-  box-shadow: 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
 
-  border-radius: 9999px;
+  border-radius: 0;
   color: ${palette.WHITE};
   font-size: ${palette.FONTSIZE_300};
   height: ${palette.SPACING_600};
@@ -31,7 +30,7 @@ const PillButton = styled.button`
   padding: 0 ${palette.SPACING_300};
 
   &:hover {
-    box-shadow: 0 7px 14px 0 hsla(200, 30%, 10%, .05), 0 3px 6px 0 hsla(200, 30%, 10%, .1);
+
   }
 
   &:active {
@@ -63,4 +62,4 @@ const PillButton = styled.button`
   ${props => props.violet && css` background-color: ${palette.VIOLET_500}; `}
 `;
 
-export default PillButton;
+export default RectangleButton;

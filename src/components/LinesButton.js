@@ -2,7 +2,8 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 import * as palette from './../Palette.js';
 
-const Button = styled.button`
+const LinesButton = styled.button`
+  position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -18,27 +19,63 @@ const Button = styled.button`
   outline: none;
   letter-spacing: .15px;
   transition-property: all;
-  transition-duration: .15s
+  transition-duration: 100ms;
   transition-timing-function: ease;
 
-  border-radius: ${palette.BORDERRADIUS_S};
+  z-index: 0;
+  border-radius: 0;
   font-size: ${palette.FONTSIZE_300};
-  height: ${palette.SPACING_500};
-  min-width: ${palette.SPACING_500};
-  line-height: ${palette.SPACING_500};
-  padding: 0 ${palette.SPACING_200};
-  background-color: ${palette.GRAY_100};
-  color: ${palette.GRAY_800};
-  box-shadow: 0 0 0 1px ${palette.GRAY_400}, 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
+  height: ${palette.SPACING_600};
+  min-width: ${palette.SPACING_600};
+  line-height: ${palette.SPACING_600};
+  padding: 0 ${palette.SPACING_400};
+  background-color: transparent;
+  color: ${palette.BLACK};
 
-  &:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 0 0 1px ${palette.GRAY_500}, 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: ${palette.WHITE};
+    box-shadow: inset 0 0 0 1px ${palette.BLUE_300};
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: ease;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 6px;
+    left: 6px;
+    z-index: -2;
+    background-image: repeating-linear-gradient(
+      -45deg,
+      ${palette.BLUE_500},
+      ${palette.BLUE_500} 1px,
+      transparent 1px,
+      transparent 6px
+    );
+  }
+
+  &:hover::before {
+    box-shadow: inset 0 0 0 1px ${palette.BLUE_500};
   }
 
   &:active {
-    transform: translateY(0);
-    box-shadow: 0 0 0 1px ${palette.GRAY_500};
+    transform: translate(1px, 1px);
+  }
+
+  &:active::after {
+    transform: translate(-6px, -6px);
   }
 
   ${p => p.small && css`
@@ -77,8 +114,8 @@ const Button = styled.button`
   `}
 
   ${p => p.negative && css`
-    background-color: ${palette.RED_100};
-    color: ${palette.RED_700};
+    background-color: ${palette.BLUE_100};
+    color: ${palette.BLUE_700};
     box-shadow: 0 0 0 1px hsl(348, 70%, 80%), 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
 
     &:hover {
@@ -91,4 +128,4 @@ const Button = styled.button`
   `}
 `;
 
-export default Button;
+export default LinesButton;

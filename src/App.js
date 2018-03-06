@@ -7,46 +7,52 @@ import Grid from './components/Grid.js';
 import GridColumn from './components/GridColumn.js';
 import Spacing from './components/Spacing.js';
 import Alignment from './components/Alignment.js';
-import Button from './components/Button.js';
 import Text from './components/Text.js';
 import Link from './components/Link.js';
 import Heading from './components/Heading.js';
-import PillButton from './components/PillButton.js';
 import Divider from './components/Divider.js';
+import LinesButton from './components/LinesButton.js';
+import RimButton from './components/RimButton.js';
+import PillButton from './components/PillButton.js';
+import FlatButton from './components/FlatButton.js';
+import RectangleButton from './components/RectangleButton.js';
+import OffsetButton from './components/OffsetButton.js';
 
 class App extends Component {
   render() {
     return (
       <div>
 
-        <Header absolute>
-          <Grid>
-            <GridColumn column_12 bpm_column_6>
-              <Heading small>Logo</Heading>
-            </GridColumn>
-            <GridColumn column_12 bpm_column_6>
-              <Alignment right>
+          <Section h90>
+            <Container>
                 <Grid>
-                  <GridColumn>
-                    <Link light>Features</Link>
-                  </GridColumn>
-                  <GridColumn>
-                    <Link light>About</Link>
-                  </GridColumn>
-                  <GridColumn>
-                    <Link light>Support</Link>
-                  </GridColumn>
-                  <GridColumn>
-                    <Link light>Pricing</Link>
-                  </GridColumn>
-                  <GridColumn>
-                    <Link light>Blog</Link>
-                  </GridColumn>
+                    <GridColumn bps_column_3>
+                        <LinesButton>Button</LinesButton>
+                    </GridColumn>
+                    <GridColumn bps_column_3>
+                        <PillButton blue>Pill Button</PillButton>
+                    </GridColumn>
+                    <GridColumn bps_column_3>
+                        <RimButton blue>Rim Button</RimButton>
+                    </GridColumn>
+                    <GridColumn bps_column_3>
+                        <FlatButton blue>Flat button</FlatButton>
+                    </GridColumn>
+                    <GridColumn bps_column_3>
+                        <RectangleButton blue>Button</RectangleButton>
+                    </GridColumn>
+                    <GridColumn bps_column_3>
+                        <OffsetButton blue>Button</OffsetButton>
+                    </GridColumn>
+                    <GridColumn bps_column_3>
+                        <LinesButton>Button</LinesButton>
+                    </GridColumn>
+                    <GridColumn bps_column_3>
+                        <LinesButton>Button</LinesButton>
+                    </GridColumn>
                 </Grid>
-              </Alignment>
-            </GridColumn>
-          </Grid>
-        </Header>
+            </Container>
+          </Section>
 
         <Section h90>
           <Container>
