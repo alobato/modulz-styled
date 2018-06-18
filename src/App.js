@@ -5,6 +5,7 @@ import Container from './components/Container.js';
 import Text from './components/Text.js';
 import Heading from './components/Heading.js';
 import Divider from './components/Divider.js';
+import Grid from './components/Grid.js';
 
 import ButtonSelection from './templates/ButtonSelection.jsx';
 import Hero from './templates/Hero.jsx';
@@ -14,7 +15,6 @@ class App extends Component {
   render() {
     return (
       <div>
-
         <Section size3>
           <Container size3>
             <Heading size1>
@@ -61,7 +61,7 @@ class App extends Component {
             <Text size7>
               Love life.Love yourself.
             </Text>
-            <Text size8 >
+            <Text size8>
               Love life.Love yourself.
             </Text>
           </Container>
@@ -73,10 +73,28 @@ class App extends Component {
           </Container>
         </Section>
 
+        <Section size3>
+          <Container size3>
+            <Grid cols2>
+              <Text size5>
+                It would have been Hilarious if Chris Tucker came out at the end!!!!
+              </Text>
+              <Text size5>
+                It would have been Hilarious if Chris Tucker came out at the end!!!!
+              </Text>
+              <Text size5>
+                It would have been Hilarious if Chris Tucker came out at the end!!!!
+              </Text>
+              <Text size5>
+                It would have been Hilarious if Chris Tucker came out at the end!!!!
+              </Text>
+            </Grid>
+          </Container>
+        </Section>
+
         <ButtonSelection></ButtonSelection>
         <Hero></Hero>
         <CodeExport></CodeExport>
-
       </div>
     );
   }

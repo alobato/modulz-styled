@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Grid from './../components/Grid.js';
 import Section from './../components/Section.js';
 import Container from './../components/Container.js';
 import Spacing from './../components/Spacing.js';
@@ -11,16 +12,31 @@ class CodeExport extends Component {
   render() {
     return (
       <Section size3>
-        <Container size1 bp3size4>
-          <Heading size4>
-            <Strike>
-              Handoff
-            </Strike>
-            Code export
-          </Heading>
-          <Text size3>
-            No more handoffs. No more redlines. With Modulz, you can export production-ready React components.
-          </Text>
+        <Container size1 bp3size2>
+          <Grid cols2>
+            <div>
+              <Heading size4>
+                <Strike>
+                  Handoff
+                </Strike>
+                Code export
+              </Heading>
+              <Text size3>
+                No more handoffs. No more redlines. With Modulz, you can export production-ready React components.
+              </Text>
+            </div>
+            <div>
+              <Heading size4>
+                <Strike>
+                  Handoff
+                </Strike>
+                Code export
+              </Heading>
+              <Text size3>
+                No more handoffs. No more redlines. With Modulz, you can export production-ready React components.
+              </Text>
+            </div>
+          </Grid>
         </Container>
       </Section>
     );
