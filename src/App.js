@@ -23,7 +23,7 @@ class App extends Component {
     return (
       <div>
 
-          <Section h90>
+          <Section expanded>
             <Container>
                 <Grid>
                     <GridColumn bps_column_3>

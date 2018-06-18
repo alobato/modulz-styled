@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'UntitledSans';
+  src:  local('UntitledSans'), url(./fonts/UntitledSansWeb-Regular.woff2) format('woff2'),
+        local('UntitledSans'), url(./fonts/UntitledSansWeb-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'UntitledSans-Medium';
+  src:  local('UntitledSans-Medium'), url(./fonts/UntitledSansWeb-Medium.woff2) format('woff2'),
+        local('UntitledSans-Medium'), url(./fonts/UntitledSansWeb-Medium.woff) format('woff');
+}
+
 html,
 body,
 div,
@@ -151,7 +163,7 @@ button:after {
 html {
     font-size: 100%;
     line-height: 1;
-    font-family: apple-system,BlinkMacSystemFont,"helvetica-neue",helvetica,arial,sans-serif;
+    font-family: 'UntitledSans', apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
     color: hsl(200, 30%, 10%);
 }
 
