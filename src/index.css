@@ -165,6 +165,7 @@ html {
     line-height: 1;
     font-family: 'UntitledSans', apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
     color: hsl(200, 30%, 10%);
+    font-display: swap;
 }
 
 html,
