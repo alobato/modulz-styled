@@ -25,6 +25,21 @@ class App extends Component {
             <Heading size1>
               Love life.Love yourself.
             </Heading>
+            <Heading size2>
+              Love life.Love yourself.
+            </Heading>
+            <Heading size3>
+              Love life.Love yourself.
+            </Heading>
+            <Heading size4>
+              Love life.Love yourself.
+            </Heading>
+            <Heading size5>
+              Love life.Love yourself.
+            </Heading>
+            <Heading size6>
+              Love life.Love yourself.
+            </Heading>
           </Container>
         </Section>
 
