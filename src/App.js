@@ -54,7 +54,7 @@ class App extends Component {
             </Container>
           </Section>
 
-        <Section h90>
+        <Section size3>
           <Container>
             <Alignment center>
               <Spacing mb4>
