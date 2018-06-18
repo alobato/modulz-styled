@@ -1,14 +1,8 @@
 import React, { Component } from 'react';
 
-import Header from './components/Header.js';
 import Section from './components/Section.js';
 import Container from './components/Container.js';
-import Grid from './components/Grid.js';
-import GridColumn from './components/GridColumn.js';
-import Spacing from './components/Spacing.js';
-import Alignment from './components/Alignment.js';
 import Text from './components/Text.js';
-import Link from './components/Link.js';
 import Heading from './components/Heading.js';
 import Divider from './components/Divider.js';
 

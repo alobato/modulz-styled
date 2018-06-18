@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Heading from './../components/Heading.js';
 
 const StrikeEffect = styled.s`
   display: inline-block;
