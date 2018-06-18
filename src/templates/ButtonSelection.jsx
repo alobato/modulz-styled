@@ -13,7 +13,7 @@ import OffsetButton from './../buttons/OffsetButton.js';
 class ButtonSelection extends Component {
   render() {
     return (
-      <Section expanded>
+      <Section size3>
         <Container>
             <Grid>
                 <GridColumn bps_column_3>
