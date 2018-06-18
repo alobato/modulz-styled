@@ -1,5 +1,5 @@
 {
-  "name": "radix",
+  "name": "radix-ds",
   "version": "0.1.0",
   "dependencies": {
     "classnames": "^2.2.6",
