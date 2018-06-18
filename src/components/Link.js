@@ -1,10 +1,10 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-import * as palette from './../Palette.js';
+import * as theme from './../theme/';
 
 const Link = styled.a`
-  font-size: ${palette.FONTSIZE_400};
-  color: ${palette.BLUE_500};
+  font-size: ${theme.FONTSIZE_400};
+  color: ${theme.BLUE_500};
   text-decoration: none;
   cursor: pointer;
 
@@ -13,11 +13,11 @@ const Link = styled.a`
   }
 
   ${props => props.large && css`
-    font-size: ${palette.FONTSIZE_500};
+    font-size: ${theme.FONTSIZE_500};
   `}
   
   ${props => props.light && css`
-    color: ${palette.GRAY_500};
+    color: ${theme.GRAY_500};
   `}
 `;
 

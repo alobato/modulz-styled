@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-import * as palette from './../Palette.js';
+import * as theme from './../theme/';
 
 const Button = styled.button`
   display: inline-flex;
@@ -21,50 +21,50 @@ const Button = styled.button`
   transition-duration: .15s
   transition-timing-function: ease;
 
-  border-radius: ${palette.BORDERRADIUS_S};
-  font-size: ${palette.FONTSIZE_300};
-  height: ${palette.SPACING_500};
-  min-width: ${palette.SPACING_500};
-  line-height: ${palette.SPACING_500};
-  padding: 0 ${palette.SPACING_200};
-  background-color: ${palette.GRAY_100};
-  color: ${palette.GRAY_800};
-  box-shadow: 0 0 0 1px ${palette.GRAY_400}, 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
+  border-radius: ${theme.BORDERRADIUS_S};
+  font-size: ${theme.FONTSIZE_300};
+  height: ${theme.SPACING_500};
+  min-width: ${theme.SPACING_500};
+  line-height: ${theme.SPACING_500};
+  padding: 0 ${theme.SPACING_200};
+  background-color: ${theme.GRAY_100};
+  color: ${theme.GRAY_800};
+  box-shadow: 0 0 0 1px ${theme.GRAY_400}, 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
 
   &:hover {
     transform: translateY(-1px);
-    box-shadow: 0 0 0 1px ${palette.GRAY_500}, 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
+    box-shadow: 0 0 0 1px ${theme.GRAY_500}, 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
   }
 
   &:active {
     transform: translateY(0);
-    box-shadow: 0 0 0 1px ${palette.GRAY_500};
+    box-shadow: 0 0 0 1px ${theme.GRAY_500};
   }
 
   ${p => p.small && css`
-    font-size: ${palette.FONTSIZE_100};
-    height: ${palette.SPACING_400};
-    min-width: ${palette.SPACING_400};
-    line-height: ${palette.SPACING_400};
+    font-size: ${theme.FONTSIZE_100};
+    height: ${theme.SPACING_400};
+    min-width: ${theme.SPACING_400};
+    line-height: ${theme.SPACING_400};
   `}
 
   ${p => p.primary && css`
-    background-color: ${palette.BLUE_100};
-    color: ${palette.BLUE_700};
-    box-shadow: 0 0 0 1px ${palette.BLUE_300}, 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
+    background-color: ${theme.BLUE_100};
+    color: ${theme.BLUE_700};
+    box-shadow: 0 0 0 1px ${theme.BLUE_300}, 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
 
     &:hover {
-      box-shadow: 0 0 0 1px ${palette.BLUE_500}, 0 7px 14px 0 hsla(200, 30%, 10%, .05), 0 3px 6px 0 hsla(200, 30%, 10%, .1);
+      box-shadow: 0 0 0 1px ${theme.BLUE_500}, 0 7px 14px 0 hsla(200, 30%, 10%, .05), 0 3px 6px 0 hsla(200, 30%, 10%, .1);
     }
 
     &:active {
-      box-shadow: 0 0 0 1px ${palette.BLUE_500};
+      box-shadow: 0 0 0 1px ${theme.BLUE_500};
     }
   `}
 
   ${p => p.positive && css`
-    background-color: ${palette.GREEN_100};
-    color: ${palette.GREEN_700};
+    background-color: ${theme.GREEN_100};
+    color: ${theme.GREEN_700};
     box-shadow: 0 0 0 1px hsl(138, 50%, 70%), 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
 
     &:hover {
@@ -77,8 +77,8 @@ const Button = styled.button`
   `}
 
   ${p => p.negative && css`
-    background-color: ${palette.RED_100};
-    color: ${palette.RED_700};
+    background-color: ${theme.RED_100};
+    color: ${theme.RED_700};
     box-shadow: 0 0 0 1px hsl(348, 70%, 80%), 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
 
     &:hover {

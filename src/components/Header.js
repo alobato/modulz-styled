@@ -1,10 +1,10 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-import * as palette from './../Palette.js';
+import * as theme from './../theme';
 
 const Header = styled.header`
-  background-color: ${palette.WHITE};
-  padding: ${palette.SPACING_300};
+  background-color: ${theme.WHITE};
+  padding: ${theme.SPACING_300};
   width: 100%;
 
   ${props => props.absolute && css`

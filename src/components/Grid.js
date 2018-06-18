@@ -1,12 +1,12 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-import * as palette from './../Palette.js';
+import * as theme from './../theme/';
 
 const Grid = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin-top: -${palette.SPACING_600};
-  margin-left: -${palette.SPACING_600};
+  margin-top: -${theme.SPACING_600};
+  margin-left: -${theme.SPACING_600};
 
   ${props => props.stretch && css` align-items: stretch; `}
   ${props => props.vcenter && css` align-items: center; `}

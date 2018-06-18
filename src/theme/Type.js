@@ -1,0 +1,9 @@
+export const FONTSIZE_900 = '7.2rem';
+export const FONTSIZE_800 = '4.6rem';
+export const FONTSIZE_700 = '3.4rem';
+export const FONTSIZE_600 = '2.6rem';
+export const FONTSIZE_500 = '2rem';
+export const FONTSIZE_400 = '1.6rem';
+export const FONTSIZE_300 = '1.4rem';
+export const FONTSIZE_200 = '1.2rem';
+export const FONTSIZE_100 = '1rem';

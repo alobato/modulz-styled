@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-import * as palette from './../Palette.js';
+import * as theme from './../theme/';
 
 const LinesButton = styled.button`
   position: relative;
@@ -24,13 +24,13 @@ const LinesButton = styled.button`
 
   z-index: 0;
   border-radius: 0;
-  font-size: ${palette.FONTSIZE_300};
-  height: ${palette.SPACING_600};
-  min-width: ${palette.SPACING_600};
-  line-height: ${palette.SPACING_600};
-  padding: 0 ${palette.SPACING_400};
+  font-size: ${theme.FONTSIZE_300};
+  height: ${theme.SPACING_600};
+  min-width: ${theme.SPACING_600};
+  line-height: ${theme.SPACING_600};
+  padding: 0 ${theme.SPACING_400};
   background-color: transparent;
-  color: ${palette.BLACK};
+  color: ${theme.BLACK};
 
   &::before {
     content: "";
@@ -41,8 +41,8 @@ const LinesButton = styled.button`
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: ${palette.WHITE};
-    box-shadow: inset 0 0 0 1px ${palette.BLUE_300};
+    background-color: ${theme.WHITE};
+    box-shadow: inset 0 0 0 1px ${theme.BLUE_300};
     transition-property: all;
     transition-duration: 100ms;
     transition-timing-function: ease;
@@ -59,15 +59,15 @@ const LinesButton = styled.button`
     z-index: -2;
     background-image: repeating-linear-gradient(
       -45deg,
-      ${palette.BLUE_500},
-      ${palette.BLUE_500} 1px,
+      ${theme.BLUE_500},
+      ${theme.BLUE_500} 1px,
       transparent 1px,
       transparent 6px
     );
   }
 
   &:hover::before {
-    box-shadow: inset 0 0 0 1px ${palette.BLUE_500};
+    box-shadow: inset 0 0 0 1px ${theme.BLUE_500};
   }
 
   &:active {
@@ -79,29 +79,29 @@ const LinesButton = styled.button`
   }
 
   ${p => p.small && css`
-    font-size: ${palette.FONTSIZE_100};
-    height: ${palette.SPACING_400};
-    min-width: ${palette.SPACING_400};
-    line-height: ${palette.SPACING_400};
+    font-size: ${theme.FONTSIZE_100};
+    height: ${theme.SPACING_400};
+    min-width: ${theme.SPACING_400};
+    line-height: ${theme.SPACING_400};
   `}
 
   ${p => p.primary && css`
-    background-color: ${palette.BLUE_100};
-    color: ${palette.BLUE_700};
-    box-shadow: 0 0 0 1px ${palette.BLUE_300}, 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
+    background-color: ${theme.BLUE_100};
+    color: ${theme.BLUE_700};
+    box-shadow: 0 0 0 1px ${theme.BLUE_300}, 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
 
     &:hover {
-      box-shadow: 0 0 0 1px ${palette.BLUE_500}, 0 7px 14px 0 hsla(200, 30%, 10%, .05), 0 3px 6px 0 hsla(200, 30%, 10%, .1);
+      box-shadow: 0 0 0 1px ${theme.BLUE_500}, 0 7px 14px 0 hsla(200, 30%, 10%, .05), 0 3px 6px 0 hsla(200, 30%, 10%, .1);
     }
 
     &:active {
-      box-shadow: 0 0 0 1px ${palette.BLUE_500};
+      box-shadow: 0 0 0 1px ${theme.BLUE_500};
     }
   `}
 
   ${p => p.positive && css`
-    background-color: ${palette.GREEN_100};
-    color: ${palette.GREEN_700};
+    background-color: ${theme.GREEN_100};
+    color: ${theme.GREEN_700};
     box-shadow: 0 0 0 1px hsl(138, 50%, 70%), 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
 
     &:hover {
@@ -114,8 +114,8 @@ const LinesButton = styled.button`
   `}
 
   ${p => p.negative && css`
-    background-color: ${palette.BLUE_100};
-    color: ${palette.BLUE_700};
+    background-color: ${theme.BLUE_100};
+    color: ${theme.BLUE_700};
     box-shadow: 0 0 0 1px hsl(348, 70%, 80%), 0 3px 6px 0 hsla(200, 30%, 10%, .05), 0 1px 3px 0 hsla(200, 30%, 10%, .1);
 
     &:hover {
