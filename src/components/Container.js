@@ -21,7 +21,7 @@ const Container = styled.div`
     max-width: 25rem;
   `}
 
-  @media screen and (min-width: ${theme.BREAKPOINT_S}) {
+  @media screen and (min-width: ${theme.BREAKPOINT_100}) {
     ${props => props.bp1size1 && css`
       max-width: 100%;
     `}
@@ -36,7 +36,7 @@ const Container = styled.div`
     `}
   }
 
-  @media screen and (min-width: ${theme.BREAKPOINT_M}) {
+  @media screen and (min-width: ${theme.BREAKPOINT_200}) {
     ${props => props.bp2size1 && css`
       max-width: 100%;
     `}
@@ -51,7 +51,7 @@ const Container = styled.div`
     `}
   }
 
-  @media screen and (min-width: ${theme.BREAKPOINT_L}) {
+  @media screen and (min-width: ${theme.BREAKPOINT_300}) {
     ${props => props.bp3size1 && css`
       max-width: 100%;
     `}
@@ -66,7 +66,7 @@ const Container = styled.div`
     `}
   }
 
-  @media screen and (min-width: ${theme.BREAKPOINT_XL}) {
+  @media screen and (min-width: ${theme.BREAKPOINT_400}) {
     ${props => props.bp4size1 && css`
       max-width: 100%;
     `}

@@ -29,7 +29,7 @@ const GridColumn = styled.div`
   ${props => props.column_11 && css` max-width: 91.6666666666%; flex-basis: 91.6666666666%; `}
   ${props => props.column_12 && css` max-width: 100%; flex-basis: 100%; `}
 
-  @media screen and (min-width: ${theme.BREAKPOINT_S}) {
+  @media screen and (min-width: ${theme.BREAKPOINT_100}) {
     ${props => props.bps_column_1 && css` max-width: 8.3333333333%; flex-basis: 8.3333333333%; `}
     ${props => props.bps_column_2 && css` max-width: 16.6666666666%; flex-basis: 16.6666666666%; `}
     ${props => props.bps_column_3 && css` max-width: 25%; flex-basis: 25%; `}
@@ -44,7 +44,7 @@ const GridColumn = styled.div`
     ${props => props.bps_column_12 && css` max-width: 100%; flex-basis: 100%; `}
   }
 
-  @media screen and (min-width: ${theme.BREAKPOINT_M}) {
+  @media screen and (min-width: ${theme.BREAKPOINT_200}) {
     ${props => props.bpm_column_1 && css` max-width: 8.3333333333%; flex-basis: 8.3333333333%; `}
     ${props => props.bpm_column_2 && css` max-width: 16.6666666666%; flex-basis: 16.6666666666%; `}
     ${props => props.bpm_column_3 && css` max-width: 25%; flex-basis: 25%; `}
@@ -59,7 +59,7 @@ const GridColumn = styled.div`
     ${props => props.bpm_column_12 && css` max-width: 100%; flex-basis: 100%; `}
   }
 
-  @media screen and (min-width: ${theme.BREAKPOINT_L}) {
+  @media screen and (min-width: ${theme.BREAKPOINT_300}) {
     ${props => props.bpl_column_1 && css` max-width: 8.3333333333%; flex-basis: 8.3333333333%; `}
     ${props => props.bpl_column_2 && css` max-width: 16.6666666666%; flex-basis: 16.6666666666%; `}
     ${props => props.bpl_column_3 && css` max-width: 25%; flex-basis: 25%; `}
@@ -74,7 +74,7 @@ const GridColumn = styled.div`
     ${props => props.bpl_column_12 && css` max-width: 100%; flex-basis: 100%; `}
   }
 
-  @media screen and (min-width: ${theme.BREAKPOINT_XL}) {
+  @media screen and (min-width: ${theme.BREAKPOINT_400}) {
     ${props => props.bpxl_column_1 && css` max-width: 8.3333333333%; flex-basis: 8.3333333333%; `}
     ${props => props.bpxl_column_2 && css` max-width: 16.6666666666%; flex-basis: 16.6666666666%; `}
     ${props => props.bpxl_column_3 && css` max-width: 25%; flex-basis: 25%; `}
