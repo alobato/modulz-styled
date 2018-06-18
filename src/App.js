@@ -73,6 +73,12 @@ class App extends Component {
           </Container>
         </Section>
 
+        <Section size3>
+          <Container size4>
+            <Divider vertical size3></Divider>
+          </Container>
+        </Section>
+
         <ButtonSelection></ButtonSelection>
         <Hero></Hero>
         <CodeExport></CodeExport>
