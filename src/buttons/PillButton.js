@@ -12,11 +12,9 @@ const PillButton = styled.button`
   text-decoration: none;
   cursor: pointer;
   white-space: nowrap;
-  text-transform: uppercase;
   border: none;
-  font-weight: 600;
+  font-family: "UntitledSans-Medium";
   outline: none;
-  letter-spacing: .15px;
   transition-property: all;
   transition-duration: .15s
   transition-timing-function: ease;
@@ -24,7 +22,7 @@ const PillButton = styled.button`
 
   border-radius: 9999px;
   color: ${theme.WHITE};
-  font-size: ${theme.FONTSIZE_300};
+  font-size: ${theme.FONTSIZE_400};
   height: ${theme.SPACING_600};
   min-width: ${theme.SPACING_600};
   line-height: ${theme.SPACING_600};
@@ -39,7 +37,7 @@ const PillButton = styled.button`
   }
 
   ${props => props.large && css`
-    font-size: ${theme.FONTSIZE_400};
+    font-size: ${theme.FONTSIZE_500};
     height: ${theme.SPACING_700};
     min-width: ${theme.SPACING_700};
     line-height: ${theme.SPACING_700};
