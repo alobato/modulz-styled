@@ -11,7 +11,7 @@ class CodeExport extends Component {
   render() {
     return (
       <Section size3>
-        <Container large>
+        <Container size1 bp3size4>
           <Heading size4>
             <Strike>
               Handoff

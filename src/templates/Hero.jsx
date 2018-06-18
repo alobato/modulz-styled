@@ -12,7 +12,7 @@ class Hero extends Component {
   render() {
     return (
       <Section size3>
-        <Container>
+        <Container size3>
           <Alignment center>
             <Spacing mb4>
               <Heading large>A big ass heading to introduce stuff</Heading>

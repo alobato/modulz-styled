@@ -14,7 +14,7 @@ class ButtonSelection extends Component {
   render() {
     return (
       <Section size3>
-        <Container>
+        <Container size3>
             <Grid>
                 <GridColumn bps_column_3>
                     <LinesButton>Button</LinesButton>

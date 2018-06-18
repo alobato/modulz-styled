@@ -22,7 +22,7 @@ class App extends Component {
       <div>
 
         <Section size3>
-          <Container large>
+          <Container size3>
             <Heading size1>
               Love life.Love yourself.
             </Heading>
@@ -45,7 +45,7 @@ class App extends Component {
         </Section>
 
         <Section size3>
-          <Container large>
+          <Container size3>
             <Text size1>
               Love life.Love yourself.
             </Text>
