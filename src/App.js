@@ -44,6 +44,35 @@ class App extends Component {
           </Container>
         </Section>
 
+        <Section size3>
+          <Container large>
+            <Text size1>
+              Love life.Love yourself.
+            </Text>
+            <Text size2>
+              Love life.Love yourself.
+            </Text>
+            <Text size3>
+              Love life.Love yourself.
+            </Text>
+            <Text size4>
+              Love life.Love yourself.
+            </Text>
+            <Text size5>
+              Love life.Love yourself.
+            </Text>
+            <Text size6>
+              Love life.Love yourself.
+            </Text>
+            <Text size7>
+              Love life.Love yourself.
+            </Text>
+            <Text size8 >
+              Love life.Love yourself.
+            </Text>
+          </Container>
+        </Section>
+
         <ButtonSelection></ButtonSelection>
         <Hero></Hero>
         <CodeExport></CodeExport>

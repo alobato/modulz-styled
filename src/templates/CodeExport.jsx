@@ -18,7 +18,7 @@ class CodeExport extends Component {
             </Strike>
             Code export
           </Heading>
-          <Text size4>
+          <Text size3>
             No more handoffs. No more redlines. With Modulz, you can export production-ready React components.
           </Text>
         </Container>
