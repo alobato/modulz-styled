@@ -15,9 +15,9 @@ class Hero extends Component {
         <Container size3>
           <Alignment center>
             <Spacing mb4>
-              <Heading large>A big ass heading to introduce stuff</Heading>
+              <Heading size6>A big ass heading to introduce stuff</Heading>
             </Spacing>
-            <Heading thin gray>A little ass sub heading to support the big ass heading above. Try not to exceed three lines of text.</Heading>
+            <Heading size4>A little ass sub heading to support the big ass heading above. Try not to exceed three lines of text.</Heading>
             <Spacing mt5>
               <Spacing inline mr3>
                 <Link teal>See how it works</Link>
@@ -35,7 +35,7 @@ class Hero extends Component {
               </Spacing>
             </Spacing>
             <Spacing mt3>
-              <Text small gray_500>* Make sure you read this before signing up.</Text>
+              <Text size1 gray_500>* Make sure you read this before signing up.</Text>
             </Spacing>
           </Alignment>
         </Container>
