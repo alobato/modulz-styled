@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 import * as theme from './../theme/';
 
@@ -41,5 +42,16 @@ const Heading = styled.h3`
     margin-left: -.09em;
   `}
 `;
+
+Heading.propTypes = {
+  mode: PropTypes.oneOf([
+    'size1',
+    'size2',
+    'size3',
+    'size4',
+    'size5',
+    'size6'
+  ])
+}
 
 export default Heading;

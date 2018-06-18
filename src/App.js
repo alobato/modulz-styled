@@ -14,6 +14,7 @@ import Divider from './components/Divider.js';
 
 import ButtonSelection from './templates/ButtonSelection.jsx';
 import Hero from './templates/Hero.jsx';
+import CodeExport from './templates/CodeExport.jsx';
 
 class App extends Component {
   render() {
@@ -45,68 +46,7 @@ class App extends Component {
 
         <ButtonSelection></ButtonSelection>
         <Hero></Hero>
-
-        <Section large amberTint>
-          <Container large>
-            <Spacing mb8>
-              <Heading large crimson>Love life.<br></br> Love yourself.</Heading>
-            </Spacing>
-            <Grid>
-              <GridColumn column_12 bps_column_6>
-                <Spacing mb5>
-                  <Spacing mb2>
-                    <Heading redShade>Search.</Heading>
-                  </Spacing>
-                  <Text>Know what you want to listen to! Just search and hit play.</Text>
-                </Spacing>
-                <Spacing mb5>
-                  <Spacing mb2>
-                    <Heading redShade>Browse.</Heading>
-                  </Spacing>
-                  <Text>Check out the latest charts, brand new releases and great playlists for right now.</Text>
-                </Spacing>
-                <Spacing>
-                  <Spacing mb2>
-                    <Heading redShade>Discover.</Heading>
-                  </Spacing>
-                  <Text>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</Text>
-                </Spacing>
-              </GridColumn>
-              <GridColumn column_12 bps_column_6>
-
-              </GridColumn>
-            </Grid>
-          </Container>
-        </Section>
-
-        <Section large>
-          <Container large>
-            <Alignment bps_center>
-              <Grid>
-                <GridColumn column_12 bps_column_6>
-                  <Spacing mb3>
-                    <Heading thin>This is a small heading</Heading>
-                  </Spacing>
-                  <Text large gray_500>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
-                </GridColumn>
-                <GridColumn column_12 bps_column_6>
-                  <Spacing mb3>
-                    <Heading thin>This is a small heading</Heading>
-                  </Spacing>
-                  <Text large gray_500>We’re looking for talented creatives from all disciplines. Our team is focused on creating beautiful, functional designs that fit people’s lives. We’d love for you to join us.</Text>
-                </GridColumn>
-              </Grid>
-            </Alignment>
-          </Container>
-        </Section>
-
-        <Divider></Divider>
-
-        <Section medium gray_800>
-          <Container large>
-              <Text gray_500>Copyright &copy; 1864</Text>
-          </Container>
-        </Section>
+        <CodeExport></CodeExport>
 
       </div>
     );
