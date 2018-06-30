@@ -6,6 +6,7 @@ import Text from './components/Text.js';
 import Heading from './components/Heading.js';
 import Divider from './components/Divider.js';
 import Grid from './components/Grid.js';
+import Badge from './components/Badge.js';
 
 import ButtonSelection from './templates/ButtonSelection.jsx';
 import Hero from './templates/Hero.jsx';
@@ -89,6 +90,26 @@ class App extends Component {
                 It would have been Hilarious if Chris Tucker came out at the end!!!!
               </Text>
             </Grid>
+          </Container>
+        </Section>
+
+        <Section size3>
+          <Container size3>
+            <Badge>
+              Coming soon
+            </Badge>
+            <Badge blue>
+              Coming soon
+            </Badge>
+            <Badge green>
+              Coming soon
+            </Badge>
+            <Badge yellow>
+              Coming soon
+            </Badge>
+            <Badge red>
+              Coming soon
+            </Badge>
           </Container>
         </Section>
 
