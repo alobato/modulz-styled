@@ -1,67 +1,66 @@
-export const WHITE = 'hsl(0, 0%, 100%)';
 export const BLACK = 'hsl(0, 0%, 0%)';
+export const BLACK_900 = 'hsla(0, 0%, 0%, .9)';
+export const BLACK_700 = 'hsla(0, 0%, 0%, .7)';
+export const BLACK_500 = 'hsla(0, 0%, 0%, .5)';
+export const BLACK_300 = 'hsla(0, 0%, 0%, .3)';
+export const BLACK_100 = 'hsla(0, 0%, 0%, .1)';
 
-export const GRAY_100 = 'hsl(200, 43%, 99%)';
-export const GRAY_200 = 'hsl(200, 26%, 96%)';
-export const GRAY_300 = 'hsl(200, 29%, 92%)';
-export const GRAY_400 = 'hsl(200, 22%, 80%)';
-export const GRAY_500 = 'hsl(200, 15%, 50%)';
-export const GRAY_600 = 'hsl(200, 12%, 46%)';
-export const GRAY_700 = 'hsl(200, 34%, 15%)';
-export const GRAY_800 = 'hsl(200, 43%, 11%)';
-export const GRAY_900 = 'hsl(200, 35%, 7%)';
+export const WHITE = 'hsl(0, 0%, 100%)';
+export const WHITE_900 = 'hsla(0, 0%, 100%, .9)';
+export const WHITE_700 = 'hsla(0, 0%, 100%, .7)';
+export const WHITE_500 = 'hsla(0, 0%, 100%, .5)';
+export const WHITE_300 = 'hsla(0, 0%, 100%, .3)';
+export const WHITE_100 = 'hsla(0, 0%, 100%, .1)';
 
-export const RED_100 = 'hsl(0, 92%, 97%)';
-export const RED_300 = 'hsl(0, 80%, 80%)';
-export const RED_500 = 'hsl(0, 92%, 61%)';
-export const RED_700 = 'hsl(0, 92%, 46%)';
+export const GRAY_100 = 'hsl(208, 40%, 99%)';
+export const GRAY_200 = 'hsl(208, 32%, 97%)';
+export const GRAY_300 = 'hsl(208, 24%, 93%)';
+export const GRAY_400 = 'hsl(208, 22%, 86%)';
+export const GRAY_500 = 'hsl(208, 18%, 76%)';
+export const GRAY_600 = 'hsl(208, 14%, 50%)';
+export const GRAY_700 = 'hsl(208, 18%, 18%)';
+export const GRAY_800 = 'hsl(208, 22%, 13%)';
+export const GRAY_900 = 'hsl(208, 30%, 10%)';
 
-export const PINK_100 = 'hsl(332, 94%, 97%)';
-export const PINK_300 = 'hsl(332, 80%, 80%)';
-export const PINK_500 = 'hsl(332, 94%, 55%)';
+export const BLUE_100 = 'hsl(208, 99%, 99%)';
+export const BLUE_200 = 'hsl(208, 96%, 97%)';
+export const BLUE_300 = 'hsl(208, 82%, 78%)';
+export const BLUE_400 = 'hsl(208, 82%, 68%)';
+export const BLUE_500 = 'hsl(208, 98%, 50%)';
+export const BLUE_600 = 'hsl(208, 82%, 45%)';
+export const BLUE_700 = 'hsl(208, 99%, 35%)';
+export const BLUE_800 = 'hsl(208, 99%, 12%)';
+export const BLUE_900 = 'hsl(208, 99%, 10%)';
 
-export const PURPLE_100 = 'hsl(288, 64%, 96%)';
-export const PURPLE_300 = 'hsl(288, 80%, 80%)';
-export const PURPLE_500 = 'hsl(288, 64%, 42%)';
-export const PURPLE_900 = 'hsl(288, 30%, 10%)';
+export const GREEN_100 = 'hsl(142, 60%, 99%)';
+export const GREEN_200 = 'hsl(142, 60%, 97%)';
+export const GREEN_300 = 'hsl(142, 40%, 72%)';
+export const GREEN_400 = 'hsl(142, 34%, 64%)';
+export const GREEN_500 = 'hsl(142, 68%, 42%)';
+export const GREEN_600 = 'hsl(142, 62%, 40%)';
+export const GREEN_700 = 'hsl(142, 60%, 38%)';
+export const GREEN_800 = 'hsl(142, 60%, 12%)';
+export const GREEN_900 = 'hsl(142, 60%, 10%)';
 
-export const INDIGO_500 = 'hsl(226, 56%, 48%)';
-export const INDIGO_700 = 'hsl(226, 52%, 38%)';
+export const YELLOW_100 = 'hsl(54, 100%, 99%)';
+export const YELLOW_200 = 'hsl(54, 100%, 97%)';
+export const YELLOW_300 = 'hsl(54, 100%, 92%)';
+export const YELLOW_400 = 'hsl(54, 100%, 72%)';
+export const YELLOW_500 = 'hsl(52, 100%, 46%)';
+export const YELLOW_600 = 'hsl(52, 100%, 40%)';
+export const YELLOW_700 = 'hsl(52, 100%, 18%)';
+export const YELLOW_800 = 'hsl(52, 100%, 13%)';
+export const YELLOW_900 = 'hsl(52, 100%, 10%)';
 
-export const BLUE_100 = 'hsl(200, 100%, 97%)';
-export const BLUE_300 = 'hsl(200, 80%, 80%)';
-export const BLUE_500 = 'hsl(200, 95%, 50%)';
-export const BLUE_700 = 'hsl(200, 95%, 35%)';
+export const RED_100 = 'hsl(0, 100%, 99%)';
+export const RED_200 = 'hsl(0, 100%, 97%)';
+export const RED_300 = 'hsl(0, 85%, 72%)';
+export const RED_400 = 'hsl(0, 85%, 78%)';
+export const RED_500 = 'hsl(0, 100%, 65%)';
+export const RED_600 = 'hsl(0, 100%, 45%)';
+export const RED_700 = 'hsl(0, 100%, 40%)';
+export const RED_800 = 'hsl(0, 100%, 12%)';
+export const RED_900 = 'hsl(0, 100%, 10%)';
 
-export const TEAL_100 = 'hsl(172, 100%, 97%)';
-export const TEAL_300 = 'hsl(172, 80%, 80%)';
-export const TEAL_500 = 'hsl(172, 100%, 35%)'
-
-export const CYAN_500 = 'hsl(180, 100%, 50%)';
-
-export const GREEN_100 = 'hsl(132, 80%, 97%)'
-export const GREEN_300 = 'hsl(132, 80%, 80%)';
-export const GREEN_500 = 'hsl(132, 52%, 53%)'
-export const GREEN_700 = 'hsl(132, 52%, 38%)'
-
-export const LIME_300 = 'hsl(68, 80%, 80%)';
-export const LIME_500 = 'hsl(68, 74%, 50%)'
-
-export const YELLOW_300 = 'hsl(54, 80%, 80%)'
-export const YELLOW_500 = 'hsl(54, 98%, 50%)'
-
-export const AMBER_100 = 'hsl(46, 100%, 96%)'
-export const AMBER_300 = 'hsl(46, 80%, 80%)'
-export const AMBER_500 = 'hsl(46, 100%, 57%)'
-
-export const ORANGE_300 = 'hsl(36, 80%, 80%)'
-export const ORANGE_500 = 'hsl(36, 100%, 50%)'
-
-export const CRIMSON_500 = 'hsl(18, 100%, 60%)'
-
-export const LAVENDER_300 = 'hsl(255, 80%, 80%)'
-export const LAVENDER_500 = 'hsl(255, 74%, 60%)'
-
-export const VIOLET_300 = 'hsl(264, 80%, 80%)'
-export const VIOLET_500 = 'hsl(264, 52%, 45%)'
-export const VIOLET_900 = 'hsl(264, 30%, 10%)';
+export const COLOR_FACEBOOK = '#4267b2';
+export const COLOR_TWITTER = '#1da1f2';
