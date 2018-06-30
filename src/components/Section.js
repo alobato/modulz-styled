@@ -22,6 +22,11 @@ const Section = styled.section`
   ${props => props.expanded && css`
     height: 100vh;
   `}
+
+  ${p => p.white && css`background-color: ${theme.WHITE};`}
+  ${p => p.black && css`background-color: ${theme.BLACK};`}
+  ${p => p.gray600 && css`background-color: ${theme.GRAY_600};`}
+  ${p => p.gray900 && css`background-color: ${theme.GRAY_900};`}
 `;
 
 Section.propTypes = {

@@ -1,0 +1,9 @@
+export const LEADING_100 = '20px'; // Uppercase tiny
+export const LEADING_200 = '25px'; // Uppercase tiny
+export const LEADING_300 = '30px'; // Uppercase tiny
+export const LEADING_400 = '35px'; // Uppercase tiny
+export const LEADING_500 = '40px'; // Uppercase tiny
+export const LEADING_600 = '45px'; // Uppercase tiny
+export const LEADING_700 = '50px'; // Uppercase tiny
+export const LEADING_800 = '55px'; // Uppercase tiny
+export const LEADING_900 = '60px'; // Uppercase tiny

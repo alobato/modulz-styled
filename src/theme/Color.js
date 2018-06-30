@@ -6,6 +6,7 @@ export const GRAY_200 = 'hsl(200, 26%, 96%)';
 export const GRAY_300 = 'hsl(200, 29%, 92%)';
 export const GRAY_400 = 'hsl(200, 22%, 80%)';
 export const GRAY_500 = 'hsl(200, 15%, 50%)';
+export const GRAY_600 = 'hsl(200, 12%, 46%)';
 export const GRAY_700 = 'hsl(200, 34%, 15%)';
 export const GRAY_800 = 'hsl(200, 43%, 11%)';
 export const GRAY_900 = 'hsl(200, 35%, 7%)';
