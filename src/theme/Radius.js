@@ -1,3 +1,3 @@
-export const BORDERRADIUS_L = '1rem';
-export const BORDERRADIUS_M = '.5rem';
-export const BORDERRADIUS_S = '.3rem';
+export const BORDERRADIUS_100 = '.3rem';
+export const BORDERRADIUS_200 = '.5rem';
+export const BORDERRADIUS_300 = '1rem';

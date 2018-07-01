@@ -7,6 +7,7 @@ import Heading from './components/Heading.js';
 import Divider from './components/Divider.js';
 import Grid from './components/Grid.js';
 import Badge from './components/Badge.js';
+import Input from './components/Input.js';
 
 import ButtonSelection from './templates/ButtonSelection.jsx';
 import Hero from './templates/Hero.jsx';
@@ -110,6 +111,15 @@ class App extends Component {
             <Badge red>
               Coming soon
             </Badge>
+          </Container>
+        </Section>
+
+        <Section size3>
+          <Container size4>
+            <Input
+              type="text"
+              placeholder="Font size"
+              />
           </Container>
         </Section>
 
