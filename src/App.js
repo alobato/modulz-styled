@@ -9,6 +9,7 @@ import Grid from './components/Grid.js';
 import Badge from './components/Badge.js';
 import Input from './components/Input.js';
 import ToggleButton from './components/ToggleButton.js';
+import Switch from './components/Switch.js';
 
 import ButtonSelection from './templates/ButtonSelection.jsx';
 import Hero from './templates/Hero.jsx';
@@ -133,6 +134,12 @@ class App extends Component {
               name="text_alignment" />
             <ToggleButton
               name="text_alignment" />
+          </Container>
+        </Section>
+
+        <Section size3>
+          <Container size4>
+            <Switch />
           </Container>
         </Section>
 
