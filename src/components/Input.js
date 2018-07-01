@@ -4,6 +4,7 @@ import styled, { css } from 'styled-components';
 import * as theme from './../theme/';
 
 const Input = styled.input`
+  background-color: transparent;
   height: ${theme.SPACING_500};
   line-height: ${theme.SPACING_500};
   padding: 0;
