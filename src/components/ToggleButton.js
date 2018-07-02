@@ -36,7 +36,7 @@ export class ToggleButton extends React.Component {
         <Radio
           type="radio"
           name={this.props.name}
-          checked={this.props.checked}
+          defaultChecked={this.props.checked}
         />
         <Dummy>
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="currentColor">
