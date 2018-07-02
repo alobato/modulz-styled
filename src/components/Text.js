@@ -3,6 +3,9 @@ import styled, { css } from 'styled-components';
 import * as theme from './../theme/';
 
 const Text = styled.p`
+
+  ${leading}
+
   color: ${theme.GRAY_900};
 
   ${p => p.size1 && css`
@@ -48,16 +51,6 @@ const Text = styled.p`
     letter-spacing: -.042em;
     margin-left: -.09em;
   `}
-
-  ${p => p.lh1 && css`line-height: ${theme.LEADING_100};`}
-  ${p => p.lh2 && css`line-height: ${theme.LEADING_200};`}
-  ${p => p.lh3 && css`line-height: ${theme.LEADING_300};`}
-  ${p => p.lh4 && css`line-height: ${theme.LEADING_400};`}
-  ${p => p.lh5 && css`line-height: ${theme.LEADING_500};`}
-  ${p => p.lh6 && css`line-height: ${theme.LEADING_600};`}
-  ${p => p.lh7 && css`line-height: ${theme.LEADING_700};`}
-  ${p => p.lh8 && css`line-height: ${theme.LEADING_800};`}
-  ${p => p.lh9 && css`line-height: ${theme.LEADING_900};`}
 
   ${p => p.mt1 && css`margin-top: ${theme.SPACING_100};`}
   ${p => p.mt2 && css`margin-top: ${theme.SPACING_200};`}
