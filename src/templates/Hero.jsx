@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Section from './../components/Section.js';
 import Container from './../components/Container.js';
-import Alignment from './../components/Alignment.js';
 import Box from './../components/Box.js';
 import Heading from './../components/Heading.js';
 import Link from './../components/Link.js';
@@ -13,7 +12,7 @@ class Hero extends Component {
     return (
       <Section size3>
         <Container size3>
-          <Alignment center>
+          <Box center>
             <Box mb4>
               <Heading size6>A big ass heading to introduce stuff</Heading>
             </Box>
@@ -37,7 +36,7 @@ class Hero extends Component {
             <Box mt3>
               <Text size1 gray600>* Make sure you read this before signing up.</Text>
             </Box>
-          </Alignment>
+          </Box>
         </Container>
       </Section>
     );
