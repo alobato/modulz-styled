@@ -110,6 +110,12 @@ const Box = styled.div`
   ${p => p.pr9 && css` padding-right: ${theme.SPACING_900}; `}
   ${p => p.pb9 && css` padding-bottom: ${theme.SPACING_900}; `}
   ${p => p.pl9 && css` padding-left: ${theme.SPACING_900}; `}
+
+  ${p => p.gray100 && css` background-color: ${theme.GRAY_100}; `}
+  ${p => p.gray200 && css` background-color: ${theme.GRAY_200}; `}
+  ${p => p.gray300 && css` background-color: ${theme.GRAY_300}; `}
+  ${p => p.gray900 && css` background-color: ${theme.GRAY_900}; `}
+  ${p => p.blue500 && css` background-color: ${theme.BLUE_500}; `}
 `;
 
 export default Box;
