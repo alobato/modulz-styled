@@ -18,7 +18,7 @@ class Hero extends Component {
               <Heading size6>A big ass heading to introduce stuff</Heading>
             </Box>
             <Heading size4 lh5 gray600>A little ass sub heading to support the big ass heading above. Try not to exceed three lines of text.</Heading>
-            <Flexbox mt5>
+            <Flexbox jc_center mt5>
               <Box mr3>
                 <Link teal>See how it works</Link>
               </Box>
@@ -26,7 +26,7 @@ class Hero extends Component {
                 <Link teal>Explore the features</Link>
               </Box>
             </Flexbox>
-            <Flexbox mt6>
+            <Flexbox jc_center mt6>
               <Box mr4>
                 <PillButton large white>Get started</PillButton>
               </Box>

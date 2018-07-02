@@ -111,6 +111,10 @@ const Box = styled.div`
   ${p => p.pb9 && css` padding-bottom: ${theme.SPACING_900}; `}
   ${p => p.pl9 && css` padding-left: ${theme.SPACING_900}; `}
 
+  ${p => p.left && css` text-align: left; `}
+  ${p => p.center && css` text-align: center; `}
+  ${p => p.right && css` text-align: right; `}
+
   ${p => p.gray100 && css` background-color: ${theme.GRAY_100}; `}
   ${p => p.gray200 && css` background-color: ${theme.GRAY_200}; `}
   ${p => p.gray300 && css` background-color: ${theme.GRAY_300}; `}
