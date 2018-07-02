@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Grid from './../components/Grid.js';
 import Section from './../components/Section.js';
 import Container from './../components/Container.js';
-import Spacing from './../components/Spacing.js';
 import Heading from './../components/Heading.js';
 import Text from './../components/Text.js';
 

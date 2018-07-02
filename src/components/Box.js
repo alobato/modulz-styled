@@ -2,9 +2,7 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 import * as theme from './../theme/';
 
-const Spacing = styled.div`
-  ${p => p.inline && css` display: inline-block; `}
-
+const Box = styled.div`
   ${p => p.m1 && css` margin: ${theme.SPACING_100}; `}
   ${p => p.mt1 && css` margin-top: ${theme.SPACING_100}; `}
   ${p => p.mr1 && css` margin-right: ${theme.SPACING_100}; `}
@@ -114,4 +112,4 @@ const Spacing = styled.div`
   ${p => p.pl9 && css` padding-left: ${theme.SPACING_900}; `}
 `;
 
-export default Spacing;
+export default Box;
