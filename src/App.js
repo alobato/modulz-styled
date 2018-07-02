@@ -13,6 +13,8 @@ import Switch from './components/Switch.js';
 import Slider from './components/Slider.js';
 import Select from './components/Select.js';
 import Flexbox from './components/Flexbox.js';
+import List from './components/List.js';
+import ListItem from './components/ListItem.js';
 
 import ButtonSelection from './templates/ButtonSelection.jsx';
 import Hero from './templates/Hero.jsx';
@@ -194,6 +196,36 @@ class App extends Component {
             </Heading>
             <Slider
               type="range" />
+          </Container>
+        </Section>
+
+        <Section size3>
+          <Container size4>
+            <Heading size2 gray600 mb6>
+              List item
+            </Heading>
+            <List>
+              <ListItem size1>
+                <Text size2>
+                  First item
+                </Text>
+              </ListItem>
+              <ListItem size1>
+                <Text size2>
+                  Second item
+                </Text>
+              </ListItem>
+              <ListItem size1>
+                <Text size2>
+                  Third item
+                </Text>
+              </ListItem>
+              <ListItem size1>
+                <Text size2>
+                  Fourth item
+                </Text>
+              </ListItem>
+            </List>
           </Container>
         </Section>
 
