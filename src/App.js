@@ -12,6 +12,7 @@ import ToggleButton from './components/ToggleButton.js';
 import Switch from './components/Switch.js';
 import Slider from './components/Slider.js';
 import Select from './components/Select.js';
+import Flexbox from './components/Flexbox.js';
 
 import ButtonSelection from './templates/ButtonSelection.jsx';
 import Hero from './templates/Hero.jsx';
@@ -116,21 +117,23 @@ class App extends Component {
             <Heading size2 gray600 mb6>
               Badge
             </Heading>
-            <Badge>
-              Coming soon
-            </Badge>
-            <Badge blue>
-              Coming soon
-            </Badge>
-            <Badge green>
-              Coming soon
-            </Badge>
-            <Badge yellow>
-              Coming soon
-            </Badge>
-            <Badge red>
-              Coming soon
-            </Badge>
+            <Flexbox>
+              <Badge>
+                Coming soon
+              </Badge>
+              <Badge blue>
+                Coming soon
+              </Badge>
+              <Badge green>
+                Coming soon
+              </Badge>
+              <Badge yellow>
+                Coming soon
+              </Badge>
+              <Badge red>
+                Coming soon
+              </Badge>
+            </Flexbox>
           </Container>
         </Section>
 
