@@ -176,11 +176,37 @@ class App extends Component {
             </Heading>
             <ToggleButton
               name="text_alignment"
-              checked={true} />
+              checked={true}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="currentColor">
+                <path d="M0 0H9" transform="translate(4 16.5)" />
+                <path d="M0 0H17" transform="translate(4 12.5)" />
+                <path d="M0 0H9" transform="translate(4 8.5)" />
+              </svg>
+            </ToggleButton>
             <ToggleButton
-              name="text_alignment" />
+              name="text_alignment">
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                <path d="M0 0H9" transform="translate(8 16.5)"/>
+                <path d="M0 0H17" transform="translate(4 12.5)"/>
+                <path d="M0 0H9" transform="translate(8 8.5)"/>
+              </svg>
+            </ToggleButton>
             <ToggleButton
-              name="text_alignment" />
+              name="text_alignment">
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                <path d="M0 0H9" transform="translate(12 16.5)"/>
+                <path d="M0 0H17" transform="translate(4 12.5)"/>
+                <path d="M0 0H9" transform="translate(12 8.5)"/>
+              </svg>
+            </ToggleButton>
+            <ToggleButton
+              name="text_alignment">
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                <path d="M0 0H17" transform="translate(4 16.5)"/>
+                <path d="M0 0H17" transform="translate(4 12.5)"/>
+                <path d="M0 0H17" transform="translate(4 8.5)"/>
+              </svg>
+            </ToggleButton>
           </Container>
         </Section>
 

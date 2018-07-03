@@ -39,11 +39,7 @@ export class ToggleButton extends React.Component {
           defaultChecked={this.props.checked}
         />
         <Dummy>
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="currentColor">
-            <path d="M0 0H9" transform="translate(4 16.5)" />
-            <path d="M0 0H17" transform="translate(4 12.5)" />
-            <path d="M0 0H9" transform="translate(4 8.5)" />
-          </svg>
+          {this.props.children}
         </Dummy>
       </Wrapper>
     )
