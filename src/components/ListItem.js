@@ -12,8 +12,8 @@ const ListItem = styled.li`
   line-height: 1;
   padding-left: ${theme.SPACING_300};
   padding-right: ${theme.SPACING_300};
-  padding-top: ${theme.SPACING_200};
-  padding-bottom: ${theme.SPACING_200};
+  padding-top: ${theme.SPACING_100};
+  padding-bottom: ${theme.SPACING_100};
   text-decoration: none;
   width: 100%;
 

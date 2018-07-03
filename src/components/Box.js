@@ -130,6 +130,11 @@ const Box = styled.div`
   ${p => p.bl && css` border-left: 1px solid; `}
 
   ${p => p.bcgray300 && css` border-color: ${theme.GRAY_300}; `}
+
+  ${p => p.fg0 && css` flex-grow: 0; `}
+  ${p => p.fg1 && css` flex-grow: 1; `}
+  ${p => p.fs0 && css` flex-shrink: 0; `}
+  ${p => p.fs1 && css` flex-shrink: 1; `}
 `;
 
 export default Box;

@@ -202,3 +202,7 @@ mark {
 #root {
   height: 100%;
 }
+
+body {
+  background-color: hsl(208, 40%, 99%);
+}
