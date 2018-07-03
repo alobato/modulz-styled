@@ -14,13 +14,13 @@ const Slider = styled.input`
     width: 100%;
     height: 3px;
     cursor: pointer;
-    background-color: ${theme.GRAY_300};
+    background-color: ${theme.GRAY_400};
     border-radius: 9999px;
     border: none;
   }
 
   &::-webkit-slider-thumb {
-    box-shadow: inset 0 0 0 1px ${theme.GRAY_400};
+    box-shadow: inset 0 0 0 1px ${theme.GRAY_500};
     border: none;
     height: ${theme.SPACING_300};
     width: ${theme.SPACING_300};
@@ -30,6 +30,12 @@ const Slider = styled.input`
     appearance: none;
     margin-top: -6px;
     transition: transform 100ms ease;
+  }
+
+  &:hover {
+    &::-webkit-slider-thumb {
+      box-shadow: inset 0 0 0 1px ${theme.GRAY_600};
+    }
   }
 
   &:focus {
