@@ -198,3 +198,7 @@ textarea {
 mark {
   background: none;
 }
+
+#root {
+  height: 100%;
+}
