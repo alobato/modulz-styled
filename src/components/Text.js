@@ -1,7 +1,8 @@
 import styled, { css } from 'styled-components';
 import * as theme from './../theme/';
 
-const Text = styled.p`
+const Text = styled.span`
+  display: block;
   color: ${theme.GRAY_900};
 
   ${p => p.size1 && css`
