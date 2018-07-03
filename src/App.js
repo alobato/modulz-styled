@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Box from './components/Box.js';
 import Section from './components/Section.js';
 import Container from './components/Container.js';
 import Text from './components/Text.js';
@@ -16,6 +17,7 @@ import Flexbox from './components/Flexbox.js';
 import List from './components/List.js';
 import ListItem from './components/ListItem.js';
 import LinkItem from './components/LinkItem.js';
+import Button from './components/Button.js';
 // import ButtonItem from './components/ButtonItem.js';
 
 import ButtonSelection from './templates/ButtonSelection.jsx';
@@ -245,6 +247,77 @@ class App extends Component {
                 </Text>
               </LinkItem>
             </List>
+          </Container>
+        </Section>
+
+        <Section size3>
+          <Container size3>
+            <Heading size2 gray600 mb6>
+              Button
+            </Heading>
+            <Flexbox mb6>
+              <Button>
+                Save changes
+              </Button>
+              <Button size2>
+                Save changes
+              </Button>
+            </Flexbox>
+            <Flexbox mb6>
+              <Button size2>
+                Save changes
+              </Button>
+              <Button size2 blue>
+                Save changes
+              </Button>
+              <Button size2 green>
+                Save changes
+              </Button>
+              <Button size2 red>
+                Save changes
+              </Button>
+            </Flexbox>
+            <Flexbox mb6>
+              <Button size2 left>
+                Left
+              </Button>
+              <Button size2 middle>
+                Middle
+              </Button>
+              <Button size2 right>
+                Right
+              </Button>
+            </Flexbox>
+            <Flexbox mb6>
+              <Button>
+                <Box mr1>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                    <circle cx="5.5" cy="5.5" r="5" transform="translate(2 2)"/>
+                    <path d="M0 7L7 0" transform="translate(4 4)"/>
+                  </svg>
+                </Box>
+                Disable
+              </Button>
+              <Button size2>
+                <Box mr1>
+                  <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                    <circle cx="8.5" cy="8.5" r="8" transform="translate(4 4)"/>
+                    <path d="M0 11L11 0" transform="translate(7 7)"/>
+                  </svg>
+                </Box>
+                Disable
+              </Button>
+            </Flexbox>
+            <Flexbox mb6>
+              <Button size2 active>
+                Active
+              </Button>
+            </Flexbox>
+            <Flexbox>
+              <Button size2 disabled>
+                Disabled
+              </Button>
+            </Flexbox>
           </Container>
         </Section>
 
