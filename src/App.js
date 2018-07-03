@@ -9,6 +9,7 @@ import Divider from './components/Divider.js';
 import Grid from './components/Grid.js';
 import Badge from './components/Badge.js';
 import Input from './components/Input.js';
+import CheckboxButton from './components/CheckboxButton.js';
 import ToggleButton from './components/ToggleButton.js';
 import Switch from './components/Switch.js';
 import Slider from './components/Slider.js';
@@ -207,6 +208,66 @@ class App extends Component {
                 <path d="M0 0H17" transform="translate(4 8.5)"/>
               </svg>
             </ToggleButton>
+          </Container>
+        </Section>
+
+        <Section size3>
+          <Container size4>
+            <Heading size2 gray600 mb6>
+              Checkbox button
+            </Heading>
+            <Flexbox mb6>
+              <CheckboxButton
+                name="favourite">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                  <circle cx="5.5" cy="5.5" r="5" transform="translate(2 2)"/>
+                  <path d="M0 7L7 0" transform="translate(4 4)"/>
+                </svg>
+              </CheckboxButton>
+              <CheckboxButton
+                size="2"
+                name="disable"
+                checked={true}>
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                  <circle cx="5.5" cy="5.5" r="5" transform="translate(2 2)"/>
+                  <path d="M0 7L7 0" transform="translate(4 4)"/>
+                </svg>
+              </CheckboxButton>
+            </Flexbox>
+            <Flexbox>
+              <CheckboxButton
+                color="blue"
+                name="favourite">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                  <circle cx="5.5" cy="5.5" r="5" transform="translate(2 2)"/>
+                  <path d="M0 7L7 0" transform="translate(4 4)"/>
+                </svg>
+              </CheckboxButton>
+              <CheckboxButton
+                color="green"
+                name="favourite">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                  <circle cx="5.5" cy="5.5" r="5" transform="translate(2 2)"/>
+                  <path d="M0 7L7 0" transform="translate(4 4)"/>
+                </svg>
+              </CheckboxButton>
+              <CheckboxButton
+                color="yellow"
+                name="favourite">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                  <circle cx="5.5" cy="5.5" r="5" transform="translate(2 2)"/>
+                  <path d="M0 7L7 0" transform="translate(4 4)"/>
+                </svg>
+              </CheckboxButton>
+              <CheckboxButton
+                color="red"
+                name="favourite">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                  <circle cx="5.5" cy="5.5" r="5" transform="translate(2 2)"/>
+                  <path d="M0 7L7 0" transform="translate(4 4)"/>
+                </svg>
+              </CheckboxButton>
+            </Flexbox>
           </Container>
         </Section>
 
