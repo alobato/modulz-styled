@@ -169,7 +169,6 @@ class Composer extends Component {
                 </Box>
               </Flexbox>
               <Flexbox
-                mb2
                 ai_center>
                 <Box
                   mr2>
@@ -190,6 +189,36 @@ class Composer extends Component {
                 </Box>
               </Flexbox>
             </Box>
+
+            <Box
+              p2
+              bt
+              bcgray300>
+              <Flexbox
+                mb2
+                ai_center>
+                <Box
+                  mr2>
+                  <Text
+                    gray600
+                    size1
+                    right>
+                    Opacity
+                  </Text>
+                </Box>
+                <Box
+                  mr2>
+                  <Slider
+                    type="range"
+                    defaultValue="100" />
+                </Box>
+                <Box>
+                  <Input
+                    value="100"/>
+                </Box>
+              </Flexbox>
+            </Box>
+
           </Box>
         </Flexbox>
       </div>
