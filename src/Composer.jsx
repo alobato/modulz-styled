@@ -122,6 +122,74 @@ class Composer extends Component {
               mb6>
               Styles
             </Heading>
+            <Box
+              p2
+              bt
+              bcgray300>
+              <Flexbox
+                mb2
+                ai_center>
+                <Box
+                  mr2>
+                  <Text
+                    size1
+                    right>
+                    Width
+                  </Text>
+                </Box>
+                <Box
+                  mr2>
+                  <Input
+                    value="Auto"/>
+                </Box>
+                <Box>
+                  <Input
+                    value="Auto"/>
+                </Box>
+              </Flexbox>
+              <Flexbox
+                mb2
+                ai_center>
+                <Box
+                  mr2>
+                  <Text
+                    size1
+                    right>
+                    Min
+                  </Text>
+                </Box>
+                <Box
+                  mr2>
+                  <Input
+                    value="Auto"/>
+                </Box>
+                <Box>
+                  <Input
+                    value="Auto"/>
+                </Box>
+              </Flexbox>
+              <Flexbox
+                mb2
+                ai_center>
+                <Box
+                  mr2>
+                  <Text
+                    size1
+                    right>
+                    Max
+                  </Text>
+                </Box>
+                <Box
+                  mr2>
+                  <Input
+                    value="Auto"/>
+                </Box>
+                <Box>
+                  <Input
+                    value="Auto"/>
+                </Box>
+              </Flexbox>
+            </Box>
           </Box>
         </Flexbox>
       </div>
