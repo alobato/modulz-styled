@@ -1,6 +1,4 @@
-import React from 'react';
-import styled, { css } from 'styled-components';
-import * as theme from './../theme/';
+import { css } from 'styled-components';
 import Box from './Box.js';
 
 const Flexbox = Box.extend`

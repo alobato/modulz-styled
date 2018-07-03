@@ -1,7 +1,5 @@
-import React from 'react';
 import styled, { css } from 'styled-components';
 import * as theme from './../theme/';
-import { leading } from './../theme/';
 
 const Text = styled.p`
   color: ${theme.GRAY_900};

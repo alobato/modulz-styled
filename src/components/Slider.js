@@ -1,5 +1,4 @@
-import React from 'react';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import * as theme from './../theme/';
 
 const Slider = styled.input`

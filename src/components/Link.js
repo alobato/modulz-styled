@@ -1,4 +1,3 @@
-import React from 'react';
 import styled, { css } from 'styled-components';
 import * as theme from './../theme/';
 
@@ -15,7 +14,7 @@ const Link = styled.a`
   ${props => props.large && css`
     font-size: ${theme.FONTSIZE_500};
   `}
-  
+
   ${props => props.light && css`
     color: ${theme.GRAY_500};
   `}

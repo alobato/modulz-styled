@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styled, { css } from 'styled-components';
+import { css } from 'styled-components';
 import * as theme from './../theme/';
 import ListItem from './ListItem.js';
 
