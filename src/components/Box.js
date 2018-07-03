@@ -119,6 +119,17 @@ const Box = styled.div`
   ${p => p.gray300 && css` background-color: ${theme.GRAY_300}; `}
   ${p => p.gray900 && css` background-color: ${theme.GRAY_900}; `}
   ${p => p.blue500 && css` background-color: ${theme.BLUE_500}; `}
+
+  ${p => p.h100 && css` height: 100%; `}
+
+  ${p => p.w100 && css` width: 100%; `}
+
+  ${p => p.bt && css` border-top: 1px solid; `}
+  ${p => p.br && css` border-right: 1px solid; `}
+  ${p => p.bb && css` border-bottom: 1px solid; `}
+  ${p => p.bl && css` border-left: 1px solid; `}
+
+  ${p => p.bcgray300 && css` border-color: ${theme.GRAY_300}; `}
 `;
 
 export default Box;
