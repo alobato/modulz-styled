@@ -4,7 +4,7 @@ import Container from './../components/Container.js';
 import Box from './../components/Box.js';
 import Heading from './../components/Heading.js';
 import Link from './../components/Link.js';
-import PillButton from './../buttons/PillButton.js';
+import LinesButton from './../components/LinesButton.js';
 import Text from './../components/Text.js';
 import Flexbox from './../components/Flexbox.js';
 
@@ -28,10 +28,10 @@ class Hero extends Component {
             </Flexbox>
             <Flexbox jc_center mt6>
               <Box mr4>
-                <PillButton large white>Get started</PillButton>
+                <LinesButton large white>Get started</LinesButton>
               </Box>
               <Box mr4>
-                <PillButton large crimson>Learn more</PillButton>
+                <LinesButton large crimson>Learn more</LinesButton>
               </Box>
             </Flexbox>
             <Box mt3>

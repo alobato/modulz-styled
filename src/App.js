@@ -18,9 +18,9 @@ import List from './components/List.js';
 import ListItem from './components/ListItem.js';
 import LinkItem from './components/LinkItem.js';
 import Button from './components/Button.js';
+import LinesButton from './components/LinesButton.js';
 // import ButtonItem from './components/ButtonItem.js';
 
-import ButtonSelection from './templates/ButtonSelection.jsx';
 import Hero from './templates/Hero.jsx';
 import CodeExport from './templates/CodeExport.jsx';
 
@@ -321,7 +321,42 @@ class App extends Component {
           </Container>
         </Section>
 
-        <ButtonSelection></ButtonSelection>
+        <Section size3>
+          <Container size3>
+            <Heading size2 gray600 mb6>
+              Lines button
+            </Heading>
+            <Flexbox mb6>
+              <LinesButton>
+                Start designing
+              </LinesButton>
+              <LinesButton size2>
+                Start designing
+              </LinesButton>
+            </Flexbox>
+            <Flexbox mb6>
+              <LinesButton>
+                <Box mr1>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                    <circle cx="5.5" cy="5.5" r="5" transform="translate(2 2)"/>
+                    <path d="M0 7L7 0" transform="translate(4 4)"/>
+                  </svg>
+                </Box>
+                Disable
+              </LinesButton>
+              <LinesButton size2>
+                <Box mr1>
+                  <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                    <circle cx="8.5" cy="8.5" r="8" transform="translate(4 4)"/>
+                    <path d="M0 11L11 0" transform="translate(7 7)"/>
+                  </svg>
+                </Box>
+                Disable
+              </LinesButton>
+            </Flexbox>
+          </Container>
+        </Section>
+
         <Hero></Hero>
         <CodeExport></CodeExport>
       </div>
