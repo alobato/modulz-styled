@@ -103,17 +103,17 @@ class App extends Component {
               Grid
             </Heading>
             <Grid cols2>
-              <Text size5>
-                It would have been Hilarious if Chris Tucker came out at the end!!!!
+              <Text size4 lh3>
+                It would have been absolutely hilarious if Chris Tucker came out at the end!!!!
               </Text>
-              <Text size5>
-                It would have been Hilarious if Chris Tucker came out at the end!!!!
+              <Text size4 lh3>
+                It would have been absolutely hilarious if Chris Tucker came out at the end!!!!
               </Text>
-              <Text size5>
-                It would have been Hilarious if Chris Tucker came out at the end!!!!
+              <Text size4 lh3>
+                It would have been absolutely hilarious if Chris Tucker came out at the end!!!!
               </Text>
-              <Text size5>
-                It would have been Hilarious if Chris Tucker came out at the end!!!!
+              <Text size4 lh3>
+                It would have been absolutely hilarious if Chris Tucker came out at the end!!!!
               </Text>
             </Grid>
           </Container>
