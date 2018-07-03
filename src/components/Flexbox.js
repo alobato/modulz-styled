@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 import * as theme from './../theme/';
-import Box from './../components/Box.js';
+import Box from './Box.js';
 
 const Flexbox = Box.extend`
   display: flex;

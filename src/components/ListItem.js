@@ -25,10 +25,6 @@ const ListItem = styled.li`
   ${props => props.size2 && css`
     min-height: ${theme.SPACING_700};
   `}
-
-  ${props => props.rounded && css`
-    border-radius: ${theme.BORDERRADIUS_200};
-  `}
 `;
 
 export default ListItem;

@@ -15,6 +15,8 @@ import Select from './components/Select.js';
 import Flexbox from './components/Flexbox.js';
 import List from './components/List.js';
 import ListItem from './components/ListItem.js';
+import LinkItem from './components/LinkItem.js';
+// import ButtonItem from './components/ButtonItem.js';
 
 import ButtonSelection from './templates/ButtonSelection.jsx';
 import Hero from './templates/Hero.jsx';
@@ -225,6 +227,23 @@ class App extends Component {
                   Fourth item
                 </Text>
               </ListItem>
+            </List>
+          </Container>
+        </Section>
+
+        <Section size3>
+          <Container size4>
+            <Heading size2 gray600 mb6>
+              Link item
+            </Heading>
+            <List>
+              <LinkItem size1
+                href="http://www.youtube.com"
+                target="_blank">
+                <Text size2>
+                  First item
+                </Text>
+              </LinkItem>
             </List>
           </Container>
         </Section>
