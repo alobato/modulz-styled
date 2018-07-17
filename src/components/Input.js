@@ -6,7 +6,7 @@ const Input = styled.input`
   height: ${theme.SPACING_500};
   line-height: ${theme.SPACING_500};
   padding: 0;
-  font-size: ${theme.FONTSIZE_300};
+  font-size: ${theme.FONTSIZE_400};
   border-radius: 0;
   border: none;
   outline: none;
@@ -26,9 +26,9 @@ const Input = styled.input`
     opacity:  1;
   }
 
-  &:focus {
-    box-shadow: inset 0 -1px 0 0 ${theme.BLUE_500};
-  }
+  // &:focus {
+  //   box-shadow: inset 0 -1px 0 0 ${theme.BLUE_500};
+  // }
 `;
 
 export default Input;

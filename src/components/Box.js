@@ -122,6 +122,7 @@ const Box = styled.div`
 
   ${p => p.h100 && css` height: 100%; `}
 
+  ${p => p.w50 && css` width: 50%; `}
   ${p => p.w100 && css` width: 100%; `}
 
   ${p => p.bt && css` border-top: 1px solid; `}
@@ -135,6 +136,12 @@ const Box = styled.div`
   ${p => p.fg1 && css` flex-grow: 1; `}
   ${p => p.fs0 && css` flex-shrink: 0; `}
   ${p => p.fs1 && css` flex-shrink: 1; `}
+
+  ${p => p.table && css` display: table; `}
+  ${p => p.tablerow && css` display: table-row; `}
+  ${p => p.tablecell && css` display: table-cell; `}
+
+  ${p => p.alignmiddle && css` vertical-align: middle; `}
 `;
 
 export default Box;

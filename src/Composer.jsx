@@ -22,6 +22,12 @@ import LinkItem from './components/LinkItem.js';
 import Button from './components/Button.js';
 import LinesButton from './components/LinesButton.js';
 
+import Typography from './templates/Typography.jsx';
+import Position from './templates/Position.jsx';
+import Transforms from './templates/Transforms.jsx';
+import Filters from './templates/Filters.jsx';
+import BackdropFilters from './templates/BackdropFilters.jsx';
+
 class Composer extends Component {
   render() {
     return (
@@ -121,11 +127,20 @@ class Composer extends Component {
                 <Box
                   mr2>
                   <Input
-                    value="0"/>
+                    defaultValue="0"/>
+                </Box>
+                <Box
+                  mr2>
+                  <Text
+                    size1
+                    gray600
+                    right>
+                    Height
+                  </Text>
                 </Box>
                 <Box>
                   <Input
-                    value="0"/>
+                    defaultValue="0"/>
                 </Box>
               </Flexbox>
               <Flexbox
@@ -186,26 +201,32 @@ class Composer extends Component {
                 </Text>
               </Box>
               <Flexbox
-                mb3
-                ai_center>
-                <Box
-                  mr2>
+                jc_center>
+                <Box>
                   <Input
-                    value="0"/>
+                    defaultValue="0"
+                    size="4"/>
                 </Box>
-                <Box
-                  mr2>
+              </Flexbox>
+              <Flexbox
+                jc_spacebetween>
+                <Box>
                   <Input
-                    value="0"/>
-                </Box>
-                <Box
-                  mr2>
-                  <Input
-                    value="0"/>
+                    defaultValue="0"
+                    size="4"/>
                 </Box>
                 <Box>
                   <Input
-                    value="0"/>
+                    defaultValue="0"
+                    size="4"/>
+                </Box>
+              </Flexbox>
+              <Flexbox
+                jc_center>
+                <Box>
+                  <Input
+                    defaultValue="0"
+                    size="4"/>
                 </Box>
               </Flexbox>
               <Box
@@ -217,25 +238,32 @@ class Composer extends Component {
                 </Text>
               </Box>
               <Flexbox
-                ai_center>
-                <Box
-                  mr2>
+                jc_center>
+                <Box>
                   <Input
-                    value="0"/>
+                    defaultValue="0"
+                    size="4"/>
                 </Box>
-                <Box
-                  mr2>
+              </Flexbox>
+              <Flexbox
+                jc_spacebetween>
+                <Box>
                   <Input
-                    value="0"/>
-                </Box>
-                <Box
-                  mr2>
-                  <Input
-                    value="0"/>
+                    defaultValue="0"
+                    size="4"/>
                 </Box>
                 <Box>
                   <Input
-                    value="0"/>
+                    defaultValue="0"
+                    size="4"/>
+                </Box>
+              </Flexbox>
+              <Flexbox
+                jc_center>
+                <Box>
+                  <Input
+                    defaultValue="0"
+                    size="4"/>
                 </Box>
               </Flexbox>
             </Box>
@@ -263,171 +291,17 @@ class Composer extends Component {
                 </Box>
                 <Box>
                   <Input
-                    value="100"/>
+                    value="100"
+                    size="4" />
                 </Box>
               </Flexbox>
             </Box>
 
-            <Box
-              p3
-              bt
-              bcgray300>
-              <Box
-                mb2>
-                <Box>
-                  <Flexbox>
-                    <Box
-                      mr2>
-                      <Select>
-                        <option
-                          value="100">
-                          100
-                        </option>
-                        <option
-                          value="200">
-                          200
-                        </option>
-                        <option
-                          value="300">
-                          300
-                        </option>
-                      </Select>
-                    </Box>
-                    <Box>
-                      <Input />
-                    </Box>
-                  </Flexbox>
-                </Box>
-              </Box>
-              <Flexbox
-                ai_center
-                jc_spacebetween>
-                <Box
-                  mr2>
-                  <Text
-                    gray600
-                    size1
-                    right>
-                    Alignment
-                  </Text>
-                </Box>
-                <Box>
-                  <Flexbox>
-                    <ToggleButton
-                      name="text_alignment"
-                      checked={true}>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="currentColor">
-                        <path d="M0 0H9" transform="translate(4 16.5)" />
-                        <path d="M0 0H17" transform="translate(4 12.5)" />
-                        <path d="M0 0H9" transform="translate(4 8.5)" />
-                      </svg>
-                    </ToggleButton>
-                    <ToggleButton
-                      name="text_alignment">
-                      <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
-                        <path d="M0 0H9" transform="translate(8 16.5)"/>
-                        <path d="M0 0H17" transform="translate(4 12.5)"/>
-                        <path d="M0 0H9" transform="translate(8 8.5)"/>
-                      </svg>
-                    </ToggleButton>
-                    <ToggleButton
-                      name="text_alignment">
-                      <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
-                        <path d="M0 0H9" transform="translate(12 16.5)"/>
-                        <path d="M0 0H17" transform="translate(4 12.5)"/>
-                        <path d="M0 0H9" transform="translate(12 8.5)"/>
-                      </svg>
-                    </ToggleButton>
-                    <ToggleButton
-                      name="text_alignment">
-                      <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
-                        <path d="M0 0H17" transform="translate(4 16.5)"/>
-                        <path d="M0 0H17" transform="translate(4 12.5)"/>
-                        <path d="M0 0H17" transform="translate(4 8.5)"/>
-                      </svg>
-                    </ToggleButton>
-                  </Flexbox>
-                </Box>
-              </Flexbox>
-            </Box>
-
-            <Box
-              p3
-              bt
-              bcgray300>
-              <Box
-                mb2>
-                <Select>
-                  <option
-                    value="static">
-                    Static
-                  </option>
-                  <option
-                    value="absolute">
-                    Absolute
-                  </option>
-                  <option
-                    value="fixed">
-                    Fixed
-                  </option>
-                  <option
-                    value="sticky">
-                    Sticky
-                  </option>
-                </Select>
-              </Box>
-              <Flexbox
-                mb2
-                ai_center
-                jc_spacebetween>
-                <Box
-                  mr2>
-                  <Text
-                    gray600
-                    size1
-                    right>
-                    Pin
-                  </Text>
-                </Box>
-                <Box>
-                  <Flexbox>
-                    <ToggleButton
-                      name="text_alignment"
-                      checked={true}>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="currentColor">
-                        <path d="M0 0H9" transform="translate(4 16.5)" />
-                        <path d="M0 0H17" transform="translate(4 12.5)" />
-                        <path d="M0 0H9" transform="translate(4 8.5)" />
-                      </svg>
-                    </ToggleButton>
-                    <ToggleButton
-                      name="text_alignment">
-                      <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
-                        <path d="M0 0H9" transform="translate(8 16.5)"/>
-                        <path d="M0 0H17" transform="translate(4 12.5)"/>
-                        <path d="M0 0H9" transform="translate(8 8.5)"/>
-                      </svg>
-                    </ToggleButton>
-                    <ToggleButton
-                      name="text_alignment">
-                      <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
-                        <path d="M0 0H9" transform="translate(12 16.5)"/>
-                        <path d="M0 0H17" transform="translate(4 12.5)"/>
-                        <path d="M0 0H9" transform="translate(12 8.5)"/>
-                      </svg>
-                    </ToggleButton>
-                    <ToggleButton
-                      name="text_alignment">
-                      <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
-                        <path d="M0 0H17" transform="translate(4 16.5)"/>
-                        <path d="M0 0H17" transform="translate(4 12.5)"/>
-                        <path d="M0 0H17" transform="translate(4 8.5)"/>
-                      </svg>
-                    </ToggleButton>
-                  </Flexbox>
-                </Box>
-              </Flexbox>
-            </Box>
+            <Typography />
+            <Position />
+            <Transforms />
+            <Filters />
+            <BackdropFilters />
 
           </Box>
         </Flexbox>

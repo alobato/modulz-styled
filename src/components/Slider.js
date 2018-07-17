@@ -4,7 +4,7 @@ import * as theme from './../theme/';
 const Slider = styled.input`
   appearance: none;
   display: block;
-  padding: var(--spacing-100) 0;
+  padding: ${theme.SPACING_100} 0;
   width: 100%;
   cursor: pointer;
   vertical-align: middle;
