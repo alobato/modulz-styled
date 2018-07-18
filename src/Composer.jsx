@@ -22,6 +22,12 @@ import LinkItem from './components/LinkItem.js';
 import Button from './components/Button.js';
 import LinesButton from './components/LinesButton.js';
 
+import Spacing from './templates/Spacing.jsx';
+import Dimensions from './templates/Dimensions.jsx';
+import PropertyFlexbox from './templates/PropertyFlexbox.jsx';
+import PropertyFlexItem from './templates/PropertyFlexItem.jsx';
+import BorderRadius from './templates/BorderRadius.jsx';
+import Opacity from './templates/Opacity.jsx';
 import Typography from './templates/Typography.jsx';
 import Position from './templates/Position.jsx';
 import Transforms from './templates/Transforms.jsx';
@@ -110,199 +116,17 @@ class Composer extends Component {
             bcgray300
             fs0
             style={{width: '220px'}}>
-            <Box
-              p3>
-              <Flexbox
-                mb2
-                ai_center>
-                <Box
-                  mr2>
-                  <Text
-                    size1
-                    gray600
-                    right>
-                    Width
-                  </Text>
-                </Box>
-                <Box
-                  mr2>
-                  <Input
-                    defaultValue="0"/>
-                </Box>
-                <Box
-                  mr2>
-                  <Text
-                    size1
-                    gray600
-                    right>
-                    Height
-                  </Text>
-                </Box>
-                <Box>
-                  <Input
-                    defaultValue="0"/>
-                </Box>
-              </Flexbox>
-              <Flexbox
-                mb2
-                ai_center>
-                <Box
-                  mr2>
-                  <Text
-                    size1
-                    gray600
-                    right>
-                    Min
-                  </Text>
-                </Box>
-                <Box
-                  mr2>
-                  <Input
-                    value="0"/>
-                </Box>
-                <Box>
-                  <Input
-                    value="0"/>
-                </Box>
-              </Flexbox>
-              <Flexbox
-                ai_center>
-                <Box
-                  mr2>
-                  <Text
-                    size1
-                    gray600
-                    right>
-                    Max
-                  </Text>
-                </Box>
-                <Box
-                  mr2>
-                  <Input
-                    value="0"/>
-                </Box>
-                <Box>
-                  <Input
-                    value="0"/>
-                </Box>
-              </Flexbox>
-            </Box>
-
-            <Box
-              p3
-              bt
-              bcgray300>
-              <Box
-                mb2>
-                <Text
-                  size1
-                  gray600>
-                  Margin
-                </Text>
-              </Box>
-              <Flexbox
-                jc_center>
-                <Box>
-                  <Input
-                    defaultValue="0"
-                    size="4"/>
-                </Box>
-              </Flexbox>
-              <Flexbox
-                jc_spacebetween>
-                <Box>
-                  <Input
-                    defaultValue="0"
-                    size="4"/>
-                </Box>
-                <Box>
-                  <Input
-                    defaultValue="0"
-                    size="4"/>
-                </Box>
-              </Flexbox>
-              <Flexbox
-                jc_center>
-                <Box>
-                  <Input
-                    defaultValue="0"
-                    size="4"/>
-                </Box>
-              </Flexbox>
-              <Box
-                mb2>
-                <Text
-                  size1
-                  gray600>
-                  Padding
-                </Text>
-              </Box>
-              <Flexbox
-                jc_center>
-                <Box>
-                  <Input
-                    defaultValue="0"
-                    size="4"/>
-                </Box>
-              </Flexbox>
-              <Flexbox
-                jc_spacebetween>
-                <Box>
-                  <Input
-                    defaultValue="0"
-                    size="4"/>
-                </Box>
-                <Box>
-                  <Input
-                    defaultValue="0"
-                    size="4"/>
-                </Box>
-              </Flexbox>
-              <Flexbox
-                jc_center>
-                <Box>
-                  <Input
-                    defaultValue="0"
-                    size="4"/>
-                </Box>
-              </Flexbox>
-            </Box>
-
-            <Box
-              p3
-              bt
-              bcgray300>
-              <Flexbox
-                ai_center>
-                <Box
-                  mr2>
-                  <Text
-                    gray600
-                    size1
-                    right>
-                    Opacity
-                  </Text>
-                </Box>
-                <Box
-                  mr2>
-                  <Slider
-                    type="range"
-                    defaultValue="100" />
-                </Box>
-                <Box>
-                  <Input
-                    value="100"
-                    size="4" />
-                </Box>
-              </Flexbox>
-            </Box>
-
+            <Dimensions />
+            <PropertyFlexbox />
+            <PropertyFlexItem />
+            <Spacing />
+            <Opacity />
+            <BorderRadius />
             <Typography />
             <Position />
             <Transforms />
             <Filters />
             <BackdropFilters />
-
           </Box>
         </Flexbox>
       </div>
