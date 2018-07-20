@@ -17,7 +17,7 @@ class PropertyFlexItem extends Component {
         <Flexbox
           ai_center
           jc_spacebetween
-          mb1>
+          mb2>
           <Box>
             <Text
               gray600
@@ -37,7 +37,7 @@ class PropertyFlexItem extends Component {
         <Flexbox
           ai_center
           jc_spacebetween
-          mb1>
+          mb2>
           <Box>
             <Text
               gray600
@@ -57,7 +57,7 @@ class PropertyFlexItem extends Component {
         <Flexbox
           ai_center
           jc_spacebetween
-          mb1>
+          mb2>
           <Box>
             <Text
               gray600
@@ -89,41 +89,41 @@ class PropertyFlexItem extends Component {
           <Box>
             <Flexbox>
               <ToggleButton
-                name="text_alignment"
+                name="align_self">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 0H0" transform="translate(4.5 4.5)" stroke-linecap="round"/>
+                <rect x="0.5" y="0.5" width="8" height="4" transform="translate(8 4)"/>
+                <rect x="0.5" y="0.5" width="8" height="4" transform="translate(8 8)"/>
+                </svg>
+              </ToggleButton>
+              <ToggleButton
+                name="align_self">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 0H0" transform="translate(4.5 12.5)" stroke-linecap="round"/>
+                <rect x="0.5" y="0.5" width="8" height="4" transform="translate(8 8)"/>
+                <rect x="0.5" y="0.5" width="8" height="4" transform="translate(8 12)"/>
+                </svg>
+              </ToggleButton>
+              <ToggleButton
+                name="align_self">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 0H0" transform="translate(4.5 20.5)" stroke-linecap="round"/>
+                <rect x="0.5" y="0.5" width="8" height="4" transform="translate(8 12)"/>
+                <rect x="0.5" y="0.5" width="8" height="4" transform="translate(8 16)"/>
+                </svg>
+              </ToggleButton>
+              <ToggleButton
+                name="align_self"
                 defaultChecked={true}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="currentColor">
-                  <path d="M0 0H9" transform="translate(4 16.5)" />
-                  <path d="M0 0H17" transform="translate(4 12.5)" />
-                  <path d="M0 0H9" transform="translate(4 8.5)" />
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 0H0" transform="translate(4.5 4.5)" stroke-linecap="round"/>
+                <path d="M16 0H0" transform="translate(4.5 20.5)" stroke-linecap="round"/>
+                <rect x="0.5" y="0.5" width="4" height="16" transform="translate(10 4)"/>
                 </svg>
               </ToggleButton>
               <ToggleButton
-                name="text_alignment">
-                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
-                  <path d="M0 0H9" transform="translate(8 16.5)"/>
-                  <path d="M0 0H17" transform="translate(4 12.5)"/>
-                  <path d="M0 0H9" transform="translate(8 8.5)"/>
-                </svg>
-              </ToggleButton>
-              <ToggleButton
-                name="text_alignment">
-                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
-                  <path d="M0 0H9" transform="translate(12 16.5)"/>
-                  <path d="M0 0H17" transform="translate(4 12.5)"/>
-                  <path d="M0 0H9" transform="translate(12 8.5)"/>
-                </svg>
-              </ToggleButton>
-              <ToggleButton
-                name="text_alignment">
-                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
-                  <path d="M0 0H17" transform="translate(4 16.5)"/>
-                  <path d="M0 0H17" transform="translate(4 12.5)"/>
-                  <path d="M0 0H17" transform="translate(4 8.5)"/>
-                </svg>
-              </ToggleButton>
-              <ToggleButton
-                name="text_alignment">
-                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                name="align_self">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
                   <path d="M0 0H17" transform="translate(4 16.5)"/>
                   <path d="M0 0H17" transform="translate(4 12.5)"/>
                   <path d="M0 0H17" transform="translate(4 8.5)"/>

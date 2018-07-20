@@ -66,34 +66,34 @@ class Position extends Component {
               <ToggleButton
                 name="text_alignment"
                 checked={true}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="currentColor">
-                  <path d="M0 0H9" transform="translate(4 16.5)" />
-                  <path d="M0 0H17" transform="translate(4 12.5)" />
-                  <path d="M0 0H9" transform="translate(4 8.5)" />
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 6L5 0L0 6" transform="translate(7.5 7.5)" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M0 0V13" transform="translate(12.5 7.5)" stroke="black" stroke-linecap="round"/>
+                <path d="M0 0H16" transform="translate(4.5 4.5)" stroke="black" stroke-linecap="round"/>
                 </svg>
               </ToggleButton>
               <ToggleButton
                 name="text_alignment">
-                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
-                  <path d="M0 0H9" transform="translate(8 16.5)"/>
-                  <path d="M0 0H17" transform="translate(4 12.5)"/>
-                  <path d="M0 0H9" transform="translate(8 8.5)"/>
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0L6 5L0 10" transform="translate(11.5 7.5)" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M0 0H13" transform="translate(4.5 12.5)" stroke="black" stroke-linecap="round"/>
+                <path d="M0 0V16" transform="translate(20.5 4.5)" stroke="black" stroke-linecap="round"/>
                 </svg>
               </ToggleButton>
               <ToggleButton
                 name="text_alignment">
-                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
-                  <path d="M0 0H9" transform="translate(12 16.5)"/>
-                  <path d="M0 0H17" transform="translate(4 12.5)"/>
-                  <path d="M0 0H9" transform="translate(12 8.5)"/>
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 0L5 6L0 0" transform="translate(7.5 11.5)" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M0 0V13" transform="translate(12.5 4.5)" stroke="black" stroke-linecap="round"/>
+                <path d="M0 0H16" transform="translate(4.5 20.5)" stroke="black" stroke-linecap="round"/>
                 </svg>
               </ToggleButton>
               <ToggleButton
                 name="text_alignment">
-                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
-                  <path d="M0 0H17" transform="translate(4 16.5)"/>
-                  <path d="M0 0H17" transform="translate(4 12.5)"/>
-                  <path d="M0 0H17" transform="translate(4 8.5)"/>
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 0L0 5L6 10" transform="translate(7.5 7.5)" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M0 0H13" transform="translate(7.5 12.5)" stroke="black" stroke-linecap="round"/>
+                <path d="M0 0V16" transform="translate(4.5 4.5)" stroke="black" stroke-linecap="round"/>
                 </svg>
               </ToggleButton>
             </Flexbox>

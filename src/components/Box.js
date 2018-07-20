@@ -114,6 +114,7 @@ const Box = styled.div`
   ${p => p.center && css` text-align: center; `}
   ${p => p.right && css` text-align: right; `}
 
+  ${p => p.white && css` background-color: white; `}
   ${p => p.gray100 && css` background-color: ${theme.GRAY_100}; `}
   ${p => p.gray200 && css` background-color: ${theme.GRAY_200}; `}
   ${p => p.gray300 && css` background-color: ${theme.GRAY_300}; `}
@@ -125,6 +126,7 @@ const Box = styled.div`
   ${p => p.w50 && css` width: 50%; `}
   ${p => p.w100 && css` width: 100%; `}
 
+  ${p => p.border && css` border: 1px solid; `}
   ${p => p.bt && css` border-top: 1px solid; `}
   ${p => p.br && css` border-right: 1px solid; `}
   ${p => p.bb && css` border-bottom: 1px solid; `}
@@ -142,6 +144,8 @@ const Box = styled.div`
   ${p => p.tablecell && css` display: table-cell; `}
 
   ${p => p.alignmiddle && css` vertical-align: middle; `}
+
+  ${p => p.oyauto && css` overflow-y: auto; `}
 `;
 
 export default Box;

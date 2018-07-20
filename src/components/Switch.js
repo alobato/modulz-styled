@@ -4,7 +4,7 @@ import * as theme from './../theme/';
 
 const Wrapper = styled.label`
   position: relative;
-  display: inline-flex;
+  display: block;
   width:  ${theme.SPACING_600};
   height: ${theme.SPACING_100};
 `;
@@ -31,7 +31,7 @@ const Dummy = styled.div`
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: ${theme.GRAY_500};
+  background-color: ${theme.GRAY_400};
   border-radius: 9999px;
   transition: background-color 100ms ease;
 
@@ -45,7 +45,6 @@ const Dummy = styled.div`
     background-color: ${theme.GRAY_500};
     transition: transform 100ms ease;
     border-radius: 50%;
-    box-shadow: none;
   }
 `;
 

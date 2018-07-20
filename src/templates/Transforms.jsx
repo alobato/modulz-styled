@@ -13,293 +13,504 @@ class Transforms extends Component {
         p3
         bt
         bcgray300>
-        <Flexbox
-          ai_center
-          mb1>
-          <Box
-            mr2>
-            <Text
-              gray600
-              size1
-              right>
-              X
-            </Text>
-          </Box>
-          <Box
-            mr2>
-            <Slider
-              type="range"
-              defaultValue="0" />
-          </Box>
-          <Box>
-            <Input
-              defaultValue="0"/>
-          </Box>
-        </Flexbox>
+        <Box
+          table>
 
-        <Flexbox
-          ai_center
-          mb1>
           <Box
-            mr2>
-            <Text
-              gray600
-              size1
+            tablerow>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Text
+                gray600
+                size1
+                right>
+                Rotate
+              </Text>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Text
+                gray600
+                size1
+                right>
+                X
+              </Text>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Slider
+                type="range"
+                defaultValue="0" />
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
               right>
-              Y
-            </Text>
+              <Input
+                defaultValue="0"
+                size="8"/>
+            </Box>
           </Box>
-          <Box
-            mr2>
-            <Slider
-              type="range"
-              defaultValue="0" />
-          </Box>
-          <Box>
-            <Input
-              defaultValue="0"/>
-          </Box>
-        </Flexbox>
 
-        <Flexbox
-          ai_center
-          mb1>
           <Box
-            mr2>
-            <Text
-              gray600
-              size1
-              right>
-              Z
-            </Text>
+            pb1>
           </Box>
-          <Box
-            mr2>
-            <Slider
-              type="range"
-              defaultValue="0" />
-          </Box>
-          <Box>
-            <Input
-              defaultValue="0"/>
-          </Box>
-        </Flexbox>
 
-        <Flexbox
-          ai_center
-          mb1>
           <Box
-            mr2>
-            <Text
-              gray600
-              size1
+            tablerow>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Text
+                gray600
+                size1
+                right>
+                Y
+              </Text>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Slider
+                type="range"
+                defaultValue="0" />
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
               right>
-              X
-            </Text>
+              <Input
+                defaultValue="0"
+                size="8"/>
+            </Box>
           </Box>
-          <Box
-            mr2>
-            <Slider
-              type="range"
-              defaultValue="0" />
-          </Box>
-          <Box>
-            <Input
-              defaultValue="0"/>
-          </Box>
-        </Flexbox>
 
-        <Flexbox
-          ai_center
-          mb1>
           <Box
-            mr2>
-            <Text
-              gray600
-              size1
-              right>
-              Y
-            </Text>
+            pb1>
           </Box>
-          <Box
-            mr2>
-            <Slider
-              type="range"
-              defaultValue="0" />
-          </Box>
-          <Box>
-            <Input
-              defaultValue="0"/>
-          </Box>
-        </Flexbox>
 
-        <Flexbox
-          ai_center
-          mb1>
           <Box
-            mr2>
-            <Text
-              gray600
-              size1
+            tablerow>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Text
+                gray600
+                size1
+                right>
+                Z
+              </Text>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Slider
+                type="range"
+                defaultValue="0" />
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
               right>
-              Z
-            </Text>
+              <Input
+                defaultValue="0"
+                size="8"/>
+            </Box>
           </Box>
-          <Box
-            mr2>
-            <Slider
-              type="range"
-              defaultValue="0" />
-          </Box>
-          <Box>
-            <Input
-              defaultValue="0"/>
-          </Box>
-        </Flexbox>
 
-        <Flexbox
-          ai_center
-          mb1>
           <Box
-            mr2>
-            <Text
-              gray600
-              size1
-              right>
-              X
-            </Text>
+            pb1>
           </Box>
-          <Box
-            mr2>
-            <Slider
-              type="range"
-              defaultValue="0" />
-          </Box>
-          <Box>
-            <Input
-              defaultValue="0"/>
-          </Box>
-        </Flexbox>
 
-        <Flexbox
-          ai_center
-          mb1>
           <Box
-            mr2>
-            <Text
-              gray600
-              size1
+            tablerow>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Text
+                gray600
+                size1
+                right>
+                Scale
+              </Text>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Text
+                gray600
+                size1
+                right>
+                X
+              </Text>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Slider
+                type="range"
+                defaultValue="0" />
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
               right>
-              Y
-            </Text>
+              <Input
+                defaultValue="0"
+                size="8"/>
+            </Box>
           </Box>
-          <Box
-            mr2>
-            <Slider
-              type="range"
-              defaultValue="0" />
-          </Box>
-          <Box>
-            <Input
-              defaultValue="0"/>
-          </Box>
-        </Flexbox>
 
-        <Flexbox
-          ai_center
-          mb1>
           <Box
-            mr2>
-            <Text
-              gray600
-              size1
-              right>
-              Z
-            </Text>
+            pb1>
           </Box>
-          <Box
-            mr2>
-            <Slider
-              type="range"
-              defaultValue="0" />
-          </Box>
-          <Box>
-            <Input
-              defaultValue="0"/>
-          </Box>
-        </Flexbox>
 
-        <Flexbox
-          ai_center
-          mb1>
           <Box
-            mr2>
-            <Text
-              gray600
-              size1
+            tablerow>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Text
+                gray600
+                size1
+                right>
+                Y
+              </Text>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Slider
+                type="range"
+                defaultValue="0" />
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
               right>
-              X
-            </Text>
+              <Input
+                defaultValue="0"
+                size="8"/>
+            </Box>
           </Box>
-          <Box
-            mr2>
-            <Slider
-              type="range"
-              defaultValue="0" />
-          </Box>
-          <Box>
-            <Input
-              defaultValue="0"/>
-          </Box>
-        </Flexbox>
 
-        <Flexbox
-          ai_center
-          mb1>
           <Box
-            mr2>
-            <Text
-              gray600
-              size1
-              right>
-              Y
-            </Text>
+            pb1>
           </Box>
-          <Box
-            mr2>
-            <Slider
-              type="range"
-              defaultValue="0" />
-          </Box>
-          <Box>
-            <Input
-              defaultValue="0"/>
-          </Box>
-        </Flexbox>
 
-        <Flexbox
-          ai_center
-          mb1>
           <Box
-            mr2>
-            <Text
-              gray600
-              size1
+            tablerow>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Text
+                gray600
+                size1
+                right>
+                Z
+              </Text>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Slider
+                type="range"
+                defaultValue="0" />
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
               right>
-              Z
-            </Text>
+              <Input
+                defaultValue="0"
+                size="8"/>
+            </Box>
           </Box>
+
           <Box
-            mr2>
-            <Slider
-              type="range"
-              defaultValue="0" />
+            pb1>
           </Box>
-          <Box>
-            <Input
-              defaultValue="0"/>
+
+          <Box
+            tablerow>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Text
+                gray600
+                size1
+                right>
+                Translate
+              </Text>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Text
+                gray600
+                size1
+                right>
+                X
+              </Text>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Slider
+                type="range"
+                defaultValue="0" />
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right>
+              <Input
+                defaultValue="0"
+                size="8"/>
+            </Box>
           </Box>
-        </Flexbox>
+
+          <Box
+            pb1>
+          </Box>
+
+          <Box
+            tablerow>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Text
+                gray600
+                size1
+                right>
+                Y
+              </Text>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Slider
+                type="range"
+                defaultValue="0" />
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right>
+              <Input
+                defaultValue="0"
+                size="8"/>
+            </Box>
+          </Box>
+
+          <Box
+            pb1>
+          </Box>
+
+          <Box
+            tablerow>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Text
+                gray600
+                size1
+                right>
+                Z
+              </Text>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Slider
+                type="range"
+                defaultValue="0" />
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right>
+              <Input
+                defaultValue="0"
+                size="8"/>
+            </Box>
+          </Box>
+
+          <Box
+            pb1>
+          </Box>
+
+          <Box
+            tablerow>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Text
+                gray600
+                size1
+                right>
+                Skew
+              </Text>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Text
+                gray600
+                size1
+                right>
+                X
+              </Text>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Slider
+                type="range"
+                defaultValue="0" />
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right>
+              <Input
+                defaultValue="0"
+                size="8"/>
+            </Box>
+          </Box>
+
+          <Box
+            pb1>
+          </Box>
+
+          <Box
+            tablerow>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Text
+                gray600
+                size1
+                right>
+                Y
+              </Text>
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right
+              pr2>
+              <Slider
+                type="range"
+                defaultValue="0" />
+            </Box>
+            <Box
+              tablecell
+              alignmiddle
+              right>
+              <Input
+                defaultValue="0"
+                size="8"/>
+            </Box>
+          </Box>
+
+        </Box>
+
       </Box>
     );
   }

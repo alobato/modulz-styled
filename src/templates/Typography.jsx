@@ -67,21 +67,48 @@ class Typography extends Component {
               </Box>
               <Box
                 w50
-                pl2>
+                pl2
+                mb2>
                 <Input
                   defaultValue="4px" />
               </Box>
+              <Flexbox
+                w50
+                pr1>
+                <Box
+                  pr1>
+                  <svg width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="hsl(208, 18%, 50%)" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 0L3 4L0 0" transform="translate(4.5 16.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6 4L3 0L0 4" transform="translate(4.5 4.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M0 0H7" transform="translate(13.5 6.5)" stroke-linecap="round"/>
+                  <path d="M0 0H7" transform="translate(13.5 10.5)" stroke-linecap="round"/>
+                  <path d="M0 0H7" transform="translate(13.5 14.5)" stroke-linecap="round"/>
+                  <path d="M0 0H4" transform="translate(13.5 18.5)" stroke-linecap="round"/>
+                  <path d="M0.5 0C0.5 -0.276142 0.276142 -0.5 0 -0.5C-0.276142 -0.5 -0.5 -0.276142 -0.5 0H0.5ZM-0.5 15C-0.5 15.2761 -0.276142 15.5 0 15.5C0.276142 15.5 0.5 15.2761 0.5 15H-0.5ZM-0.5 0V15H0.5V0H-0.5Z" transform="translate(7.5 4.5)" stroke="none" fill="hsl(208, 18%, 50%)"/>
+                  </svg>
+                </Box>
+                <Input
+                  defaultValue="100%" />
+              </Flexbox>
               <Box
                 w50
-                pr2>
-                <Input
-                  defaultValue="4px" />
-              </Box>
-              <Box
-                w50
-                pl2>
-                <Input
-                  defaultValue="4px" />
+                pl1>
+                <Flexbox>
+                  <Box
+                    pr1>
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="hsl(208, 18%, 50%)" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3 6L0 3L3 0" transform="translate(4.5 14.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M0 6L3 3L0 0" transform="translate(17.5 14.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M6 7L3 0L0 7" transform="translate(5.5 4.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M6 0L3 7L0 0" transform="translate(13.5 4.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M14.5 0.5C14.7761 0.5 15 0.276142 15 0C15 -0.276142 14.7761 -0.5 14.5 -0.5V0.5ZM0 -0.5C-0.276142 -0.5 -0.5 -0.276142 -0.5 0C-0.5 0.276142 -0.276142 0.5 0 0.5V-0.5ZM14.5 -0.5H0V0.5H14.5V-0.5Z" transform="translate(5 17.5)" stroke="none" fill="hsl(208, 18%, 50%)"/>
+                      <path d="M3 0.5C3.27614 0.5 3.5 0.276142 3.5 0C3.5 -0.276142 3.27614 -0.5 3 -0.5V0.5ZM0 -0.5C-0.276142 -0.5 -0.5 -0.276142 -0.5 0C-0.5 0.276142 -0.276142 0.5 0 0.5V-0.5ZM3 -0.5H0V0.5H3V-0.5Z" transform="translate(7 8.5)" stroke="none" fill="hsl(208, 18%, 50%)"/>
+                    </svg>
+                  </Box>
+                  <Input
+                    type="text"
+                    defaultValue="100%" />
+                </Flexbox>
               </Box>
             </Flexbox>
           </Box>

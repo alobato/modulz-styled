@@ -107,6 +107,8 @@ const Text = styled.span`
   ${p => p.left && css`text-align: left;`}
   ${p => p.center && css`text-align: center;`}
   ${p => p.right && css`text-align: right;`}
+
+  ${p => p.tnum && css`font-feature-settings: 'tnum';`}
 `;
 
 export default Text;

@@ -36,7 +36,7 @@ export class ToggleButton extends React.Component {
         <Radio
           type="radio"
           name={this.props.name}
-          defaultChecked={this.props.checked}
+          defaultChecked={this.props.defaultChecked}
         />
         <Dummy>
           {this.props.children}
