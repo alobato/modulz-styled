@@ -7,6 +7,7 @@ import Slider from './../components/Slider.js';
 import Flexbox from './../components/Flexbox.js';
 import Select from './../components/Select.js';
 import ToggleButton from './../components/ToggleButton.js';
+import CheckboxButton from './../components/CheckboxButton.js';
 
 class Typography extends Component {
   render() {
@@ -15,120 +16,222 @@ class Typography extends Component {
         p3
         bt
         bcgray300>
-        <Box
-          mb2>
-          <Box>
-            <Flexbox>
-              <Box
-                mr2>
-                <Select>
-                  <option
-                    value="100">
-                    100
-                  </option>
-                  <option
-                    value="200">
-                    200
-                  </option>
-                  <option
-                    value="300">
-                    300
-                  </option>
-                </Select>
-              </Box>
-              <Box>
-                <Input />
-              </Box>
-            </Flexbox>
+        <Flexbox
+          ai_center
+          jc_spacebetween
+          style={{margin: '-5px 0 0 0'}}>
+          <Heading
+            size1>
+            Typography
+          </Heading>
+          <Box
+            style={{
+              margin: '0 -5px 0 0',
+              color: 'hsl(220,100%,50%)'}}>
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 25 25"
+              fill="none"
+              stroke="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              style={{display: 'block'}}>
+              <path d="M0 0H14" transform="translate(5.5 12.5)"></path>
+              <path d="M0 14V0" transform="translate(12.5 5.5)"></path>
+            </svg>
           </Box>
-        </Box>
+        </Flexbox>
 
-        <Box
-          mb2>
-          <Box>
-            <Flexbox wrap>
-              <Box
-                w50
-                pr2>
-                <Select>
-                  <option
-                    value="100">
-                    100
-                  </option>
-                  <option
-                    value="200">
-                    200
-                  </option>
-                  <option
-                    value="300">
-                    300
-                  </option>
-                </Select>
-              </Box>
-              <Box
-                w50
-                pl2
-                mb2>
-                <Input
-                  defaultValue="4px" />
-              </Box>
-              <Flexbox
-                w50
-                pr1>
-                <Box
-                  pr1>
-                  <svg width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="hsl(208, 18%, 50%)" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M6 0L3 4L0 0" transform="translate(4.5 16.5)" stroke-linecap="round" stroke-linejoin="round"/>
-                  <path d="M6 4L3 0L0 4" transform="translate(4.5 4.5)" stroke-linecap="round" stroke-linejoin="round"/>
-                  <path d="M0 0H7" transform="translate(13.5 6.5)" stroke-linecap="round"/>
-                  <path d="M0 0H7" transform="translate(13.5 10.5)" stroke-linecap="round"/>
-                  <path d="M0 0H7" transform="translate(13.5 14.5)" stroke-linecap="round"/>
-                  <path d="M0 0H4" transform="translate(13.5 18.5)" stroke-linecap="round"/>
-                  <path d="M0.5 0C0.5 -0.276142 0.276142 -0.5 0 -0.5C-0.276142 -0.5 -0.5 -0.276142 -0.5 0H0.5ZM-0.5 15C-0.5 15.2761 -0.276142 15.5 0 15.5C0.276142 15.5 0.5 15.2761 0.5 15H-0.5ZM-0.5 0V15H0.5V0H-0.5Z" transform="translate(7.5 4.5)" stroke="none" fill="hsl(208, 18%, 50%)"/>
-                  </svg>
-                </Box>
-                <Input
-                  defaultValue="100%" />
-              </Flexbox>
-              <Box
-                w50
-                pl1>
-                <Flexbox>
-                  <Box
-                    pr1>
-                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="hsl(208, 18%, 50%)" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M3 6L0 3L3 0" transform="translate(4.5 14.5)" stroke-linecap="round" stroke-linejoin="round"/>
-                      <path d="M0 6L3 3L0 0" transform="translate(17.5 14.5)" stroke-linecap="round" stroke-linejoin="round"/>
-                      <path d="M6 7L3 0L0 7" transform="translate(5.5 4.5)" stroke-linecap="round" stroke-linejoin="round"/>
-                      <path d="M6 0L3 7L0 0" transform="translate(13.5 4.5)" stroke-linecap="round" stroke-linejoin="round"/>
-                      <path d="M14.5 0.5C14.7761 0.5 15 0.276142 15 0C15 -0.276142 14.7761 -0.5 14.5 -0.5V0.5ZM0 -0.5C-0.276142 -0.5 -0.5 -0.276142 -0.5 0C-0.5 0.276142 -0.276142 0.5 0 0.5V-0.5ZM14.5 -0.5H0V0.5H14.5V-0.5Z" transform="translate(5 17.5)" stroke="none" fill="hsl(208, 18%, 50%)"/>
-                      <path d="M3 0.5C3.27614 0.5 3.5 0.276142 3.5 0C3.5 -0.276142 3.27614 -0.5 3 -0.5V0.5ZM0 -0.5C-0.276142 -0.5 -0.5 -0.276142 -0.5 0C-0.5 0.276142 -0.276142 0.5 0 0.5V-0.5ZM3 -0.5H0V0.5H3V-0.5Z" transform="translate(7 8.5)" stroke="none" fill="hsl(208, 18%, 50%)"/>
-                    </svg>
-                  </Box>
-                  <Input
-                    type="text"
-                    defaultValue="100%" />
-                </Flexbox>
-              </Box>
-            </Flexbox>
+        <Flexbox
+          ai_center
+          mt2>
+          <Box
+            fg1
+            mr2>
+            <Select>
+              <option
+                value="san-francisco">
+                San Francisco
+              </option>
+              <option
+                value="roboto">
+                Roboto
+              </option>
+              <option
+                value="untitled-sans">
+                Untitled Sans
+              </option>
+            </Select>
           </Box>
-        </Box>
+          <Box
+            pl1>
+            <CheckboxButton>
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 10C4 10 1.5 8 0 5.00002C1.5 2 4 0 7 0C10 0 12.5 2 14 5.00001C12.5 8 10 10 7 10Z" transform="translate(0.5 2.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="2.5" cy="2.5" r="2" transform="translate(5 5)"/>
+              </svg>
+            </CheckboxButton>
+          </Box>
+          <Box
+            pl1>
+            <CheckboxButton>
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" width="6" height="8" rx="0.5" transform="translate(4 4)" stroke-linecap="round" stroke-linejoin="bevel"/>
+                <path d="M0 0H8" transform="translate(3.5 4.5)" stroke-linecap="round"/>
+                <path d="M0 0H4" transform="translate(5.5 2.5)" stroke-linecap="round"/>
+              </svg>
+            </CheckboxButton>
+          </Box>
+        </Flexbox>
+
+        <Flexbox
+          ai_center
+          mt2>
+          <Box
+            fg1
+            mr2>
+            <Select>
+              <option
+                value="100">
+                100
+              </option>
+              <option
+                value="200">
+                200
+              </option>
+              <option
+                value="300">
+                300
+              </option>
+            </Select>
+          </Box>
+          <Box
+            pl1>
+            <CheckboxButton>
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 10C4 10 1.5 8 0 5.00002C1.5 2 4 0 7 0C10 0 12.5 2 14 5.00001C12.5 8 10 10 7 10Z" transform="translate(0.5 2.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="2.5" cy="2.5" r="2" transform="translate(5 5)"/>
+              </svg>
+            </CheckboxButton>
+          </Box>
+          <Box
+            pl1>
+            <CheckboxButton>
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" width="6" height="8" rx="0.5" transform="translate(4 4)" stroke-linecap="round" stroke-linejoin="bevel"/>
+                <path d="M0 0H8" transform="translate(3.5 4.5)" stroke-linecap="round"/>
+                <path d="M0 0H4" transform="translate(5.5 2.5)" stroke-linecap="round"/>
+              </svg>
+            </CheckboxButton>
+          </Box>
+        </Flexbox>
+
+        <Flexbox
+          ai_center
+          mt2>
+          <Box
+            fg1
+            mr2>
+            <Input
+              defaultValue="4px" />
+          </Box>
+          <Box
+            pl1>
+            <CheckboxButton>
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 10C4 10 1.5 8 0 5.00002C1.5 2 4 0 7 0C10 0 12.5 2 14 5.00001C12.5 8 10 10 7 10Z" transform="translate(0.5 2.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="2.5" cy="2.5" r="2" transform="translate(5 5)"/>
+              </svg>
+            </CheckboxButton>
+          </Box>
+          <Box
+            pl1>
+            <CheckboxButton>
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" width="6" height="8" rx="0.5" transform="translate(4 4)" stroke-linecap="round" stroke-linejoin="bevel"/>
+                <path d="M0 0H8" transform="translate(3.5 4.5)" stroke-linecap="round"/>
+                <path d="M0 0H4" transform="translate(5.5 2.5)" stroke-linecap="round"/>
+              </svg>
+            </CheckboxButton>
+          </Box>
+        </Flexbox>
+
+        <Flexbox
+          ai_center
+          mt2>
+          <Box
+            fg1
+            mr2>
+            <Input
+              defaultValue="4px" />
+          </Box>
+          <Box
+            pl1>
+            <CheckboxButton>
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 10C4 10 1.5 8 0 5.00002C1.5 2 4 0 7 0C10 0 12.5 2 14 5.00001C12.5 8 10 10 7 10Z" transform="translate(0.5 2.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="2.5" cy="2.5" r="2" transform="translate(5 5)"/>
+              </svg>
+            </CheckboxButton>
+          </Box>
+          <Box
+            pl1>
+            <CheckboxButton>
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" width="6" height="8" rx="0.5" transform="translate(4 4)" stroke-linecap="round" stroke-linejoin="bevel"/>
+                <path d="M0 0H8" transform="translate(3.5 4.5)" stroke-linecap="round"/>
+                <path d="M0 0H4" transform="translate(5.5 2.5)" stroke-linecap="round"/>
+              </svg>
+            </CheckboxButton>
+          </Box>
+        </Flexbox>
+
+        <Flexbox
+          ai_center
+          mt2>
+          <Box
+            fg1
+            mr2>
+            <Input
+              defaultValue="4px" />
+          </Box>
+          <Box
+            pl1>
+            <CheckboxButton>
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 10C4 10 1.5 8 0 5.00002C1.5 2 4 0 7 0C10 0 12.5 2 14 5.00001C12.5 8 10 10 7 10Z" transform="translate(0.5 2.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="2.5" cy="2.5" r="2" transform="translate(5 5)"/>
+              </svg>
+            </CheckboxButton>
+          </Box>
+          <Box
+            pl1>
+            <CheckboxButton>
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" width="6" height="8" rx="0.5" transform="translate(4 4)" stroke-linecap="round" stroke-linejoin="bevel"/>
+                <path d="M0 0H8" transform="translate(3.5 4.5)" stroke-linecap="round"/>
+                <path d="M0 0H4" transform="translate(5.5 2.5)" stroke-linecap="round"/>
+              </svg>
+            </CheckboxButton>
+          </Box>
+        </Flexbox>
 
         <Flexbox
           ai_center
           jc_spacebetween
-          mb1>
+          mt2>
           <Box
             mr2>
             <Text
               gray600
               size1
               right>
-              Alignment
+              Align
             </Text>
           </Box>
           <Box>
-            <Flexbox>
+            <Flexbox
+              ai_center>
               <ToggleButton
                 name="text_alignment"
                 defaultChecked={true}>
@@ -162,6 +265,25 @@ class Typography extends Component {
                   <path d="M0 0H17" transform="translate(4 8.5)"/>
                 </svg>
               </ToggleButton>
+              <Box
+                pl1>
+                <CheckboxButton>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 10C4 10 1.5 8 0 5.00002C1.5 2 4 0 7 0C10 0 12.5 2 14 5.00001C12.5 8 10 10 7 10Z" transform="translate(0.5 2.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="2.5" cy="2.5" r="2" transform="translate(5 5)"/>
+                  </svg>
+                </CheckboxButton>
+              </Box>
+              <Box
+                pl1>
+                <CheckboxButton>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="6" height="8" rx="0.5" transform="translate(4 4)" stroke-linecap="round" stroke-linejoin="bevel"/>
+                    <path d="M0 0H8" transform="translate(3.5 4.5)" stroke-linecap="round"/>
+                    <path d="M0 0H4" transform="translate(5.5 2.5)" stroke-linecap="round"/>
+                  </svg>
+                </CheckboxButton>
+              </Box>
             </Flexbox>
           </Box>
         </Flexbox>
@@ -169,18 +291,19 @@ class Typography extends Component {
         <Flexbox
           ai_center
           jc_spacebetween
-          mb1>
+          mt2>
           <Box
             mr2>
             <Text
               gray600
               size1
               right>
-              Transform
+              Case
             </Text>
           </Box>
           <Box>
-            <Flexbox>
+            <Flexbox
+              ai_center>
               <ToggleButton
                 name="text_transform"
                 defaultChecked={true}>
@@ -214,6 +337,25 @@ class Typography extends Component {
                   <path d="M0 0H17" transform="translate(4 8.5)"/>
                 </svg>
               </ToggleButton>
+              <Box
+                pl1>
+                <CheckboxButton>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 10C4 10 1.5 8 0 5.00002C1.5 2 4 0 7 0C10 0 12.5 2 14 5.00001C12.5 8 10 10 7 10Z" transform="translate(0.5 2.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="2.5" cy="2.5" r="2" transform="translate(5 5)"/>
+                  </svg>
+                </CheckboxButton>
+              </Box>
+              <Box
+                pl1>
+                <CheckboxButton>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="6" height="8" rx="0.5" transform="translate(4 4)" stroke-linecap="round" stroke-linejoin="bevel"/>
+                    <path d="M0 0H8" transform="translate(3.5 4.5)" stroke-linecap="round"/>
+                    <path d="M0 0H4" transform="translate(5.5 2.5)" stroke-linecap="round"/>
+                  </svg>
+                </CheckboxButton>
+              </Box>
             </Flexbox>
           </Box>
         </Flexbox>
@@ -221,7 +363,7 @@ class Typography extends Component {
         <Flexbox
           ai_center
           jc_spacebetween
-          mb1>
+          mt2>
           <Box
             mr2>
             <Text
@@ -232,7 +374,8 @@ class Typography extends Component {
             </Text>
           </Box>
           <Box>
-            <Flexbox>
+            <Flexbox
+              ai_center>
               <ToggleButton
                 name="text_decoration"
                 defaultChecked={true}>
@@ -258,6 +401,25 @@ class Typography extends Component {
                   <path d="M0 0H9" transform="translate(12 8.5)"/>
                 </svg>
               </ToggleButton>
+              <Box
+                pl1>
+                <CheckboxButton>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 10C4 10 1.5 8 0 5.00002C1.5 2 4 0 7 0C10 0 12.5 2 14 5.00001C12.5 8 10 10 7 10Z" transform="translate(0.5 2.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="2.5" cy="2.5" r="2" transform="translate(5 5)"/>
+                  </svg>
+                </CheckboxButton>
+              </Box>
+              <Box
+                pl1>
+                <CheckboxButton>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="6" height="8" rx="0.5" transform="translate(4 4)" stroke-linecap="round" stroke-linejoin="bevel"/>
+                    <path d="M0 0H8" transform="translate(3.5 4.5)" stroke-linecap="round"/>
+                    <path d="M0 0H4" transform="translate(5.5 2.5)" stroke-linecap="round"/>
+                  </svg>
+                </CheckboxButton>
+              </Box>
             </Flexbox>
           </Box>
         </Flexbox>
@@ -265,7 +427,7 @@ class Typography extends Component {
         <Flexbox
           ai_center
           jc_spacebetween
-          mb1>
+          mt2>
           <Box
             mr2>
             <Text
@@ -276,7 +438,8 @@ class Typography extends Component {
             </Text>
           </Box>
           <Box>
-            <Flexbox>
+            <Flexbox
+              ai_center>
               <ToggleButton
                 name="text_style"
                 defaultChecked={true}>
@@ -294,13 +457,33 @@ class Typography extends Component {
                   <path d="M0 0H9" transform="translate(8 8.5)"/>
                 </svg>
               </ToggleButton>
+              <Box
+                pl1>
+                <CheckboxButton>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 10C4 10 1.5 8 0 5.00002C1.5 2 4 0 7 0C10 0 12.5 2 14 5.00001C12.5 8 10 10 7 10Z" transform="translate(0.5 2.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="2.5" cy="2.5" r="2" transform="translate(5 5)"/>
+                  </svg>
+                </CheckboxButton>
+              </Box>
+              <Box
+                pl1>
+                <CheckboxButton>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="6" height="8" rx="0.5" transform="translate(4 4)" stroke-linecap="round" stroke-linejoin="bevel"/>
+                    <path d="M0 0H8" transform="translate(3.5 4.5)" stroke-linecap="round"/>
+                    <path d="M0 0H4" transform="translate(5.5 2.5)" stroke-linecap="round"/>
+                  </svg>
+                </CheckboxButton>
+              </Box>
             </Flexbox>
           </Box>
         </Flexbox>
 
         <Flexbox
           ai_center
-          jc_spacebetween>
+          jc_spacebetween
+          mt2>
           <Box
             mr2>
             <Text
@@ -311,7 +494,8 @@ class Typography extends Component {
             </Text>
           </Box>
           <Box>
-            <Flexbox>
+            <Flexbox
+              ai_center>
               <ToggleButton
                 name="text_direction"
                 defaultChecked={true}>
@@ -329,6 +513,25 @@ class Typography extends Component {
                   <path d="M0 0H9" transform="translate(8 8.5)"/>
                 </svg>
               </ToggleButton>
+              <Box
+                pl1>
+                <CheckboxButton>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 10C4 10 1.5 8 0 5.00002C1.5 2 4 0 7 0C10 0 12.5 2 14 5.00001C12.5 8 10 10 7 10Z" transform="translate(0.5 2.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="2.5" cy="2.5" r="2" transform="translate(5 5)"/>
+                  </svg>
+                </CheckboxButton>
+              </Box>
+              <Box
+                pl1>
+                <CheckboxButton>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="6" height="8" rx="0.5" transform="translate(4 4)" stroke-linecap="round" stroke-linejoin="bevel"/>
+                    <path d="M0 0H8" transform="translate(3.5 4.5)" stroke-linecap="round"/>
+                    <path d="M0 0H4" transform="translate(5.5 2.5)" stroke-linecap="round"/>
+                  </svg>
+                </CheckboxButton>
+              </Box>
             </Flexbox>
           </Box>
         </Flexbox>

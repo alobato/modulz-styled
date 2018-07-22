@@ -3,10 +3,11 @@ import * as theme from './../theme/';
 
 const Input = styled.input`
   background-color: transparent;
+  font-family: inherit;
   height: ${theme.SPACING_500};
   line-height: ${theme.SPACING_500};
   padding: 0;
-  font-size: ${theme.FONTSIZE_400};
+  font-size: ${theme.FONTSIZE_300};
   border-radius: 0;
   border: none;
   outline: none;

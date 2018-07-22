@@ -27,8 +27,7 @@ import Spacing from './templates/Spacing.jsx';
 import Dimensions from './templates/Dimensions.jsx';
 import PropertyFlexbox from './templates/PropertyFlexbox.jsx';
 import PropertyFlexItem from './templates/PropertyFlexItem.jsx';
-import BorderRadius from './templates/BorderRadius.jsx';
-import Opacity from './templates/Opacity.jsx';
+import Appearance from './templates/Appearance.jsx';
 import Typography from './templates/Typography.jsx';
 import Position from './templates/Position.jsx';
 import Transforms from './templates/Transforms.jsx';
@@ -157,8 +156,7 @@ class Composer extends Component {
             <PropertyFlexbox />
             <PropertyFlexItem />
             <Spacing />
-            <Opacity />
-            <BorderRadius />
+            <Appearance />
             <Typography />
             <Position />
             <Transforms />

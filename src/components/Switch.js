@@ -54,7 +54,7 @@ export class Switch extends React.Component {
       <Wrapper>
         <Checkbox
           type="checkbox"
-          checked={this.props.checked}
+          defaultChecked={this.props.checked}
         />
         <Dummy></Dummy>
       </Wrapper>

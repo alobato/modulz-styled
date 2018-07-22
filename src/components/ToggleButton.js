@@ -26,7 +26,7 @@ const Dummy = styled.div`
   justify-content: center;
   width:  ${theme.SPACING_500};
   height: ${theme.SPACING_500};
-  color: ${theme.GRAY_500};
+  color: ${theme.GRAY_600};
 `;
 
 export class ToggleButton extends React.Component {
