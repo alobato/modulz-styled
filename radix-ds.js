@@ -22,3 +22,5 @@ export Slider from './components/Slider.js';
 export Switch from './components/Switch.js';
 export Text from './components/Text.js';
 export ToggleButton from './components/ToggleButton.js';
+
+export * from './theme/index.js';
